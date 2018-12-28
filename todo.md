@@ -1,3 +1,5 @@
+## TODO
+
 ### OVERALL
 - convert everything to python3
 
@@ -9,4 +11,3 @@
 - Flesh out and review in lesson 1 - "Git, for things other than code"
 - Think through SSH and security in lesson 2 - cryptography 101 thing
 - Split it into Part 1 and Part 2 - linear vs parallel workflow.
-- 
