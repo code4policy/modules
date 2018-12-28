@@ -11,6 +11,7 @@ Github
 ## What is Git?
 
 Keeping track of file versions is hard.
+
 ![](http://petapixel.com/assets/uploads/2015/07/psdrevisioning.jpg)
 
 ### So what is Git, and why does it help us?
