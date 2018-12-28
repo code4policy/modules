@@ -7,7 +7,7 @@ path | module
 `apis/` | [APIs](./apis/)
 `codeconcepts/` | [Coding Concepts](./codeconcepts/)
 `commandline/` | [Command Line](./commandline/)
-`data/` | [Data and Data Transformation](./data/)
+`data-transformation/` | [Data Formats and Transformation](./data-transformation/)
 `finalproject/` | [Final Project](./finalproject/)
 `git/` | [Git and GitHub](./git/)
 `opensource/` | [Open Source](./opensource/)
