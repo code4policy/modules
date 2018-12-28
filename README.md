@@ -7,4 +7,4 @@ Course Materials for DPI-691M - "Programming and Data for Policymakers"
 2  | [Git and GitHub](./git)
 
 
-g[TODO](./todo.md)
+- [TODO](./todo.md)
