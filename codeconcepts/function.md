@@ -41,14 +41,14 @@ below is an example of a function in python
 
 ```python
 def multiply(a,b):
-	return a * b
+    return a * b
 ```
 
 this is an example of the same function in  javascript
 
 ```javascript
 function multiply(a,b) { 
-	return (a * b)
+    return (a * b)
 }
 ```
 
@@ -64,7 +64,7 @@ In the above exercise you have simply defined a function, but you haven't asked 
 ```python
 # This part of the code defines a function
 def multiply(a,b):
-	return a * b
+    return a * b
 
 # This part of the code then calls that function and assigns the variable x to its return value
 x = multiply(8,9)
@@ -78,7 +78,7 @@ in JavaScript that would look like this
 ```javascript
 // This part of the code defines a function
 function multiply(a,b) { 
-	return (a * b)
+    return (a * b)
 }
 
 // This part of the code then calls that function and assigns the variable x to its return value
@@ -94,8 +94,8 @@ The function can also contain other logic and do other things. For example, you 
 
 ```python
 def multiply(a,b):
-	print "I'm multiplying two numbers"
-	return  a * b
+    print "I'm multiplying two numbers"
+    return  a * b
 ```
 
 This would both print to the terminal and return a value. The return is the very last logical thing that happens in the execution of a function. Once a `return` is called, no additional code can be run inside the function. The same is true in JavaScript (and all programming languages).
