@@ -13,8 +13,8 @@ brew install python
 Ubuntu 
 
 ```
-sudo apt-get install python
-sudo apt-get install python-pip
+sudo apt-get install python3
+sudo apt-get install python3-pip
 ```
 
 ### Install node if you haven't already

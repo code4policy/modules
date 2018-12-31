@@ -2,7 +2,7 @@
 
 ## Setup
 
-On macOS, run `brew install python`. On Ubuntu, run `sudo apt-get install python python-pip`.
+On macOS, run `brew install python`. On Ubuntu, run `sudo apt-get install python3 python3-pip`.
 
 Please note that if you don't have csvkit, you'll need to install it.
 
