@@ -48,7 +48,7 @@ this is an example of the same function in  javascript
 
 ```javascript
 function multiply(a,b) { 
-    return (a * b)
+    return a * b
 }
 ```
 
@@ -70,7 +70,7 @@ def multiply(a,b):
 x = multiply(8,9)
 
 # This prints x to the terminal for humans to read
-print x
+print(x)
 ```
 
 in JavaScript that would look like this
@@ -78,7 +78,7 @@ in JavaScript that would look like this
 ```javascript
 // This part of the code defines a function
 function multiply(a,b) { 
-    return (a * b)
+    return a * b
 }
 
 // This part of the code then calls that function and assigns the variable x to its return value
@@ -94,8 +94,8 @@ The function can also contain other logic and do other things. For example, you 
 
 ```python
 def multiply(a,b):
-    print "I'm multiplying two numbers"
-    return  a * b
+    print("I'm multiplying two numbers")
+    return a * b
 ```
 
 This would both print to the terminal and return a value. The return is the very last logical thing that happens in the execution of a function. Once a `return` is called, no additional code can be run inside the function. The same is true in JavaScript (and all programming languages).
@@ -111,9 +111,9 @@ This would both print to the terminal and return a value. The return is the very
 5. At the bottom of the file, Call the function and print a line explaining what is happening. Like this:
 	
 	```python
-	print "I'm going use the calculator functions to multiply 5 and 6"
+	print("I'm going use the calculator functions to multiply 5 and 6")
 	x = multiply(5,6)
-	print x
+	print(x)
 	```
 	
 6. Commit this change and explain what you just did in the commit message
@@ -121,7 +121,7 @@ This would both print to the terminal and return a value. The return is the very
 7. Run the file with the following command to make sure your python is all right:
 
 	```
-	python2 calculator.py
+	python3 calculator.py
 	```
 
 8. Make sure everything works correctly and issue a pull request on github back to the master branch with a message explaining what changes you made in this branch.

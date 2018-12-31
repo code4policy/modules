@@ -1,7 +1,6 @@
 ## TODO
 
 ### OVERALL
-- convert everything to python3
 - daily feedback forms to be able to quickly pivot for next day
 	- like this: https://docs.google.com/forms/d/e/1FAIpQLSeb2UYjW0_iLOTs8nSvli18IpiIlAKnXWKdqK9fVAAjtk_OyQ/viewform 
 

@@ -7,7 +7,7 @@ On macOS, run `brew install python`. On Ubuntu, run `sudo apt-get install python
 Please note that if you don't have csvkit, you'll need to install it.
 
 ```
-pip2 install csvkit
+pip3 install csvkit
 ```
 
 ## Homework
@@ -15,7 +15,7 @@ pip2 install csvkit
 The following program reads data from STDIN that is in a csv format and filters rows where someone has made a purchase for water that is over $1000. It writes this data back to STDOUT.
 
 ```python
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 import csv
 import sys
 

@@ -1,8 +1,8 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 import sys
+import csv
 import requests
-import unicodecsv as csv
 
 response = requests.get("https://theunitedstates.io/congress-legislators/legislators-current.json")
 data = response.json()

@@ -165,10 +165,10 @@ Prepend any command with `sudo` in order to run the command as root user. Try to
 2. Open `sayhello.py` and type the following python program:
 
 	```python
-	#!/usr/bin/env python2
+	#!/usr/bin/env python3
 	import sys
 	name = sys.stdin.read()
-	print "Hello " + name + "!"
+	print("Hello " + name + "!")
 	```
 
 3. Make sayhello.py executable.
@@ -189,10 +189,18 @@ Prepend any command with `sudo` in order to run the command as root user. Try to
 This program below will add 1 to the input on STDIN.
 
 ```python
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 import sys
 input_number = sys.stdin.read()
-print int(input_number) + 1
+print(int(input_number) + 1)
 ```
 
 Save this program as a file called `add1.py`, chmod it, and execute it.
+
+<!--
+	subl add1.py
+	# paste code
+	chmod +x add1.py
+	echo -n 10 | python3 add1.py
+
+-->

@@ -1,7 +1,7 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 import sys
-import unicodecsv as csv
+import csv
 import json
 
 # read data from STDIN

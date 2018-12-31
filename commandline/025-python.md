@@ -16,7 +16,7 @@ Lets create and run a very small python program
 2. Put this simple python program into hello.py
 
     ```python
-    print "Hello, im a python program"
+    print("Hello, im a python program")
     ```
 
 3. Run `hello.py`
@@ -24,7 +24,7 @@ Lets create and run a very small python program
     ```bash
     pwd
     cd ~/Development/assignments
-    python hello.py
+    python3 hello.py
     ```
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
@@ -34,7 +34,7 @@ Lets create and run a very small python program
     ```
     a = 5
     b = 7
-    print "The sum of a and b is" + str(a + b)
+    print("The sum of a and b is" + str(a + b))
     ```
 
 2. Run this program

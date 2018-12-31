@@ -12,7 +12,7 @@ This snippet opens a file in read only mode (default), loads the entire contents
 with open('myfile.txt') as f:
     full_text = f.read()
 
-print full_text
+print(full_text)
 ```
 
 `with open(...) as f` is called a "context manager". After opening a file, we generally want to close it to prevent memory leaks. The context manager will do this for us.
@@ -183,7 +183,7 @@ date_format = "%Y-%m-%d"
 
 parsed_date = datetime.datetime.strptime(raw_date, date_format)
 
-print parsed_date.strftime("%x") # 01/11/17
+print(parsed_date.strftime("%x")) # 01/11/17
 ```
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
