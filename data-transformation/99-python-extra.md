@@ -28,21 +28,19 @@ TODO: find a better flat JSON examples!!!
 Let's first take a look at this JSON using `jq`.
 
 ```
-curl -s 'http://elections.huffingtonpost.com/pollster/api/v2/polls' | jq
+curl -s 'https://elections.huffingtonpost.com/pollster/api/v2/polls' | jq
 ```
 
 Let's convert this into a flat JSON array for the purposes of this example.
 
 ```
-curl -s 'http://elections.huffingtonpost.com/pollster/api/v2/polls' | jq -r '.items[] | {slug, start_date, end_date, survey_house, mode, url, partisanship, partisan_affiliation}' | jq --slurp '.'
+curl -s 'https://elections.huffingtonpost.com/pollster/api/v2/polls' | jq -r '.items[] | {slug, start_date, end_date, survey_house, mode, url, partisanship, partisan_affiliation}' | jq --slurp '.'
 ```
-
-**Dependency**: the following script depends on the python package `unicodecsv`. Run `pip2 install unicodecsv`
 
 Now let's pipe this into `json2csv.py`.
 
 ```
-curl -s 'http://elections.huffingtonpost.com/pollster/api/v2/polls' | jq -r '.items[] | {slug, start_date, end_date, survey_house, mode, url, partisanship, partisan_affiliation}' | jq --slurp '.' | ./json2csv.py
+curl -s 'https://elections.huffingtonpost.com/pollster/api/v2/polls' | jq -r '.items[] | {slug, start_date, end_date, survey_house, mode, url, partisanship, partisan_affiliation}' | jq --slurp '.' | ./json2csv.py
 ```
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It: JSON to CSV, current legislators
@@ -77,7 +75,7 @@ curl -s 'https://theunitedstates.io/congress-legislators/legislators-current.jso
 
 To be a bit less verbose, we can also combine all three of these steps into a single script.
 
-**Dependency**: the following script depends on the python package `requests`. Run `pip2 install requests`
+**Dependency**: the following script depends on the python package `requests`. Run `pip3 install requests`
 
 ```
 ./download-flatten-and-convert-legislators.py

@@ -38,9 +38,9 @@ The end goal will be to take the example visualization, and feed it data to fit 
 
    - Collect the data at its source in either JSON or CSV, or from an API or create a dataset by coding up a web scraper.
 
-   - To convert data into the format used by the D3 visualization, you can use the [data-converter.py](https://github.com/dmil/code4policy/blob/master/data-converter.py) script. Make sure to run `pip install pandas` in the terminal before you run it for the first time, then enter the following command in the terminal:
+   - To convert data into the format used by the D3 visualization, you can use the [data-converter.py](https://github.com/dmil/code4policy/blob/master/data-converter.py) script. Make sure to run `pip3 install pandas` in the terminal before you run it for the first time, then enter the following command in the terminal:
    ```
-   python data-converter.py -f <filename> -o <output format(csv, tsv, or json)>
+   python3 data-converter.py -f <filename> -o <output format(csv, tsv, or json)>
    ```
    
    - Write code (or find another way) to manipulate the original data into the JSON or CSV format that the visualization is looking for.

@@ -93,7 +93,7 @@ source: http://learntocodewith.me/wp-content/uploads/2014/08/client-server.png
 Quick aside about servers, they don't have to look like the strange looking box above. Thre is nothing fundamentally different about a client and a server (both are computers at the end of the day), its just about the roles they play. For example
 
 ```
-python -m SimpleHTTPServer
+python3 -m http.server
 ```
 
 will immediately make my own computer into a server.
@@ -268,7 +268,7 @@ Notice that Ihsaan's script only gets 20 names of Massatchusetts candidates? Tha
 ## Other cool APIs
 
 * [https://www.propublica.org/datastore/apis](https://www.propublica.org/datastore/apis)
-* [http://elections.huffingtonpost.com/pollster/api](http://elections.huffingtonpost.com/pollster/api)
+* [https://elections.huffingtonpost.com/pollster/api](https://elections.huffingtonpost.com/pollster/api)
 * [https://developer.nytimes.com/](https://developer.nytimes.com/)
 
 ## More about APIs

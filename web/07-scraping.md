@@ -1,13 +1,13 @@
 # Web 7: Scraping
 
-**Dependencies**: `pip2 install requests lxml cssselect`
+**Dependencies**: `pip3 install requests lxml cssselect`
 
 ## IMDB Top Rated Movies
 
 http://www.imdb.com/chart/top
 
 ```python
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 import requests
 import lxml.html
@@ -19,7 +19,7 @@ for row in doc.cssselect('.lister-list tr'):
     id = row.cssselect('td.ratingColumn div[data-titleid]')[0].get('data-titleid')
     title = row.cssselect('td.titleColumn a')[0].text
     rating = row.cssselect('td.ratingColumn.imdbRating strong')[0].text
-    print id, title, rating
+    print(id, title, rating)
 ```
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
@@ -34,7 +34,7 @@ Modify the script above to get the
 https://twitter.com/DataDhrumil
 
 ```python
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 import requests
 import lxml.html
@@ -43,8 +43,8 @@ response = requests.get("https://twitter.com/datadhrumil")
 doc = lxml.html.fromstring(response.content)
 
 for el in doc.cssselect("div.js-tweet-text-container"):
-    print el.text_content().strip()
-    print "-------------------------------------"
+    print(el.text_content().strip())
+    print("-------------------------------------")
 ```
 
 ## SongMeanings
@@ -52,7 +52,7 @@ for el in doc.cssselect("div.js-tweet-text-container"):
 http://songmeanings.com/popular/lyrics/?chart=2018-01-07
 
 ```python
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 import requests
 import lxml.html
@@ -66,5 +66,5 @@ for item in table.cssselect("tbody > tr.item"):
     rank = cells[0].text_content().strip()
     title = cells[1].text_content().strip()
     margin = cells[2].text_content().strip()
-    print rank, title, margin
+    print(rank, title, margin)
 ```

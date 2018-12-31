@@ -46,7 +46,7 @@ Lets create a new webpage with a D3 visualization in it. We'll call this `chart-
 5. Now if you run a simple HTTP server, the code will run.
 
 	```
-	python2 -m SimpleHTTPServer 8000
+	python3 -m http.server 8000
 	```
 
 6. Once you're sure it works, lets commit and push that.

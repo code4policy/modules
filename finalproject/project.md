@@ -66,7 +66,7 @@ You're welcome to use a different file structure, but there should be some consi
 Please note also that although GitHub pages automatically renders D3 visualization, your computer does not. If you are working locally on your computer you will need to open the folder containing your `index.html` and run
 
 ```
-python -m SimpleHTTPServer 8000
+python3 -m http.server 8000
 ```
 
 Then you can view your page as you're building it by typing into the address bar in the browser `localhost:8000`.

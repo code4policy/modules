@@ -5,7 +5,7 @@
 For the future, there is CSVKit: [https://csvkit.readthedocs.io/en/1.0.1/](https://csvkit.readthedocs.io/en/1.0.1/). This program is its both a command line interface (CLI) and a python package. It helps parse CSVs cleanly.
 
 ```
-pip2 install csvkit
+pip3 install csvkit
 ```
 
 #### Example using in2csv and csvstat
