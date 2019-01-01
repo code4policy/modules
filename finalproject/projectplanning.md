@@ -1,12 +1,10 @@
-# Project Planning
+# Project Brainstorm
 
-Your project will involve creating a webpage where you visualize one or more datasets in order to tell a story about or make a case for something in your area of policy interest.
-
-In order to do this you will need to select one or more datasets and visualizations. Please make sure you have one distinct set of data and one distinct visualization minimum per team member. I ask that each team member contribute one pre-planning exercise. You may not use all of them in your final project, but this will provide you with a few options to start from.
+Your project will involve creating a webpage where you visualize one or more datasets in order to tell a story about or make a case for something in your area of policy interest. In order to do this you will need to select one or more datasets and visualizations. Please make sure you have one distinct set of data and one distinct visualization minimum per team member. I ask that each team member contribute one pre-planning exercise. You may not use all of them in your final project, but this will provide you with a few options to start from.
 
 ## Find a relevant dataset
 
-http://data.gov is a good place to start, but you're welcome to consider datasets from other places as well. Depending on the expertise on your team and your level of comfort with different data formats, it may be easiest to look for data that is either in a simple JSON structure or a CSV file.
+http://data.gov is a good place to start, but definitely spend some time surfing around elsewhere for datasets of interest. Depending on the expertise on your team and your level of comfort with different data formats, it may be easiest to look for data that is either in a simple JSON structure or a CSV file.
 
 You may also consider data that has been exposed via an API (we'll discuss these in class), however it may take a little more effort to get data out of an API compared to pre-prepared datasets.
 
@@ -28,45 +26,41 @@ In this course you won't be asked to create you own D3 visualization (unless you
 
 This [graphic by FT Visual Journalism team](https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary) is a good starting point if you're not sure what type of visulization you need.
 
-## Data manipulation
+This is very much an exercise in brainstorming and exploration. You're not locking yourself into a dataset, but for the purposes of this exercise select one and explain why it might be a good match for the data you're trying to visualize.
 
-The end goal will be to take the example visualization, and feed it data to fit your needs. Start thinking about the following
+## Other things to start pondering
 
-### Technical Components
+### Data manipulation
 
-1. Back end
+The end goal will be to take the example visualization and manipulate it to fit the needs of your data. Take a glance at how the data is laid out in the example visualization you've selected. Start thinking through what skills you might need in order to get the data in the dataset you have selected to fit a format the visualization requires.
 
-   - Collect the data at its source in either JSON or CSV, or from an API or create a dataset by coding up a web scraper.
+### Examples
 
-   - To convert data into the format used by the D3 visualization, you can use the [data-converter.py](https://github.com/dmil/code4policy/blob/master/data-converter.py) script. Make sure to run `pip3 install pandas` in the terminal before you run it for the first time, then enter the following command in the terminal:
-   ```
-   python3 data-converter.py -f <filename> -o <output format(csv, tsv, or json)>
-   ```
-   
-   - Write code (or find another way) to manipulate the original data into the JSON or CSV format that the visualization is looking for.
+Here are some examples of projects from previous years. I expect that the projects from this year will be a little more polished since you will have much more time than students in previous years did due to the structure of the course. I will also be asking you to think a little harder about telling a coherent narrative with a visualization that makes sense for your particular dataset. Still, looking at previous projects might give you some ideas for your own.
 
-2. Front End
+**2017 examples**
 
-  - You will also need to clean up the front-end code provided in the example visualization. You will split it up into its component parts (HTML/CSS/JavaScript) in separate files.
+Page | GitHub Link
+-----|--------------
+https://ekrat.github.io/VT-Police/index.html |  [github](https://github.com/ekrat/VT-Police/)
+https://srikbe.github.io/education-front-end/ | [github](https://github.com/srikbe/education-front-end)
+https://hkstechdevelopment.github.io/front-end-repo/ | [github](https://github.com/HKSTechDevelopment/front-end-repo)
+https://hansolbach.github.io/frontend/INDEX.html | [github](https://github.com/hansolbach/frontend)
 
-  - You will need to arrange the charts, the text, and other components of the page (or pages) in an aesthetically pleasing way and write new styles so that your page does not look barren.
+**2018 examples**
 
-## Scrum Artifacts
+- A1 - Econ Development - https://adm448.github.io/econdev/
+- A2 - Energy Group - https://hpeyronnin.github.io/our-website/
+- A3 - Criminal Justice - https://jaw547.github.io/a3-criminal-justice/
+- A4 - Flight Delays - https://erinstpeter.github.io/A4-flight-delays/
+- B1 - Hate Crimes - https://joshfergs.github.io/group-project-website/
+- B2 - Economics - https://conorsanchez.github.io/moneybegetsmoremoney-anddebt/
+- B3 - Fake News - https://oliver-backes.github.io/our-website/
+- B4 - Cyber Attacks - https://irenesolaiman.github.io/b4-project/
 
-You will have to submit SCRUM artifacts including but not limited to, a Trello board, a burn-down chart, and user stories as well as your reflection on your groups adherence to agile values.
+## Assignment
 
-## Using Github
+Fill out this form. You can either provide one dataset/visualization and flesh out your thinking in a few sentences, or you can provide two with less detail.
+https://docs.google.com/forms/d/1mgaoOdTYlX_8B2zzIgq1vDr0PDMyOI_qcjw7atvj83w/edit
 
-You will collaborate on GitHub. I hope to see commits from all the team members. Branching is encouraged, forking is un-necessary.
-
-## Examples
-
-Here are some examples of projects from last year. I expect that the projects from this year will be a little more polished, last time we started the projects on the last day of class. However it should give you a sense of the structure your project might take on.
-
-* https://ekrat.github.io/VT-Police/index.html
-* https://srikbe.github.io/education-front-end/
-* https://hkstechdevelopment.github.io/front-end-repo/
-
-## Conclusion
-
-More details coming soon. This should give you a general sense of what the project will be like. Each member should take some time tonight to (1) find a dataset or two (2) find a visualization or two and (3) think through what it is going to take to join that dataset to the visualization that will work best for it.
+Leave a note in your project group slack channel with an idea for a dataset and/or visualization that you find interesting. Brainstorm together in your group chat channel so that when you come to class next week, you at least have some ideas bouncing around. At this stage groups should not be deciding anything, just tossing ideas out there and converging on a general theme that all the members would be interested in.
