@@ -45,8 +45,12 @@ Or maybe your group has a lot of members working remotely.
 
 ## Sprint Planning Meeting
 
+Create a new list in trello called BACKLOG.
 
-1. Create a new list in trello called BACKLOG. Take each user story and break it down into tasks, put those tasks in the backlog, prioritizing the most important at the top.
+1. Product owner presents each story
+2. Team agrees to take it on in this sprint or not
+	1. If the team agrees, take the user story and break it down into tasks, put those tasks in the sprint backlog, prioritizing the most important at the top.
+	2. If the team doesn't agree, figure out where to prioritize it in your stack of user stories
 
 **Planning Poker**
 
@@ -55,7 +59,7 @@ Or maybe your group has a lot of members working remotely.
 	2. Product owner solicits questions to make sure everyone is on the same page about what is included in that task and what is not.
 	3. Poker commences
 	4. Either agree on a consensus, or discuss further and do another round of poker.
-2. Now lets turn it over to the groups to do that with the rest of the tasks.
+2. Now lets turn it over to the groups to do that with the rest of the tasks for this sprint.
 
 
 ## Daily Standup
