@@ -31,4 +31,4 @@
 1. Read the recommended reading
 2. Spend some time reading whatever intersets you from the above menu of choices - feel free to go off script and read about anything else tangentially related that you find valuable. If your research takes you to something interesting, send it to your classmates on slack!
 3. Participate in a discussion in slack about any of the topics you've read about. Remember, participation in discussions on slack is required and will be graded.
-4. Write down questions you might have about agile and tech projects in government as you go along. One of our guest speakers will be Leah Bannon, a product lead at 18F who will discuss running agile teams in government.
+4. Write down questions you might have about agile and tech projects in government as you go along. One of our guest speakers will be TKTKTK, who will discuss running agile teams in government.
