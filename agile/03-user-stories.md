@@ -38,10 +38,11 @@ Source:
 
 Since we're running a scrummy class, and this class is our product. Lets write good user stories for the class! Lets do this one in pairs.
 
-1. Brainstorm stakeholders
-2. Write user stories
-	* 2 as yourselves
+
+1. Write user stories from your interview of your partner
+2. Brainstorm stakeholders in the class
+	* 2 as yourselvef
 	* 1 as other "users" (in our case stakeholders)
-3. For each story, make sure you have a definiton of "done" as well as a checkbox for I-N-V-E-S-T. Be honest about which part of I-N-V-E-S-T it meeets and which part it does not meet.
+3. Pick the 3 most important stories, for each story make sure you have a definiton of "done" as well as a checkbox for I-N-V-E-S-T. Be honest about which part of I-N-V-E-S-T it meeets and which part it does not meet.
 
 Lets share and workshop them together. Present one and put the rest up on the board. I will look through them after class and see how they can inform the development of the course.
