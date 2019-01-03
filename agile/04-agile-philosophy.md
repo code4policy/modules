@@ -54,5 +54,5 @@ Much of government traditionally operates in the waterfall style.
 Some agencies are pushing for more agile development.
 
 Its still nacent, but gaining momemtum. Like a baby holding onto the railing and learning to walk. -
-[David Zvenyach](https://www.linkedin.com/in/vdavez) (Executive
+[David Zvenyach](https://www.linkedin.com/in/vdavez) (former Executive
 Director of 18F)
