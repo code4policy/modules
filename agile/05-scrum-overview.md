@@ -35,13 +35,15 @@ A toolset for Agile Software Development
 
 ### Artifacts
 
-- Product Backlog (List of User Stories)
-- Sprint Backlog
+- User Personas
+- Product Backlog (list of user stories)
+	- Definition of done / acceptance criteria
+	- I-N-V-E-S-T
+- Sprint Backlog (list of tasks)
 - Task Board (trello)
 	- ICEBOX, TODO, DOING, BLOCKED, DONE
 	- can customize based on your definition of done (multiple stages of done?)
 - Burn Chart
-- Definition of Done
 
 ### Scrum Teams
 

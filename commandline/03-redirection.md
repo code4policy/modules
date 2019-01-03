@@ -26,6 +26,25 @@ command1 | command2
 
 Pipes the results from `command1` as input to `command2`, and then the results of `command2` are printed to the console.
 
+## Lets see how it works
+
+First, lets install a new command `fortune`
+- mac: `brew install fortune`
+- ubuntu: `sudo apt-get install fortune`
+
+1. Redirect: 
+  ```
+  fortune > wisething.txt
+  ```
+2. Pipe
+  ```
+  fortune | cowsay
+  ```
+3. Pipe then Redirect
+  ```
+  fortune | cowsay > wisecow.txt
+  ```
+
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: Redirection
 
 1. Redirect a fact about planet mars into the mars.txt.

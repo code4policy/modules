@@ -20,7 +20,7 @@ Source: [http://agilemanifesto.org/](http://agilemanifesto.org/)
 
 ### Agile Principles
 
-* Lets review the 12 agile principles from the "Elements of Scrum" recommended reading on https://read.amazon.com/
+* Lets review the 12 agile principles from the "Elements of Scrum" recommended reading on https://read.amazon.com?asin=B004O0U74Q
 * Also found here: [https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/]( https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/)
 
 ### Few additional resources
@@ -54,5 +54,5 @@ Much of government traditionally operates in the waterfall style.
 Some agencies are pushing for more agile development.
 
 Its still nacent, but gaining momemtum. Like a baby holding onto the railing and learning to walk. -
-[David Zvenyach](https://www.linkedin.com/in/vdavez) (Executive
+[David Zvenyach](https://www.linkedin.com/in/vdavez) (former Executive
 Director of 18F)

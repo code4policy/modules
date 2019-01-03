@@ -6,7 +6,7 @@
 The Command Line Interface (CLI) is a way of interacting with your computer using text-based commands. This is also referred to as a Text User Interface (TUI) which is different from the way most people interact with their computers, using their mouse and a Graphical User Interface (GUI).
 
 ### Why should I use it?
-Once you become comfortable with the basics, it can be a more powerful way to use your computer. You're able to do many things more quickly and *programatically*. It is especially useful if you need to do something repetitively or in bulk.
+Once you become comfortable with the basics, it can be a more powerful way to use your computer. You're able to do many things more quickly and *programatically*. It is especially useful if you need to do something repetitively or in bulk. Even if you never use the command line again after this class, it can help you understand how software works at a more fundamental level.
 
 ### Example Use Cases
 - find all files in a folder that contain a phrase
@@ -158,7 +158,7 @@ Now that you have an understanding of option/flags vs. positional arguments, let
 * **clear**s all output from your console
 * on macOS, you can also press `Ctrl+L` to clear your console while retaining history or `Cmd-K` to clear console while deleting the history. `Ctrl+L` should work on Ubuntu as well.
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
 1. print your username to the command line using `whoami`
 2. print your computer's name to the command line using `hostname`
@@ -192,6 +192,33 @@ for a given command, its usually either
 [http://stackoverflow.com/](http://stackoverflow.com/)
 ### also, know when to reach out to someone...
 don't go down rabbit holes trying to figure something out if there is someone who knows better nearby and you've already tried the three things above, they might be able to save you a lot of stress. I'm always happy to help out.
+
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Install the `cowsay` command
+
+Mac: `brew install cowsay`
+Ubuntu: `sudo apt-get install cowsay`
+
+1. Make the cow say
+```
+1) Individuals and interactions over processes and tools 2) Working software over comprehensive documentation 3) Customer collaboration over contract negotiation 4) Responding to change over following a plan
+```
+2. Make a dead cow say that
+3. Customize the eyes to "zz"
+4. Customize the tounge to "$$" (hint: is it not displaying properly? google "escaping characters in bash")
+5. Say the sentence with "zz" eyes AND "$$ toungue"
+5. Make the cow's thought bubble wrap every 4 characters as it says the sentence
+
+**Bonus** 
+
+Make the cow into a moose
+
+**Super Duper Bonus**
+
+Make the cow into a fox
+
+Hint: You'll have to install a new cow - https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/cows/fox.cow
 
 ## Dangers
 
