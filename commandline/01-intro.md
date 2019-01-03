@@ -202,7 +202,7 @@ Ubuntu: `sudo apt-get install cowsay`
 
 1. Make the cow say
 ```
-1) Individuals and interactions over processes and tools. 2) Working software over comprehensive documentation 3) Customer collaboration over contract negotiation 4) Responding to change over following a plan
+1) Individuals and interactions over processes and tools 2) Working software over comprehensive documentation 3) Customer collaboration over contract negotiation 4) Responding to change over following a plan
 ```
 2. Make a dead cow say that
 3. Customize the eyes to "zz"
