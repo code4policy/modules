@@ -209,15 +209,17 @@ Ubuntu: `sudo apt-get install cowsay`
 
 **Bonus** 
 
-Make the cow into a fox (or another animal of your choice)
+Make the cow into a pair of eyes
 
 Hint: https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/cows/fox.cow
 
 **Super Duper Bonus**
 
-Install all the cows
+Make the cow into a fox
 
-Hint: https://github.com/paulkaefer/cowsay-files/tree/master/cows
+Hint: You'll have to install a new cow - https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/cows/fox.cow
+
+More Cows: https://github.com/paulkaefer/cowsay-files/tree/master/cows
 
 ## Dangers
 
