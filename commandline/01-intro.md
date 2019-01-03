@@ -200,8 +200,11 @@ Install the `cowsay` command
 Mac: `brew install cowsay`
 Ubuntu: `sudo apt-get install cowsay`
 
-1. Make the cow say a sentence
-2. Make a dead cow say a sentence
+1. Make the cow say
+```
+1) Individuals and interactions over processes and tools. 2) Working software over comprehensive documentation 3) Customer collaboration over contract negotiation 4) Responding to change over following a plan
+```
+2. Make a dead cow say that
 3. Customize the eyes to "zz"
 4. Customize the tounge to "$$" (hint: is it not displaying properly? google "escaping characters in bash")
 5. Say the sentence with "zz" eyes AND "$$ toungue"
@@ -216,8 +219,6 @@ Make the cow into a moose
 Make the cow into a fox
 
 Hint: You'll have to install a new cow - https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/cows/fox.cow
-
-More Cows: https://github.com/paulkaefer/cowsay-files/tree/master/cows
 
 ## Dangers
 
