@@ -193,6 +193,25 @@ for a given command, its usually either
 ### also, know when to reach out to someone...
 don't go down rabbit holes trying to figure something out if there is someone who knows better nearby and you've already tried the three things above, they might be able to save you a lot of stress. I'm always happy to help out.
 
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Install the `cowsay` command
+
+Mac: `brew install cowsay`
+Ubuntu: `sudo apt-get install cowsay`
+
+1. Make the cow say a sentence
+2. Make a dead cow say a sentence
+3. Customize the eyes to "zz"
+4. Customize the tounge to "$$" (hint: is it not displaying properly? google "escaping characters in bash")
+5. Say the sentence with "zz" eyes AND "$$ toungue"
+5. Make the cow's thought bubble wrap every 4 characters as it says the sentence
+
+**Bonus** 
+Make the cow into a fox (or another animal of your choice)
+Hint: https://github.com/paulkaefer/cowsay-files/tree/master/cows
+
+
 ## Dangers
 
 The terminal is a powerful tool (especially in linux)
