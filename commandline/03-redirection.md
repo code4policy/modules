@@ -36,12 +36,10 @@ First, lets install a new command `fortune`
   ```
   fortune > wisething.txt
   ```
-
 2. Pipe
   ```
   fortune | cowsay
   ```
-
 3. Pipe then Redirect
   ```
   fortune | cowsay > wisecow.txt
