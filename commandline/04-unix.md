@@ -18,7 +18,7 @@ Many Unix-like operating systems have arisen over the years, of which Linux is t
 > -https://www.wired.com/2016/08/linux-took-web-now-taking-world/
 
 1) Most programmers will be using unix-based systems
-2) Many of the same principles apply to all/or the vast majority of software systems
+2) Many of the same principles apply to all/or the vast majority of software systems you're likely to encounter
 
 ## Operating System Concepts
 
