@@ -71,5 +71,5 @@ for row in reader:
 - in order to pipe an existing file into csvstat, use `cat` to send the contents of the file to stdout first
 - use `./filter.py` to run the program
 	- remember the `.` refers to the current directory, so `./filter.py` means run the `filter.py` script that is located in the current directory
-- make sure filter.py has a shebang on top. the shebang is `#!/usr/bin/env python2`. without the shebang, the shell won't know how to execute your script
+- make sure filter.py has a shebang on top. the shebang is `#!/usr/bin/env python3`. without the shebang, the shell won't know how to execute your script
 - use the 2017 quarter 1 file, quarter 2 might have some issues
