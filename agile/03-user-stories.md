@@ -1,3 +1,15 @@
+## A Scrum-ified (Scrum-ish?) J-term
+
+[Aggregate responses](https://docs.google.com/forms/d/1Vh3nJAqUptMGIT2dP9JnKpkORG-5r3FM0LcXAigH9qA/edit#responses)
+* Do you think that you will use code or data analysis in your future work?
+
+## User Research
+
+Since the class is our product, and we're going to run it using agile, lets do some user research. 
+
+1. Lets split into pairs and for 5 minutes you have a free-form interview of your partner. Ask questions, take notes, try and understand what it is that they're looking to get out of this class.
+2. Now switch roles for another 5 minutes.
+
 ## Writing Good User Stories
 
 **As a _____**\<role\>**_____________**
@@ -33,9 +45,3 @@ Since we're running a scrummy class, and this class is our product. Lets write g
 3. For each story, make sure you have a definiton of "done" as well as a checkbox for I-N-V-E-S-T. Be honest about which part of I-N-V-E-S-T it meeets and which part it does not meet.
 
 Lets share and workshop them together. Present one and put the rest up on the board. I will look through them after class and see how they can inform the development of the course.
-
-## A Scrum-ified (Scrum-ish?) J-term
-
-[Aggregate responses](https://docs.google.com/forms/d/1Vh3nJAqUptMGIT2dP9JnKpkORG-5r3FM0LcXAigH9qA/edit#responses)
-* Do you think that you will use code or data analysis in your future work?
-* Also see Google Keep note for summary of responses
