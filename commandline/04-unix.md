@@ -11,16 +11,33 @@ Many Unix-like operating systems have arisen over the years, of which Linux is t
 * [https://en.wikipedia.org/wiki/History_of_Unix](https://en.wikipedia.org/wiki/History_of_Unix)
 * [http://www.howtogeek.com/182649/htg-explains-what-is-unix/](http://www.howtogeek.com/182649/htg-explains-what-is-unix/)
 
+## Why learn about this?
+
+
+> The rise of Linux mirrors the rise of the web, which just happens to have started around the same time. It's hard to pin down exactly how popular Linux is on the web, but according to a study by W3Techs, Unix and Unix-like operating systems power about 67 percent of all web servers. At least half of those run Linux—and probably the vast majority.
+> -https://www.wired.com/2016/08/linux-took-web-now-taking-world/
+
+1) Most programmers will be using unix-based systems
+2) Many of the same principles apply to all/or the vast majority of software systems
+
 ## Operating System Concepts
 
 * Files and Processes
-	- Everything in UNIX is either a file or a process
+	- "[Everything is a file](https://www.youtube.com/watch?v=dDwXnB6XeiA)" (oversimplification, but a useful one)
+	- How does the operating system work?
+		- Files! [http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html](http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html)
 	- `ps aux` to see the processes that are running, same as opening the "activity monitor"
-	- [http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html](http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html)
 
 * Exploring the root directory (in case you're ever wondering what all those files in `/` are)
 	* [https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)
 	* [http://www.thegeekstuff.com/2010/09/linux-file-system-structure/?utm_source=tuicool](http://www.thegeekstuff.com/2010/09/linux-file-system-structure/?utm_source=tuicool)
+
+## Why?
+
+Q: Isn't this more than I need to know about computers?
+
+A: Probably, but I want to show you that NOTHING is magic. If you ask "why" to anything, you should be able to get a straightforward answer. Learning to ask why and how can be an important management skill when it comes to tech projects in government. 
+
 
 ## Environment Variables and PATH
 
