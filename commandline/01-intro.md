@@ -6,7 +6,8 @@
 The Command Line Interface (CLI) is a way of interacting with your computer using text-based commands. This is also referred to as a Text User Interface (TUI) which is different from the way most people interact with their computers, using their mouse and a Graphical User Interface (GUI).
 
 ### Why should I use it?
-Once you become comfortable with the basics, it can be a more powerful way to use your computer. You're able to do many things more quickly and *programatically*. It is especially useful if you need to do something repetitively or in bulk.
+* Once you become comfortable with the basics, it can be a more powerful way to use your computer. You're able to do many things more quickly and *programatically*. It is especially useful if you need to do something repetitively or in bulk.
+* Even if you never use the command line again after this class, it can help you understand how software works at a more fundamental level.
 
 ### Example Use Cases
 - find all files in a folder that contain a phrase
