@@ -208,11 +208,15 @@ Ubuntu: `sudo apt-get install cowsay`
 5. Make the cow's thought bubble wrap every 4 characters as it says the sentence
 
 **Bonus** 
+
 Make the cow into a fox (or another animal of your choice)
+
 Hint: https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/cows/fox.cow
 
 **Super Duper Bonus**
+
 Install all the cows
+
 Hint: https://github.com/paulkaefer/cowsay-files/tree/master/cows
 
 ## Dangers
