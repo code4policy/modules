@@ -12,13 +12,14 @@
 	- Scrum Master
 	- Team Member
 
+## A Scrummy J-term
+
+- Assign roles
+- Have standup meeting
+
 ## Standup Meeting
 - Have meeting
 	- What have you been working on since the last meeting?
 	- What are you working on between now and the next meeting?
 	- What are your blockers?
 
-## A Scrummy J-term
-
-- Assign roles
-- Have standup meeting
