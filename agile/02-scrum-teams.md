@@ -14,6 +14,8 @@
 
 ## A Scrummy J-term
 
+Lets try and run this J-term course in an agile fashion. For the purposes of today's exercises, instead of building software we're designing a J-term course (this one!).
+
 - Assign roles
 - Have standup meeting
 
