@@ -62,7 +62,7 @@ Hmm...who is spending so much on water?
 cat spending_on_water.csv | grep "40333.33"
 ```
 
-#### Sed, Awk, more data manipulation
+### Sed, Awk, more data manipulation
 
 #### Example using in2csv and csvstat
 
