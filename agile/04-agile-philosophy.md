@@ -20,7 +20,7 @@ Source: [http://agilemanifesto.org/](http://agilemanifesto.org/)
 
 ### Agile Principles
 
-* Lets review the 12 agile principles from the "Elements of Scrum" recommended reading on https://read.amazon.com/
+* Lets review the 12 agile principles from the "Elements of Scrum" recommended reading on https://read.amazon.com?asin=B004O0U74Q
 * Also found here: [https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/]( https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/)
 
 ### Few additional resources
