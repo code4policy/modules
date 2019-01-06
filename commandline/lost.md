@@ -4,7 +4,7 @@ If you find yourself staring blankly at the terminal unsure what to do next, sta
 
 ## Where am I?
 
-print working directory 
+**p**rint **w**orking **d**irectory 
 
 ```
 pwd
@@ -12,7 +12,7 @@ pwd
 
 ## What is here?
 
-list files and folders
+**l**i**s**t files and folders
 
 ```
 ls
@@ -20,7 +20,7 @@ ls
 
 ## Where do I need to go?
 
-change directory
+**c**hange **d**irectory
 
 ```
 cd ~/path/to/folder
