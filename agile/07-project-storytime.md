@@ -5,23 +5,45 @@
 * **Customer collaboration** over contract negotiation
 * **Responding to change** over following a plan
 
-## Good User Stories
+## Getting Started
 
-Talk among your group and start capturing user stories for your project. This isn't just a hokey exerecise you have to do, so don't slack off or settle for bad user stories. This is really a conversation about what the final product will look like. Take each discrete story and put it on a notecard. Here is an example:
+- Before we start, assign a "product owner" and a "scrum master" in your group.
 
-> **As a** student applying for jobs
+### Setting up a Trello board
+
+The product owner can create a task board on trello. Make sure to start the board with the name of your group, for example `A1`.
+
+![](../assets/trello.png)
+
+## StoryTime Meeting
+
+**Write User Stories**
+
+Talk among your group and start capturing user stories for your project. Its okay if they seem beyond the scope of what you think is possible in two one-week sprints. You may not ultimately get to some of these and that's alright. This is an exercise in understanding the users needs, and envisioning what the product could be. Remember, a story is not a contract, it is an invitation to a discussion. 
+
+This isn't just a hokey exerecise you have to do, so don't slack off or settle for bad user stories. This is really a conversation about what the final product will look like. Take each discrete story and put it on a notecard. Here is an example:
+
+> **As a** design student applying for jobs
 >
 > **I want** a website that looks good
 >
 > **So that** I can use it in my portfolio
 
-Your group may or may not care about the look and feel of the site. You may say decide that you'll spend time doing original analysis, you'd prefer an ugly site with more code so that you can practice javascript.
+Your group may or may not care about the look and feel of the site. You may say decide that you'll spend time doing original analysis, you'd prefer an ugly site that gets a point across.
 
 > **As a** activist
 >
 > **I want** a website that tells a clear story
 >
 > **So that** I can use it to convince people about my cause
+
+Perhaps you would like to use this as an opportunity to build on or visualize data work you've already done
+
+> **As a** person who has spent a lot of time doing impressive quantitative analysis on New York City's garbage collection for my thesis
+>
+> **I want** to visualize the data in my thesis
+>
+> **So that** I can more effectively communicate the importance of this work to others
 
 Or maybe your group has a lot of members working remotely.
 
@@ -31,11 +53,16 @@ Or maybe your group has a lot of members working remotely.
 >
 > **So that** it is less difficult to coordinate if we're all working on separate pages.
 
-## StoryTime Meeting
+Or perhaps you just want a good grade
 
-**Write User Stories**
+> **As a** student who cares about my GPA
+>
+> **I want** to make sure the requirements for the project are met and documented
+>
+> **So that** nothing gets left out and we get a good grade in the class.
+ 
+These should be **real** user-stories that help guide your  actual project, not hypothetical ones. They should define what you and your teammates hope to build, so be honest about who your users are. During this first stage your stories don't have to be super refined, we will think more about INVEST and the definitions of done in the next part.
 
-1. Write good user stories. Its okay if they seem beyond the scope of what you think is possible in two one-week sprints. You may not ultimately get to some of these and that's alright. This is an exercise in understanding the users needs, and envisioning what the product could be. Remember, a story is not a contract, it is an invitation to a discussion.
 
 **Organize and Refine User Stories**
 
@@ -49,33 +76,7 @@ Or maybe your group has a lot of members working remotely.
 	2. add definition of done
 	3. add acceptance criteria / definitions of done
 
-## Scrum Board
-
-### Setting up a Trello board
-
-The product owner can create a task board on trello. Make sure to have `A` or `B` in the title please, based on which section of the class your group is in.
-
-![](https://www.evernote.com/shard/s150/sh/0178d7c6-d25c-4baa-925c-e71af59dd284/7bf5da77508dffc2/res/ae4da294-3fe2-4838-9091-6205dcc7906a/skitch.png?resizeSmall&width=200)
-
-Lets start by giving it four columns
-
-1. Todo
-2. Doing
-3. Blocked
-4. Done
-
-## Sprint Planning Meeting
-
-Create a new list in trello called BACKLOG.
-
-1. Product owner presents each story
-2. Team agrees to take it on in this sprint or not
-	1. If the team agrees, take the user story and break it down into tasks, put those tasks in the sprint backlog, prioritizing the most important at the top.
-	2. If the team doesn't agree, figure out where to prioritize it in your stack of user stories
-
-### Planning Poker
-
-### Planning poker activity
+**Planning poker**
 
 1. Make flash cards with these numbers on them
 
@@ -119,7 +120,3 @@ Create a new list in trello called BACKLOG.
 	4. Either agree on a consensus, or discuss further and do another round of poker.
 2. Now lets turn it over to the groups to do that with the rest of the tasks for this sprint.
 
-
-## Daily Standup
-
-**Moving Forward** - Count up the total number of points for the sprint. Every day during your group's daily scrum, please move cards around on the trello board as they're getting done. It will be the job of one person on the team to maintain a "burndown" of how many points the whole scrum is worth, and how many points you have accomplished so far. You will submit that as part of your final project. You should try to maintain a constant pace, or if you find you're not on track to finish, you may want to either adjust your pace or think about reducing the number of tasks, or negotiate a deadline extension.
