@@ -19,9 +19,9 @@ Now go through each user story and do the following:
 During your daily standup meetings moving forward, you will keep your trello board open in view of all team members. You will discuss the following **in terms of trello cards**:
 
 - What you did since the last meeting
-	- (grab a card and move it to doing)
+	- (grab a card and move it to done)
 - What you plan to do between now and the next meeting
-	- (grab a card and move it to doing)
+	- (grab a card, assign it to whoever is working on it, and move it to doing)
 - Whether or not you have any blockers
 	- (grab a card and move it to blocked) 
 
