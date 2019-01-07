@@ -1,29 +1,13 @@
-## Sprint Planning Meeting
-
-Create the following columns in your trello board. These columns will be for **tasks** not user stories.
-
-1. Backlog
-2. Doing
-3. Blocked
-4. Done
-
-Now go through each user story and do the following: 
-
-1. Product owner presents each story and makes sure everyone knows what that story means.
-2. Team agrees to take it on in this sprint or not
-	* If the team agrees, then take the user story and break it down into tasks, put those tasks in the sprint backlog, prioritizing the most important at the top.
-	* If the team doesn't agree, figure out where to prioritize it in your stack of user stories. There is no need to break this out into tasks just yet.
-
 ## Daily Standup
 
 During your daily standup meetings moving forward, you will keep your trello board open in view of all team members. You will discuss the following **in terms of trello cards**:
 
 - What you did since the last meeting
-	- (grab a card and move it to doing)
+	- (move a card from "doing" to "done")
 - What you plan to do between now and the next meeting
-	- (grab a card and move it to doing)
+	- (grab a card, assign it to whoever will be working on it, and move it to doing)
 - Whether or not you have any blockers
-	- (grab a card and move it to blocked) 
+	- (move a card to blocked) 
 
 It will be the job of the scrum master to maintain a "burndown" of how many points the whole scrum is worth, and how many points you have accomplished so far each day. You can subtract the points for the card from your burndown when its moved to the "Done" column.
 
