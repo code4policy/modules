@@ -1,4 +1,4 @@
-# Git 4: Branching
+# Git 6: Branching
 
 ## Why branches?
 
