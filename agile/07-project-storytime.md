@@ -17,7 +17,7 @@ The product owner can create a task board on trello. Make sure to start the boar
 
 ## StoryTime Meeting
 
-**Write User Stories**
+**Part 1 - Write User Stories**
 
 Talk among your group and start capturing user stories for your project. Its okay if they seem beyond the scope of what you think is possible in two one-week sprints. You may not ultimately get to some of these and that's alright. This is an exercise in understanding the users needs, and envisioning what the product could be. Remember, a story is not a contract, it is an invitation to a discussion. 
 
@@ -64,7 +64,7 @@ Or perhaps you just want a good grade
 These should be **real** user-stories that help guide your  actual project, not hypothetical ones. They should define what you and your teammates hope to build, so be honest about who your users are. During this first stage your stories don't have to be super refined, we will think more about INVEST and the definitions of done in the next part.
 
 
-**Organize and Refine User Stories**
+**Part 2 - Organize and Refine User Stories**
 
 1. Groom your user story backlog - take the most important user stories and put them at the top of the stack. Put the less important ones in rough order of importance at the bottom of the stack.
 2. Refine stories at the top of your stack
@@ -76,7 +76,7 @@ These should be **real** user-stories that help guide your  actual project, not 
 	2. add definition of done
 	3. add acceptance criteria / definitions of done
 
-**Planning poker**
+**Part 3 - Planning poker**
 
 1. Make flash cards with these numbers on them
 
