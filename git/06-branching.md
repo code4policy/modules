@@ -166,6 +166,8 @@ Example PRs:
 
 3. Commit the change in the feature branch.
 
+4. Push the feature branch to GitHub
+
 4. Create a pull request from the feature branch and merge it.
 
 5. Check the website online and make sure it has changed.
