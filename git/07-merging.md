@@ -27,11 +27,11 @@
 
 6. Merge the `red-universe` pull request. Try to merge the `blue-universe` pull request and it should say the branch cannot be automatically merged. This mean's there is a merge conflict.
 
-7. Create a branch called `the-upside-down`.
-	1. Edit `united_states.txt` with the text: "Hawkins, Indiana: The Demogorgon was here."
+7. Create a branch called `parallel-universe`.
+	1. Edit `earth.txt` with the text: "There are no people on this planet."
 	2. Commit this change to the branch.
 	3. Push the branch.
-	4. Do not merge this branch back in as [the upside down](http://strangerthings.wikia.com/wiki/The_Upside_Down) runs parallel to the real `universe`...
+	4. Do not merge this branch back in as this universe runs parallel to the real `universe`...
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
