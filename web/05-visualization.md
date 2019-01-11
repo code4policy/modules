@@ -52,6 +52,8 @@ Lets create a new webpage with a D3 visualization in it. We'll call this `chart-
 6. Once you're sure it works, lets commit and push that.
 
 	```
+	git add index.html
+	git add data.tsv
 	git commit -m "add a chart of apple stock prices"
 	git push
 	```
