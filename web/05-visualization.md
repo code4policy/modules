@@ -124,10 +124,6 @@ You can call a JavaScript file like with this code. In this case we're linking o
 
 Right now the chart works fine, however, that is because the chart is the only thing on the page. The CSS in these example D3 examples often assume the D3 is the only thing on the page. So if there were other things on the page, the CSS might also end up applying to those things as well! To avoid that, we must specify that the CSS only apply to the chart. Lets modify the CSS selectors to do just that.
 
-### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example - Part 3 (simple)
-
-Since the chart is the only `<svg>` element on the page, we can just append an `svg` element selector to the front of all the CSS specific to the chart to make sure it doesn't apply the CSS to elements outside the SVG.
-
 ## Using `id` and `class` tags Properly
 
 But what if we want to have two charts on the page? And they're both SVGs! In that case each chart would need a unique `id` attribute. To do this we'll need to modify the d3 block.
@@ -158,7 +154,7 @@ Now it will generate the chart with `id=apple-stock-chart` and `class=chart`. Th
 
 This is useful for standardizing styles across the site and giving everything a common look and feel with specific customization for a chart where needed.
 
-### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example - Part 3 (advanced)
+### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example - Part 3
 
 1. Modify the D3 for the chart so that it appends a `class=chart` and `id=apple-stock-chart` when it generates the chart.
 2. Modify the CSS so that it applies only to the `apple-stock-chart` and doesn't spill over to any other charts that may be on the page.
