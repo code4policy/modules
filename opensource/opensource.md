@@ -20,7 +20,7 @@ As you're reading, please contribute to the slack channel corresponding to the t
 
 ## Artifacts
 
-1. Discussion on Slack - Lets try to have a discussion on Slack about the topic area you've selected. For this assignment, if Slack turns into just a list of comments rather than a discussion, that's fine too. Before the debate/discussion, you and the other people who have selected that subject area can review the points that everyone made in the slack channel and pick the most interesting or convincing ones to talk to Seamus about.
+After having done some research and reading for an hour or longer, have a discussion on Slack (in the channel you've signed up for #opensource-cost, #opensource-ethics, #opensource-maintain, or #opensource-security) about the topic area you've selected. Post at least one comment of your own, and respond to at least one other person's comment in a meaningful way (I will read these responses so make sure you're engaging thoughtfully and contributing to a better understanding of the topic area). Discuss the advantages and disadvantages of open source software, particularly as it pertains to your topic area. Before the debate/discussion, you and the other people who have selected that subject area can review the points that everyone made in the slack channel and pick the most interesting or convincing ones to talk to Seamus about.
 
 ## Reading List
 What is open source?
