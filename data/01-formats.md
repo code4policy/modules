@@ -114,3 +114,10 @@ On macOS, install Tabula by running `brew cask install tabula`.
 - Demo: Unzip roster.xlsx with Unarchiver
 
 https://github.com/unitedstates/congress-legislators
+
+# Data 1.5: Government Data
+
+- Kirsten's Slides on Government Data
+- https://5stardata.info/en/
+- http://opendatahandbook.org/
+
