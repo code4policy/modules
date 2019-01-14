@@ -101,7 +101,7 @@ Yeah, its a really powerful tool that doesn't require a geeky genius to use.
 4. Encrypt a message with Dhrumil's public key
 
 	```
-	openssl rsautl -encrypt -oaep -pubin -inkey <(ssh-keygen -e -f dhrumilskey.pub -m PKCS8) -in secretmessage.txt -out secretmessage.text.enc
+	openssl rsautl -encrypt -oaep -pubin -inkey <(ssh-keygen -e -f dhrumilskey.pub -m PKCS8) -in secretmessage.txt -out secretmessage.txt.enc
 	```
 5. Send your encrpyted file to Dhrumil on Slack, you can use the #scratchwork channel, a public network. Nobody other than Dhrumil will be able to read it anyway!!!
 
