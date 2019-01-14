@@ -69,10 +69,7 @@ The table will render in the same way as the CSV in excel.
 
 ### JSON (JavaScript Object Notation)
 
-![](https://www.evernote.com/shard/s150/sh/90cf283d-4adc-4f6f-aeaf-c8f2660d13c7/793cabb9f194996b/res/62dd9784-077a-45ee-8b47-c23054e2cc59/skitch.png?resizeSmall&width=832)
-Source: http://stackoverflow.com/questions/4310315/what-exactly-is-json
-
-We'll dig more into this later.
+We'll dig into this momentarily.
 
 ### XML (eXtensible Markup Language)
 
