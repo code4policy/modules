@@ -45,7 +45,6 @@ Output:
 
 If you're overwhelmed by large python files, you can split up the work into steps and pipe them together. To do this, you'll need to read from STDIN and write to STDOUT in each step.
 
-Read From STDIN
 ```python
 #!/usr/bin/env python3
 
