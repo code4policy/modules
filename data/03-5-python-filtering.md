@@ -14,14 +14,18 @@ rows = [
 for row in rows:
     if row['age'] < 37:
         print(row)
+```
 
+```python
 # filter whitelist names
 
 whitelist_names = ['Rachel', 'Phoebe']
 for row in rows:
     if row['name'] in whitelist_names:
         print(row)
+```
 
+```python
 # blacklist names
 
 blacklist_names = ['Rachel']

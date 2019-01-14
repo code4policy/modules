@@ -9,8 +9,8 @@ raw_date = "2017-01-11"
 date_format = "%Y-%m-%d"
 
 parsed_date = datetime.datetime.strptime(raw_date, date_format)
-
-print(parsed_date.strftime("%x")) # 01/11/17
+date_str = parsed_date.strftime("%m/%d/%y") # 01/11/17
+print(date_str)
 ```
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
@@ -18,3 +18,7 @@ print(parsed_date.strftime("%x")) # 01/11/17
 1. Set a variable birthday = "1-May-12".
 2. Parse the date using datetime.datetime.strptime.
 3. Use strftime to output a date that looks like "5/1/2012".
+
+Warning! Excel can make dates really weird. Beware: https://github.com/Quartz/bad-data-guide#spreadsheet-has-dates-in-1900-1904-1969-or-1970
+
+Excel has has other weird quirks like having a maximum number of characters per cell or maximum number of rows etc. If you open a CSV in excel and save it, make sure you open it in a text editor once to make sure you didn't lose any data or it didn't do anything unexpected.

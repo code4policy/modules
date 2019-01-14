@@ -23,14 +23,18 @@ for car in cars:
         cars_by_make[make] = [car]
 
 pprint(cars_by_make)
+```
 
-# {'Honda': [{'make': 'Honda', 'model': 'Civic'}],
-#  'Tesla': [{'make': 'Tesla', 'model': 'Model 3'}],
-#  'Toyota': [{'make': 'Toyota', 'model': 'Yaris'},
-#             {'make': 'Toyota', 'model': 'Auris'},
-#             {'make': 'Toyota', 'model': 'Camry'},
-#             {'make': 'Toyota', 'model': 'Prius'}]}
+```python
+{'Honda': [{'make': 'Honda', 'model': 'Civic'}],
+ 'Tesla': [{'make': 'Tesla', 'model': 'Model 3'}],
+ 'Toyota': [{'make': 'Toyota', 'model': 'Yaris'},
+            {'make': 'Toyota', 'model': 'Auris'},
+            {'make': 'Toyota', 'model': 'Camry'},
+            {'make': 'Toyota', 'model': 'Prius'}]}
+```
 
+```python
 number_of_cars_by_make = {}
 for car in cars:
     make = car['make']
@@ -46,7 +50,6 @@ pprint(number_of_cars_by_make)
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-1. Use excel to add a column `color` to `vegtables.csv`.
-2. Read `vegtables.csv` into a variable called `vegtables`.
-3. Group `vegtables` by `color` as a variable `vegtables_by_color`.
-4. Output `vegtables_by_color` into a json called `vegtables_by_color.json`.
+1. Read `vegtables.csv` into a variable called `vegtables`.
+2. Group `vegtables` by `color` as a variable `vegtables_by_color`.
+3. Output `vegtables_by_color` into a json called `vegtables_by_color.json`.
