@@ -40,3 +40,26 @@ Output:
  'Toyota': [{'color': 'red', 'make': 'Toyota', 'model': 'Yaris'},
             {'color': 'red', 'make': 'Toyota', 'model': 'Auris'}]}
 ```
+
+### Read/Write JSON from STDIN/STDOUT
+
+Read From STDIN
+```python
+#!/usr/bin/env python3
+
+import sys
+import json
+
+# read data from STDIN
+input_str = sys.stdin.read()
+
+# parse data as a json
+data = json.loads(input_str)
+```
+
+Transform data...
+
+Write `data` to stdout.
+```
+json.dump(data, sys.stdout, indent=4)
+```
