@@ -7,7 +7,7 @@ This snippet opens a file in read only mode and uses the csv module to instantia
 ```python
 import csv
 
-with open('myfile.csv') as f:
+with open('myfile.csv', 'r') as f:
     reader = csv.DictReader(f)
     rows = list(reader)
 
