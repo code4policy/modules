@@ -18,16 +18,6 @@ For very long or very wide CSV files, you can pipe the output of `csvlook` into 
 curl -s 'https://raw.githubusercontent.com/fivethirtyeight/data/master/alcohol-consumption/drinks.csv' | csvlook | less
 ```
 
-## `grep`
-
-`grep` can be used to filter any text document. It is most useful for data formats where each line of text is a single record (like a csv).
-
-This example looks filters down the Alcohol Consumption to just Germany.
-
-```bash
-curl -s 'https://raw.githubusercontent.com/fivethirtyeight/data/master/alcohol-consumption/drinks.csv' | grep 'Germany'
-```
-
 ## `csvgrep`
 
 Note how `grep` leaves out the header of the CSV. As part of csvkit, there's a version of grep specific to csvs: `csvgrep`. This allows 1) to grep the contents of a single column and 2) to view the header after grepping.
