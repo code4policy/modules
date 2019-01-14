@@ -36,6 +36,17 @@ Note how `grep` leaves out the header of the CSV. As part of csvkit, there's a v
 curl -s 'https://raw.githubusercontent.com/fivethirtyeight/data/master/alcohol-consumption/drinks.csv' | csvgrep -c 'country' -m France
 ```
 
+## `in2csv`
+
+`in2csv` is a data conversion tool built into CSVKit. 
+https://csvkit.readthedocs.io/en/1.0.2/scripts/in2csv.html
+
+```
+curl -s "https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json" | in2csv -f json -k members
+```
+
+Note how you have to specify a toplevel key.
+
 ## `jq`
 
 `jq` is a Command-line JSON processor. Here are a few examples using the [superheroes.json](https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json) dataset.
