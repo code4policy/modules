@@ -2,6 +2,8 @@
 
 We can use `for` loops, `if` statements, and `dicts` to group data.
 
+### Example 1
+
 ```python
 from pprint import pprint
 
@@ -25,6 +27,8 @@ for car in cars:
 pprint(cars_by_make)
 ```
 
+This should output:
+
 ```python
 {'Honda': [{'make': 'Honda', 'model': 'Civic'}],
  'Tesla': [{'make': 'Tesla', 'model': 'Model 3'}],
@@ -33,6 +37,8 @@ pprint(cars_by_make)
             {'make': 'Toyota', 'model': 'Camry'},
             {'make': 'Toyota', 'model': 'Prius'}]}
 ```
+
+### Example 2
 
 ```python
 number_of_cars_by_make = {}
