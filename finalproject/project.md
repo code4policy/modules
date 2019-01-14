@@ -72,7 +72,7 @@ In addition to telling a coherent story across the site, one way to give your si
 
 Some teams may chose to bring this consistency by focusing more on the CSS, others may focus more on having a coherent narrative structure. Some teams may decide to do both (which will get you more points). Regardless of how you chose to demonstrate consistency, the website should show that you've been working as a team to build a unified product.
 
-### Chart Copy
+### Visualizations
 
 One additional note about visualizing data in charts. Often a descriptive title and subtitle of the chart (or as we journalists say a "Hed" and "Dek") can go a long way to effectively communicating either the purpose or the content of the data that you are visualizing. The "Hed" can be more describe the narrative you're hoping the reader will focus on while the "Dek" might be a more detailed explanation of the nature of the data itself. If you are looking for inspiration for heds and deks, just browse some articles at http://fivethirtyeight.com or your reputable news site of choice and focus on their charts.
 
