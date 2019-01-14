@@ -41,7 +41,9 @@ Output:
             {'color': 'red', 'make': 'Toyota', 'model': 'Auris'}]}
 ```
 
-### Piping smaller files together
+## Piping smaller files together
+
+If you're overwhelmed by large python files, you can split up the work into steps and pipe them together. To do this, you'll need to read from STDIN and write to STDOUT in each step.
 
 Read From STDIN
 ```python
@@ -55,11 +57,11 @@ input_str = sys.stdin.read()
 
 # parse data as a json
 data = json.loads(input_str)
-```
 
-Transform data...
+##########################
+# DO SOME TRANSFORMATION #
+##########################
 
-Write `data` to stdout.
-```
+# Write data to stdout.
 json.dump(data, sys.stdout, indent=4)
 ```
