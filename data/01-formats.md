@@ -17,29 +17,81 @@ Skim through this article: https://fileinfo.com/help/binary_vs_text_files
 
 A simple format that can be viewed in excel. Really easy to see in text editor, contains only one table.
 
+This is what a csv looks like. The first line is the headers and each line there after is a row where the columns are separated by a comma.
+
+```
+date,close
+22-Jan-17,46
+22-Jan-17,45
+23-Jan-17,45
+24-Jan-17,42.1
+24-Jan-17,46
+24-Jan-17,57
+25-Jan-17,42.3
+25-Jan-17,36
+26-Jan-17,42.6
+```
+
+When you open this in excel, the table will end up looking like this:
+
+| date      | close |
+| --------- | ----- |
+| 22-Jan-17 |  46.0 |
+| 22-Jan-17 |  45.0 |
+| 23-Jan-17 |  45.0 |
+| 24-Jan-17 |  42.1 |
+| 24-Jan-17 |  46.0 |
+| 24-Jan-17 |  57.0 |
+| 25-Jan-17 |  42.3 |
+| 25-Jan-17 |  36.0 |
+| 26-Jan-17 |  42.6 |
+
 ### TSV (Tab Separated Values)
 
 Same as CSV, but separates values with tabs rather than commas, can also be opened in excel.
 
+This is what a TSV looks like. Note how the commas are replaced with the tab character.
+
+```
+date	close
+22-Jan-17	46
+22-Jan-17	45
+23-Jan-17	45
+24-Jan-17	42.1
+24-Jan-17	46
+24-Jan-17	57
+25-Jan-17	42.3
+25-Jan-17	36
+26-Jan-17	42.6
+```
+
+The table will render in the same way as the CSV in excel.
+
 ### JSON (JavaScript Object Notation)
 
-Another great Mozilla [tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
-
-![](https://www.evernote.com/shard/s150/sh/90cf283d-4adc-4f6f-aeaf-c8f2660d13c7/793cabb9f194996b/res/62dd9784-077a-45ee-8b47-c23054e2cc59/skitch.png?resizeSmall&width=832)
-source: http://stackoverflow.com/questions/4310315/what-exactly-is-json
-
-Example JSON:
-https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json
-
-[Some insane diagrams](http://www.json.org/) that tell you exactly what is valid JSON.
-
-[Validate JSON](http://pro.jsonlint.com/) by pasting into this tool (or many other "linters") online. They will display the data properly and tell you if its valid JSON or not. If it is not valid, you might have trouble reading it into a programming language.
-
-There are also lots of [chrome extensions](https://chrome.google.com/webstore/search/json?hl=en&_category=extensions) to help format json automatically when your browser encounters it. My favorite one (JsonView) apparently has a serious security vulnerability, so DO NOT download it, you can try any of the other ones here though. I've had success with this one  [https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)
+We'll dig into this momentarily.
 
 ### XML (eXtensible Markup Language)
 
-We will talk eXtensively about this later- let me know if you have some XML data to extract.
+XML is an older data format that started in the late 1990's. It uses the idea of a "tree" to represent data. If you're familar with HTML (hypertext markup language), XML is a superset of HTML. Instead of having a defined set of "tags" such as `body`, `head` `title`, etc. XML allows one to define their own arbitrary tags.
+
+For example, in the snippet below, we have a tag defined as `note`. Each `note` contains `to`, `from`, `heading`, and `body`.
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<note>
+  <to>Tove</to>
+  <from>Jani</from>
+  <heading>Reminder</heading>
+  <body>Don't forget me this weekend!</body>
+</note>
+```
+
+If we wanted to represent a "list", we just put the same tag multiple times. For example, if we wanted the above note to be for multiple people, we could add an additional `to` tag within the `note`.
+
+These days, JSON is much more popular than XML. However, you may still run into XML data in the wild since it reigned supreme for decades.
+
+Here is an example of the House of Representatives providing data via XML: https://xml.house.gov/
 
 ### PDF (Portable Document Format)
 
@@ -62,19 +114,3 @@ On macOS, install Tabula by running `brew cask install tabula`.
 - Demo: Unzip roster.xlsx with Unarchiver
 
 https://github.com/unitedstates/congress-legislators
-
-## CSV to JSON
-
-Much easier than JSON to CSV, lots of tools to do that. Lets explore why...
-
-https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=+csv+to+json
-
-## JSON to CSV
-
-More difficult than going the other way around.
-
-https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=JSON+to+CSV
-
-Lots of default tools to help you do this conversion, many of them work differently so if one doesn't work, try another.
-
-Also, before you drop data into a converter tool, you may have to remove junk/metadata and simplify the JSON.
