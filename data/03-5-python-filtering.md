@@ -10,10 +10,12 @@ rows = [
 ]
 
 # filter to age < 37
-
+millenials = []
 for row in rows:
     if row['age'] < 37:
-        print(row)
+        millenials.append(row)
+
+print(millenials)
 ```
 
 ```python
