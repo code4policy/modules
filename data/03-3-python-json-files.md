@@ -65,27 +65,46 @@ Here is an example set of steps:
 2. Write a header to the CSV file
 3. Loop over the members, and for each member write a row to the csv file
 
-<!--
-TODO
 The output should look like this:
 
 ```
-name, age, secretIdentity, powers, squadName, homeTown, formed, secretBase, active
-"Molecule Man",29,"Dan Jukes",
-"Madame Uppercut",39,"Jane Wilson",
-"Eternal Flame",1000000,"Unknown"
+name,age,secretIdentity,powers,squadName,homeTown,formed,secretBase,active
+Molecule Man,29,Dan Jukes,"['Radiation resistance', 'Turning tiny', 'Radiation blast']",Super hero squad,Metro City,2016,Super tower,True
+139
+Madame Uppercut,39,Jane Wilson,"['Million tonne punch', 'Damage resistance', 'Superhuman reflexes']",Super hero squad,Metro City,2016,Super tower,True
+152
+Eternal Flame,1000000,Unknown,"['Immortality', 'Heat Immunity', 'Inferno', 'Teleportation', 'Interdimensional travel']",Super hero squad,Metro City,2016,Super tower,True
 ```
 
-```python
-import json
+HINT: Powers will need to be transformed from a list to a string. You could use `str(powers)` to do this.
 
-with open('superheroes.json', 'r') as f:
-    data = json.load(f)
+
+<!--
+
+import csv
+import sys
+import json
+import requests
+
+data = requests.get('https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json').json()
+
+writer = csv.writer(sys.stdout)
+
+writer.writerow([
+    'name', 'age', 'secretIdentity',
+    'powers', 'squadName', 'homeTown',
+    'formed', 'secretBase', 'active'])
 
 for row in data['members']:
-    print(row[])
-```
+    writer.writerow([
+        row['name'], row['age'], row['secretIdentity'],
+        str(row['powers']),
+        data['squadName'],
+        data['homeTown'],
+        data['formed'],
+        data['secretBase'],
+        data['active']
+    ])
 
 -->
 
-HINT: Powers will need to be transformed from a list to a string. You could use `str(powers)` to do this.
