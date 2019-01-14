@@ -59,11 +59,15 @@ Write a python program that
 
 The table should look like:
 
-```
-name, color, len
-eggplant, purple, 8
-...
-```
+name | color
+-----|-------
+eggplant | purple
+tomato | red
+corn | yellow
+okra | green
+arugula | green
+broccoli | green
+
 
 hints:
 
