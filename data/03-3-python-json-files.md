@@ -67,14 +67,12 @@ Here is an example set of steps:
 
 The output should look like this:
 
-```
-name,age,secretIdentity,powers,squadName,homeTown,formed,secretBase,active
-Molecule Man,29,Dan Jukes,"['Radiation resistance', 'Turning tiny', 'Radiation blast']",Super hero squad,Metro City,2016,Super tower,True
-139
-Madame Uppercut,39,Jane Wilson,"['Million tonne punch', 'Damage resistance', 'Superhuman reflexes']",Super hero squad,Metro City,2016,Super tower,True
-152
-Eternal Flame,1000000,Unknown,"['Immortality', 'Heat Immunity', 'Inferno', 'Teleportation', 'Interdimensional travel']",Super hero squad,Metro City,2016,Super tower,True
-```
+| name            |       age | secretIdentity | powers                                                                                  | squadName        | homeTown   | formed | secretBase  | active |
+| --------------- | --------- | -------------- | --------------------------------------------------------------------------------------- | ---------------- | ---------- | ------ | ----------- | ------ |
+| Molecule Man    |        29 | Dan Jukes      | ['Radiation resistance', 'Turning tiny', 'Radiation blast']                             | Super hero squad | Metro City |  2,016 | Super tower |   True |
+| Madame Uppercut |        39 | Jane Wilson    | ['Million tonne punch', 'Damage resistance', 'Superhuman reflexes']                     | Super hero squad | Metro City |  2,016 | Super tower |   True |
+| Eternal Flame   | 1,000,000 | Unknown        | ['Immortality', 'Heat Immunity', 'Inferno', 'Teleportation', 'Interdimensional travel'] | Super hero squad | Metro City |  2,016 | Super tower |   True |
+
 
 HINT: Powers will need to be transformed from a list to a string. You could use `str(powers)` to do this.
 
