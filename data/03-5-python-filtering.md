@@ -22,22 +22,24 @@ print(millenials)
 # filter whitelist names
 
 cool_people = []
-cool_names = ['Rachel', 'Phoebe']
+whitelist = ['Rachel', 'Phoebe']
 for row in rows:
-    if row['name'] in cool_names:
+    if row['name'] in whitelist:
         cool_people.append(row)
 
 print(cool_people)
 ```
 
 ```python
-cool_people2 = []
-uncool_names = ['Monica']
-for row in rows:
-    if row['name'] not in uncool_names:
-        cool_people2.append(row)
+# filter blacklist names
 
-print(cool_people2)
+cool_people = []
+blacklist = ['Monica']
+for row in rows:
+    if row['name'] not in blacklist:
+        cool_people.append(row)
+
+print(cool_people)
 ```
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
