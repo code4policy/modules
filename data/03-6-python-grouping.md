@@ -50,8 +50,12 @@ for car in cars:
         number_of_cars_by_make[make] = 1
 
 pprint(number_of_cars_by_make)
+```
 
-# {'Honda': 1, 'Tesla': 1, 'Toyota': 4}
+This should output:
+
+```python
+{'Honda': 1, 'Tesla': 1, 'Toyota': 4}
 ```
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
