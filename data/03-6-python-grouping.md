@@ -2,18 +2,18 @@
 
 We can use `for` loops, `if` statements, and `dicts` to group data.
 
-### Example 1
+### Example 1: Grouping
 
 ```python
 from pprint import pprint
 
 cars = [
-    {"model": "Yaris", "make": "Toyota"},
-    {"model": "Auris", "make": "Toyota"},
-    {"model": "Camry", "make": "Toyota"},
-    {"model": "Prius", "make": "Toyota"},
-    {"model": "Civic", "make": "Honda"},
-    {"model": "Model 3", "make": "Tesla"},
+    {"model": "Yaris", "make": "Toyota", "color": "red",},
+    {"model": "Auris", "make": "Toyota", "color": "red",},
+    {"model": "Camry", "make": "Toyota", "color": "green",},
+    {"model": "Prius", "make": "Toyota", "color": "yellow",},
+    {"model": "Civic", "make": "Honda", "color": "red",},
+    {"model": "Model 3", "make": "Tesla", "color": "red",},
 ]
 
 cars_by_make = {}
@@ -38,7 +38,7 @@ This should output:
             {'make': 'Toyota', 'model': 'Prius'}]}
 ```
 
-### Example 2
+### Example 2: Grouping and Counting
 
 ```python
 number_of_cars_by_make = {}
