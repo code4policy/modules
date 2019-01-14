@@ -7,7 +7,7 @@ This snippet opens a file in read only mode and uses the csv module to instantia
 ```python
 import csv
 
-with open('myfile.csv') as f:
+with open('myfile.csv', 'r') as f:
     reader = csv.DictReader(f)
     rows = list(reader)
 
@@ -22,7 +22,7 @@ You can also open a TSV file in the same manner by passing the `delimeter` argum
 ```python
 import csv
 
-with open('myfile.tsv') as f:
+with open('myfile.tsv', 'r') as f:
     reader = csv.DictReader(f, delimeter='\t')
     rows = list(reader)
 
