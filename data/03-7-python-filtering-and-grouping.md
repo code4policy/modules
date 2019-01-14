@@ -41,7 +41,7 @@ Output:
             {'color': 'red', 'make': 'Toyota', 'model': 'Auris'}]}
 ```
 
-### Read/Write JSON from STDIN/STDOUT
+### Piping smaller files together
 
 Read From STDIN
 ```python
