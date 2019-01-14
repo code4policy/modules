@@ -82,8 +82,3 @@ non-us
 Github and Hiring
 
 * https://blog.jcoglan.com/2013/11/15/why-github-is-not-your-cv/
-
-### Notes
-
-We will be using git and github every day for the remainder of the class. If you feel that you need to reinforce the learning from today to make sure that goes smoothly for you, consider rehashing the [git](git) lessons, or trying out a third party tutorial. I've found [git-it](http://jlord.us/git-it/) and GitHub's "[try git](https://try.github.io/)" useful.
-
