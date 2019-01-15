@@ -3,7 +3,7 @@
 ![](../assets/lostatsea.jpg)<br/>
 So you feel lost at git.
 
-### What should you do when you open up your terminal?
+### What should you do when you open up a git repo in your terminal?
 
 * Check to see what branch you're on: <br/>
   `git branch -v`
@@ -20,6 +20,26 @@ So you feel lost at git.
 ![](../assets/gitstatus.png)
 
 * Unstaged changes since your last commit will appear in red. Staged changes will appear in green. In general it's good practice to clean up your workspace when you are done for the day. Try to keep your git workspace tidy and commit all of your changes before finishing up for the day.
+
+### What should you do when you want to change branches?
+
+* Check to see what branch you are on and what other branches are available:
+`git branch -v`
+
+* Check your workspace to see if you have any changes to commit:
+`git status`
+
+* If you have any uncommited changes, stage and commit them:
+`git add <file>` or `git add *` to add all unstaged changes
+`git commit -m <YOUR WONDERFUL COMMIT MESSAGE>`
+
+* If you have any changes you don't want to commit you can also "stash" them away. This will undo any changes you've made to modified files:
+`git stash <file>` or `git stash *` to stash all changes
+
+* You can later recover those changes by running `git stash pop` which will apply any changes to files you stashed away to your current branch. This will "pop" off changes in the reverse order that you stashed them. Meaning the last changes you stashed will be the first one that will applied when you run `git stash pop`. See here for more details on [Git Stash](https://www.atlassian.com/git/tutorials/saving-changes/git-stash).
+
+* Now that you're workspace is clean. You should be able to change branches (i.e. to master):
+`git checkout <branch name>`
 
 ### So you're ready to push up your local changes to your remote (GitHub), what should you do?
 
