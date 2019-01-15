@@ -66,10 +66,6 @@ Now you can push up your changes: <br/>
 
 It could be your local branch isn't tracking a remote
 
-
-
-
-
 ## Other Useful Resources
 * [Github GIT Cheatsheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 * [Oh Shit, Git!](https://github.com/AlJohri/DAT-DC-12/blob/master/notebooks/intro-git.ipynb)
