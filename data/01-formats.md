@@ -92,6 +92,7 @@ If we wanted to represent a "list", we just put the same tag multiple times. For
 These days, JSON is much more popular than XML. However, you may still run into XML data in the wild since it reigned supreme for decades.
 
 Here is an example of the House of Representatives providing data via XML: https://xml.house.gov/
+Or a more international standard: http://www.akomantoso.org/?page_id=25
 
 ### PDF (Portable Document Format)
 
