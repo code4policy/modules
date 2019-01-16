@@ -1,13 +1,19 @@
+## Hanging out in the Network Tab
 
-## Examples
+### Simple Website
 
+Simple request to your simple website.
+[https://dmil.github.io/dhrumil-simple-website/](https://dmil.github.io/dhrumil-simple-website/)
+
+### Investigations
 [http://money.cnn.com/2015/01/21/technology/security/obamacare-website-advertisers/](http://money.cnn.com/2015/01/21/technology/security/obamacare-website-advertisers/)
 
 [https://www.eff.org/deeplinks/2015/01/healthcare.gov-sends-personal-data](https://www.eff.org/deeplinks/2015/01/healthcare.gov-sends-personal-data)
 
 [https://fivethirtyeight.com/features/fandango-movies-ratings/](https://fivethirtyeight.com/features/fandango-movies-ratings/)
 
-### Hanging out in the Network Tab
+
+### Finding Data
 
 - https://news.gallup.com/poll/113980/Gallup-Daily-Obama-Job-Approval.aspx
 - http://polling.reuters.com/#!response/CP3_2/type/week/dates/20180301-20190115/collapsed/true
@@ -45,11 +51,6 @@ Des Moines Register
 http://data.desmoinesregister.com/iowa-caucus/candidate-tracker/data/visits_all.json?cb=1547625985504
 -->
 
-Simple request to your simple website.
-[https://dmil.github.io/dhrumil-simple-website/](https://dmil.github.io/dhrumil-simple-website/)
-
-Modifying a facebook profile picture.
-
 Making the Ad Go Away on FiveThirtyEight
 
 ```javascript
@@ -62,11 +63,6 @@ for (el of document.getElementsByClassName('fivethirtyeight-sidebar-ad')) {
 }
 ```
 
-Modifying CSS
-
-Modifying JavaScript
-
-
 ### Cookies
 
 Types of Cookies
@@ -76,9 +72,6 @@ Types of Cookies
 Check out the cookies on a website.
 
 https://www.dccourts.gov/cco/maincase.jsf
-
-### Poll
-intercom.io
 
 ### Not a cookie, but interesting
 https://www.propublica.org/about/pixelping
