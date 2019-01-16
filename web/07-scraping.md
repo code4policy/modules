@@ -44,10 +44,13 @@ while True:
     index_soup = get_soup(url)
     posts += parse_index(index_soup)
 
+    # check if load more button exists
     button = index_soup.select('.load-more__button a')
     if button:
+        # get url from the load more button
         url = "https://publicpool.kinja.com/" + button[0].get('href')
     else:
+        # exit the loop if we reached the last page
         break
 
 with open('index.json', 'w') as f:
@@ -67,6 +70,7 @@ def get_soup(url):
 def parse_post(soup):
     return {
         'subject': soup.select('h1.headline a')[0].text,
+        # extract text out of all child elements
         'body': soup.select('div.entry-content')[0].get_text(separator='\n'),
         'timestamp': soup.select('article time')[0].get('datetime'),
     }
@@ -94,6 +98,7 @@ def get_soup(url):
 def parse_post(soup):
     return {
         'subject': soup.select('h1.headline a')[0].text,
+        # extract text out of all child elements
         'body': soup.select('div.entry-content')[0].get_text(separator='\n'),
         'timestamp': soup.select('article time')[0].get('datetime'),
     }
@@ -114,6 +119,7 @@ while True:
     index_soup = get_soup(url)
     links = parse_index(index_soup)
 
+    # loop through links of posts on current page
     for link in links:
         print(link)
         post_soup = get_soup(link)
