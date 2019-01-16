@@ -1,6 +1,6 @@
 # Project
 
-Please find below a description of expectations for your final project.
+Please find below a description of expectations for your final project. There are two parts - product and process.
 
 ## Product
 
@@ -22,10 +22,12 @@ Find a visualization that does a good job explaining to the reader the point you
 - http://christopheviau.com/d3list/gallery.html
 - https://github.com/d3/d3/wiki/Gallery
 
+In addition to modifying the data, I am asking that you make at least one small modification to the demo code provided to you. It can be something as simple as modifying a color, or something more ambitious if you chose.
+
 
 ### Your Dataset
 
-We're **not** going to have a proper "back end" server that pulls from a database and serves up an API. Rather, you will find a dataset and place it in a folder within your repository.
+We're **not** going to have a proper "back end" server that pulls from a database and serves up an API. Rather, you will find a dataset and place it in a folder within your repository. The "back end" code should be separate from the "front end" code, you can keep it in a separate folder called "data".
 
 For each dataset you should have:
 
@@ -33,21 +35,9 @@ For each dataset you should have:
 - a `README.md` or `README.txt` file with a link to the original data source and an explanation about how you transformed the original data into the final format you needed. If you've done the transformation using a python script, just uplaod that script (no need to document). If you used some other means, please document your data transformation process in the README file. It should be a step by step explanation, not just one pithy sentence like "I transformed the data with excel".
 - a copy of the final data which will be consumed by the visualization
 
-Remember, sometimes you might be able to tell a better story by filtering the data down to an interesting subset rather than visualizing all of it.
+Remember, sometimes you might be able to tell a better story by filtering the data down to an interesting subset rather than visualizing all of it. Refer back to the "Data Driven Storytelling" lecture [https://slides.com/dhrumilmehta/deck-dcee62b7-28ae-4199-8d47-4ceba73739aa-5-7#/1](https://slides.com/dhrumilmehta/deck-dcee62b7-28ae-4199-8d47-4ceba73739aa-5-7#/1) for tips on possible ways to tell a good data-drven story.
 
-### Chosing a visualizaiton
-
-You can find example D3 visualizations at the following places, but I'd also encourage you to google around. They're all over the internet!
-
-- http://bl.ocks.org/mbostock (Mike Bostock created D3JS, these are his examples)
-- http://bl.ocks.org/ (same website, examples by different people)
-- https://d3js.org/
-- http://christopheviau.com/d3list/gallery.html
-- https://github.com/d3/d3/wiki/Gallery
-
-In addition to modifying the data, I am asking that you make at least one small modification to the demo code provided to you. It can be something as simple as modifying a color, or something more ambitious if you chose.
-
-### File Structure
+### Code Organization / Cleanliness
 
 The front end will contain HTML, CSS, and JavaScript. I will expect each component to be in a separate file.
 
@@ -57,9 +47,12 @@ Your code should also be organized in a meaningful way. One example would be Moz
 
 Another possible structure is the one you see in this example repo: 
 
-* https://github.com/dmil/example-project
+* https://github.com/dmil/example-frontend
+* https://github.com/dmil/example-frontend-2/
 
 You're welcome to use a different file structure, but there should be some consistancy in the way your files are named and organized. Try to make sure that URL's are meaningful in the context of your application, and also that it is clear from the filenames which page each CSS, JavaScript, and data files map to which HTML files. Also, feel free to serve your entire application in either one page, or on multiple pages with links or buttons to navigate between them.
+
+Well commented code will get more points! Feel free to write as many comments in as many places in the code as you'd like. Explain things as you understand them better (or leave notes if something works but you don't understand it).
 
 #### Developing Locally
 
@@ -75,9 +68,11 @@ Then you can view your page as you're building it by typing into the address bar
 
 Try to bring together the website into one cohesive whole. Each person may have worked on different parts of the website, but I am hoping you can learn to give the entire site a consistent look and feel.
 
+In addition to telling a coherent story across the site, one way to give your site a consistent look and feel is to put all the CSS in one file and have some CSS selectors that apply to the whole site, and others that apply only to particular charts on the site. Refer back to the lessons on correctly using "id" and "class" selectors to avoid conflicting CSS.
+
 Some teams may chose to bring this consistency by focusing more on the CSS, others may focus more on having a coherent narrative structure. Some teams may decide to do both (which will get you more points). Regardless of how you chose to demonstrate consistency, the website should show that you've been working as a team to build a unified product.
 
-### Chart Copy
+### Visualizations
 
 One additional note about visualizing data in charts. Often a descriptive title and subtitle of the chart (or as we journalists say a "Hed" and "Dek") can go a long way to effectively communicating either the purpose or the content of the data that you are visualizing. The "Hed" can be more describe the narrative you're hoping the reader will focus on while the "Dek" might be a more detailed explanation of the nature of the data itself. If you are looking for inspiration for heds and deks, just browse some articles at http://fivethirtyeight.com or your reputable news site of choice and focus on their charts.
 
@@ -97,13 +92,10 @@ Kudos if you manage to get all of that into the chart itself. If not, you may wr
 
 Remember to keep your processes agile. This means you team will value:
 
-**Individuals and interactions** over processes and tools
-
-**Working software** over comprehensive documentation
-
-**Customer collaboration** over contract negotiation
-
-**Responding to change** over following a plan
+- **Individuals and interactions** over processes and tools
+- **Working software** over comprehensive documentation
+- **Customer collaboration** over contract negotiation
+- **Responding to change** over following a plan
 
 ### Roles
 Appoint a scrum master, a project owner, and team members.
@@ -111,6 +103,16 @@ Appoint a scrum master, a project owner, and team members.
   * The product-owner is in charge of documenting progress on your scrum board in trello every day.
   * The scrum master is in charge of documenting standup meetings.
   * Team members (and the scrum master and product owner) will collaborate using GitHub to build the project together.
+
+### Trello Boards
+
+Your Trello should contain 3 boards:
+
+- Sprint 1
+- Sprint 2
+- User Stories 
+
+The User Stories board will contain all the stories that you didn't get to ordered roughly from smallest to largest with the smaller ones more fleshed out (definitions of done + INVEST). The sprint boards will contain the user stories you took on during that sprint and columns for TODO, DOING, BLOCKED, and DONE.
 
 ### Daily Scrum Meeting
 
@@ -123,7 +125,10 @@ Remember, one of the twelve principles of agile development is:
 
 Since Agile development prioritizes individuals and interactions over processes and tools, and highly values face to face conversations, the scrum meeting should be either in person or via video conference - you may elect to use Slack if scheduling becomes difficult, but that is the least preferred method. If you think video conferences are not working, you can make a quick pivot to in-person meetings.
 
-Please add the notes from each scrum meeting into your "process" submission. If you haven't taken notes, please at least document the date and time of each meeting along with whether it was in-person, on skype, or via slack.
+Please document the date and time of each daily standup meeting for your "process" submission along with whether it was in-person, on skype, or via slack. I should see activity on trello during that time. As you say what you did since the last meeting and what you intend to do before the next meeting move the cards to the appropriate column in the board.
+
+The scrum master will note down the number of points completed at the end of each meeting.
+
 
 ### User Stories
 
@@ -166,49 +171,70 @@ In addition to one of each per team member, as a team please agree on one thing 
 
 Process
 
-* Maintain an active [task board](https://www.mountaingoatsoftware.com/agile/scrum/scrum-tools/task-boards) on Trello. Your user stories will be on this board as well.
-* You will submit a "burn down" or a "burn up" chart with how many "points" you accomplished each day as a team
-* Maintain a record of your collaboration on GitHub using social features such as commenting on one another's code, recording problems with github issues, or leaving notes when merging branches and approving pull requests. Alternatively, if you're meeting regularly in person and discussing these issue, you can just let me know that. I should also be able to see that you're using branches in a meaninful way when I look through your git history.
-* If you're not meeting in person, I would also expect that your project group would have an active slack channel.
-* Some kind of record of your "standup" meetings (perhaps the scrum-master's notes about blockers) along with the date and time of each meeting and whether it was in person, on video chat, or using slack.
-* A record of your retrospective (each team-members suggestions on what to start, stop, and change in the next sprint) along with a note about **one** thing you've agreed on as a team to start, stop, and change.
+* Link to Trello [task boards](https://www.mountaingoatsoftware.com/agile/scrum/scrum-tools/task-boards) for SPRINT 1, SPRINT 2
+* Link to USER STORIES board (for any additional user stories)
+* Link to a record of standup meetings including burndown for each sprint. Something like this:
+
+	Date/Time | Type | Points | Remaining | Total
+	----------|------|---------------|------------|------
+	Jan 1 4pm | In Person | 40 | 60 | 100
+	Jan 2 3:30 pm | Skype | 55 | 57 | 112
+	Jan 3 10am | In Person | 70 | 42 | 112
+	Jan 4 12pm | Slack | 90 | 22 | 112
+	Jan 5 8pm | In Person | 110 | 2 | 112
+	
+	If you're not meeting in person, I would also expect that your project group would have an active slack channel.
+
+* Completed retrospective google form
 
 Product
 
-* original source data, transformation steps (or python script), and final data that your visualization consumes
 * A link to your final project rendered on GitHub pages
-* A note from each team member as to what, if anything, they modified in their visualization of choice (beyond switching out the dataset)
-
-(If you want to make the README.md files look nice, just take a look at the raw code behind the file you're currently reading)
+* A "data" or "backend" folder containing original source data, transformation steps (or python script), and final data that your visualization consumes for each dataset
+* A completed final project reflection from each student (these will be graded individually - a google form will be sent out).
 
 ## Submitting the Project
 
-When you're ready to submit the project, please create a new github issue in your repository called "Ready for Review" with links to all of the items in the checklist.
+When you're ready to submit the project, please create a new github issue in your repository called "Ready for Review".
 
-In your team's slack channel, post a link, to that issue and mention @dhrumil letting me know that the project is submitted and ready for my review. Once I've recieved that note from you, I may start grading the project. Please note that the projects are due by midnight of **Monday Jan 15**.
+In your team's slack channel, post a link, to that issue and mention @dhrumil letting me know that the project is submitted and ready for my review. Once I've recieved that note from you, I may start grading the project. Please note that the projects are due by midnight of **Sunday Jan 20**.
 
 Please **let me know** if you think your team needs more time and won't be able to meet the originally set due date so that I know when to expect a submission.
 
 ## Grading
 
-Your project will be worth 50% of your grade, that will be divided as follows
+Your project will be worth 40% of your grade, that will be divided as follows
 
-* 15% process
-* 35% product
+* 10% process
+	* Sprint Review (2x)
+	* Trello Boards (2x sprints, 1x user story backlog)
+	* Burndown Charts (2x)
+	* Collaboration on GitHub
+* 30% product
+	* Frontend
+		* Working software
+			* well defined user stories
+			* working software that meet the user needs
+		* Narrative Structure / Coherence 
+		* Visualizations
+		* Code organization/cleanliness
+		* Demonstrate understanding or experimentation through code comments
+	* Backend
+		* Data transformation (scripted or documented)
+		* Clean and organized
 
 The rest of your grade for the course will be:
 
 * 20% in class assignments
-* 30% participation (participation during class assignments and discussions, participation on GitHub, Slack, and Trello)
-
+* 40% participation (participation during class assignments and discussions, homework assignments, participation on GitHub, Slack, and Trello)
 
 ## Availability
 
-I am on campus at least Saturday and Sunday and available to meet either in person or via video chat. My office is in "Belfer Lobby 2A" which is located to the right of the Belfer entrance (although you may have to use a different entrance to the building on weekends). Just shoot me a message on slack letting me know you're coming in case I'm wandering around Harvard Square or at a nearby cafe and I can arrange to meet you there or can help remotely via Slack.
+I am on campus at least Friday and Saturday and available to meet either in person or via video chat. My office is in "Belfer Lobby 2A" which is located to the right of the Belfer entrance (although you may have to use a different entrance to the building on weekends). Just shoot me a message on slack letting me know you're coming in case I'm wandering around Harvard Square or at a nearby cafe and I can arrange to meet you there or can help remotely via Slack.
 
 ## Course Evaluations
 
-You should have received an email about the course evaluations, they are accessible through the [canvas page for this class](https://canvas.harvard.edu/) and are **due on Thursday Jan 25**. This is the second time this module was offered at HKS and a fairly new curriculum. Your honest feedback will be particularly important both in helping me understand how to best iterate on the course as well as helping the Kennedy School better understand the role of technical education in the curriculum. Please take some time to thoughtfully fill out the course evaluation, your feedback is of particular importance in the context of this module.
+You should have received an email about the course evaluations, they are accessible through the [canvas page for this class](https://canvas.harvard.edu/) and are **due on January 31**. This is the third time this module was offered at HKS and a fairly new curriculum. Your honest feedback will be particularly important both in helping me understand how to best iterate on the course as well as helping the Kennedy School better understand the role of technical education in the curriculum. Please take some time to thoughtfully fill out the course evaluation.
 
 ## Final Note
 

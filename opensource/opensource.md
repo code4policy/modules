@@ -1,6 +1,6 @@
 # Homework
 
-On the last day of class (Jan 12) Seamus Kraft, Director of the [OpenGov Foundation](https://www.opengovfoundation.org/) and an advocate for open source technology and transparancy in congress, will be skyping in from Washington DC. Seamus was one of the voices that helped to [convince congress to adopt open source technology](http://congressionaldata.org/open-source-software-now-permitted-in-the-u-s-house-of-representatives-2/). You will be debating Seamus on why congress should be adopting open source software. Seamus will be playing the role of a member of congress (or a congressional staffer) who is skeptical of open source software, bringing up the many arguments that he has encountered as to why open source ought not be allowed. Depending on how we feel we can make it a more informal discussion, however I would still like for you to be well read on the topic you chose going into this discussion.
+On the last day of class Seamus Kraft, Director of the [OpenGov Foundation](https://www.opengovfoundation.org/) and an advocate for open source technology and transparancy in congress, will be skyping in from Washington DC. Seamus was one of the voices that helped to [convince congress to adopt open source technology](http://congressionaldata.org/open-source-software-now-permitted-in-the-u-s-house-of-representatives-2/). You will be debating Seamus on why congress should be adopting open source software. Seamus will be playing the role of a member of congress (or a congressional staffer) who is skeptical of open source software, bringing up the many arguments that he has encountered as to why open source ought not be allowed. Depending on how we feel we can make it a more informal discussion, however I would still like for you to be well read on the topic you chose going into this discussion.
 
 ## Assignment 
 
@@ -20,7 +20,7 @@ As you're reading, please contribute to the slack channel corresponding to the t
 
 ## Artifacts
 
-1. Discussion on Slack - Lets try to have a discussion on Slack about the topic area you've selected. For this assignment, if Slack turns into just a list of comments rather than a discussion, that's fine too. Before the debate/discussion, you and the other people who have selected that subject area can review the points that everyone made in the slack channel and pick the most interesting or convincing ones to talk to Seamus about.
+After having done some research and reading for an hour or longer, have a discussion on Slack (in the channel you've signed up for #opensource-cost, #opensource-ethics, #opensource-maintain, or #opensource-security) about the topic area you've selected. Post at least one comment of your own, and respond to at least one other person's comment in a meaningful way (I will read these responses so make sure you're engaging thoughtfully and contributing to a better understanding of the topic area). Discuss the advantages and disadvantages of open source software, particularly as it pertains to your topic area. Before the debate/discussion, you and the other people who have selected that subject area can review the points that everyone made in the slack channel and pick the most interesting or convincing ones to talk to Seamus about.
 
 ## Reading List
 What is open source?
@@ -78,12 +78,3 @@ non-us
 * http://meity.gov.in/content/free-and-open-source-software
 * https://timreview.ca/article/130
 * https://www.wired.com/2013/04/openstack-india/
-
-Github and Hiring
-
-* https://blog.jcoglan.com/2013/11/15/why-github-is-not-your-cv/
-
-### Notes
-
-We will be using git and github every day for the remainder of the class. If you feel that you need to reinforce the learning from today to make sure that goes smoothly for you, consider rehashing the [git](git) lessons, or trying out a third party tutorial. I've found [git-it](http://jlord.us/git-it/) and GitHub's "[try git](https://try.github.io/)" useful.
-
