@@ -1,33 +1,12 @@
 
 # Setup
 
-1. Install google chrome and download the following chrome extensions:
-
-	* [SelectorGadget](https://chrome.google.com/webstore/detail/selectorgadget/mhjhnkcfbdhnjickkkdbjoemdmbfginb)
-	* [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US)
-
-2. Install SourceTree (Mac Only)
-
-	```
-	brew cask install sourcetree
-	```
-	Also available for Windows at https://www.sourcetreeapp.com/, but not available for Ubuntu.
-
-3. Feedback form - please fill this out. It will help me figure out what needs to be reinforced and how each group is doing.
-
-	https://goo.gl/forms/JFy3cJamiLtZUOKt2
-
-## Setup 2 (TODO: MERGE)
-
 1. Install these Chrome Extensions.
 
 	You should have these from yesterday:
 
 	* [SelectorGadget](https://chrome.google.com/webstore/detail/selectorgadget/mhjhnkcfbdhnjickkkdbjoemdmbfginb)
 	* [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US)
-
-	These new ones from today:
-
 	* [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)
 	* [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=en)
 	* [Regex Search](https://chrome.google.com/webstore/detail/regex-search/bcdabfmndggphffkchfdcekcokmbnkjl?hl=en)
