@@ -63,6 +63,12 @@ for (el of document.getElementsByClassName('fivethirtyeight-sidebar-ad')) {
 }
 ```
 
+Make the Header Red
+
+```javascript
+document.querySelector('h1.header-global-logo').style.backgroundColor = 'red';
+```
+
 ### Cookies
 
 Types of Cookies
