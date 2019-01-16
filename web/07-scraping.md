@@ -2,12 +2,6 @@
 
 **Dependencies**: `pip3 install requests beautifulsoup4`
 
-## Find the Data
-
-- https://news.gallup.com/poll/113980/Gallup-Daily-Obama-Job-Approval.aspx
-- http://polling.reuters.com/#!response/CP3_2/type/week/dates/20180301-20190115/collapsed/true
-- http://data.desmoinesregister.com/iowa-caucus/candidate-tracker/index.php
-
 ## Scrape Press Pool Reports
 
 https://kinja.com/poolreports
