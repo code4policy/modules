@@ -127,7 +127,7 @@ https://www.crunchbase.com/person/mark-zuckerberg/
 
 #### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-1. Browse the FEC website ([https://beta.fec.gov/](https://beta.fec.gov/)) (formerly "https://beta.fec.gov", now  https://fec.gov) and identify all the "Resources"
+1. Browse the FEC website ([https://fec.gov/](https://fec.gov/)) (formerly "https://beta.fec.gov", now  https://fec.gov) and identify all the "Resources"
 
 2. Open the network tab and see all the requests that the website is making when you land on a page. Notice how when you get each page, it makes a request to the FEC API? Maybe you can find some additional resources.
 
