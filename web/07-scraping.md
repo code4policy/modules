@@ -96,29 +96,24 @@ def parse_post(soup):
     }
 
 def parse_index(soup):
-    post_elements = soup.select('.post-wrapper article')
-    posts = []
-    for el in post_elements:
-        post = {
-            'id': el.get('id'),
-            'subject': el.select('h1 a')[0].text,
-            'link': el.select('h1 a')[0].get('href')
-        }
-        posts.append(post)
-    return posts
+    link_elements = soup.select('.post-wrapper article h1 a')
+    links = []
+    for el in link_elements:
+        link = el.get('href')
+        links.append(link)
+    return links
 
 url = 'https://kinja.com/poolreports?startTime=1492123377164'
 
 while True:
     print(url)
     index_soup = get_soup(url)
-    posts = parse_index(index_soup)
+    links = parse_index(index_soup)
 
-    for post in posts:
-        post_soup = get_soup(post['link'])
-        final_post = parse_post(post_soup)
-        final_post.update(post)
-        print(final_post)
+    for link in links:
+        post_soup = get_soup(link)
+        post = parse_post(post_soup)
+        print(post)
 
     button = index_soup.select('.load-more__button a')
     if button:
@@ -126,4 +121,3 @@ while True:
     else:
         break
 ```
-
