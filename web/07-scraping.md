@@ -15,6 +15,7 @@ https://kinja.com/poolreports
 #### Scrape Index
 
 ```python
+import json
 import requests
 from bs4 import BeautifulSoup
 from pprint import pprint as pp
@@ -37,17 +38,20 @@ def parse_index(soup):
 
 url = 'https://kinja.com/poolreports?startTime=1492123377164'
 
+posts = []
 while True:
     print(url)
     index_soup = get_soup(url)
-    posts = parse_index(index_soup)
-    pp(posts)
+    posts += parse_index(index_soup)
 
     button = index_soup.select('.load-more__button a')
     if button:
         url = "https://publicpool.kinja.com/" + button[0].get('href')
     else:
         break
+
+with open('index.json', 'w') as f:
+    json.dump(posts, f)
 ```
 
 #### Scrape Post
@@ -55,7 +59,6 @@ while True:
 ```python
 import requests
 from bs4 import BeautifulSoup
-from pprint import pprint as pp
 
 def get_soup(url):
     response = requests.get(url)
@@ -80,9 +83,9 @@ print(post['body'])
 #### Scrape Index and Post
 
 ```python
+import json
 import requests
 from bs4 import BeautifulSoup
-from pprint import pprint as pp
 
 def get_soup(url):
     response = requests.get(url)
@@ -105,19 +108,27 @@ def parse_index(soup):
 
 url = 'https://kinja.com/poolreports?startTime=1492123377164'
 
+posts = []
 while True:
     print(url)
     index_soup = get_soup(url)
     links = parse_index(index_soup)
 
     for link in links:
+        print(link)
         post_soup = get_soup(link)
         post = parse_post(post_soup)
-        print(post)
+        posts.append(post)
 
+    # check if load more button exists
     button = index_soup.select('.load-more__button a')
     if button:
+        # get url from the load more button
         url = "https://publicpool.kinja.com/" + button[0].get('href')
     else:
+        # exit the loop if we reached the last page
         break
+
+with open('posts.json', 'w') as f:
+    json.dump(posts, f)
 ```
