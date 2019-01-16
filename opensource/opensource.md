@@ -78,7 +78,3 @@ non-us
 * http://meity.gov.in/content/free-and-open-source-software
 * https://timreview.ca/article/130
 * https://www.wired.com/2013/04/openstack-india/
-
-Github and Hiring
-
-* https://blog.jcoglan.com/2013/11/15/why-github-is-not-your-cv/
