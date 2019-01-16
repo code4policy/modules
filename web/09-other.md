@@ -6,11 +6,9 @@ Simple request to your simple website.
 [https://dmil.github.io/dhrumil-simple-website/](https://dmil.github.io/dhrumil-simple-website/)
 
 ### Investigations
-[http://money.cnn.com/2015/01/21/technology/security/obamacare-website-advertisers/](http://money.cnn.com/2015/01/21/technology/security/obamacare-website-advertisers/)
-
-[https://www.eff.org/deeplinks/2015/01/healthcare.gov-sends-personal-data](https://www.eff.org/deeplinks/2015/01/healthcare.gov-sends-personal-data)
-
-[https://fivethirtyeight.com/features/fandango-movies-ratings/](https://fivethirtyeight.com/features/fandango-movies-ratings/)
+- [http://money.cnn.com/2015/01/21/technology/security/obamacare-website-advertisers/](http://money.cnn.com/2015/01/21/technology/security/obamacare-website-advertisers/)
+- [https://www.eff.org/deeplinks/2015/01/healthcare.gov-sends-personal-data](https://www.eff.org/deeplinks/2015/01/healthcare.gov-sends-personal-data)
+- [https://fivethirtyeight.com/features/fandango-movies-ratings/](https://fivethirtyeight.com/features/fandango-movies-ratings/)
 
 
 ### Finding Data
@@ -69,7 +67,7 @@ Make the Header Red
 document.querySelector('h1.header-global-logo').style.backgroundColor = 'red';
 ```
 
-### Cookies
+## Cookies
 
 Types of Cookies
 
