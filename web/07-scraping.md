@@ -1,70 +1,129 @@
 # Web 7: Scraping
 
-**Dependencies**: `pip3 install requests lxml cssselect`
+**Dependencies**: `pip3 install requests beautifulsoup4`
 
-## IMDB Top Rated Movies
+## Find the Data
 
-http://www.imdb.com/chart/top
+- https://news.gallup.com/poll/113980/Gallup-Daily-Obama-Job-Approval.aspx
+- http://polling.reuters.com/#!response/CP3_2/type/week/dates/20180301-20190115/collapsed/true
+- http://data.desmoinesregister.com/iowa-caucus/candidate-tracker/index.php
 
-```python
-#!/usr/bin/env python3
+## Scrape Press Pool Reports
 
-import requests
-import lxml.html
+https://kinja.com/poolreports
 
-response = requests.get("http://www.imdb.com/chart/top")
-doc = lxml.html.fromstring(response.content)
-
-for row in doc.cssselect('.lister-list tr'):
-    id = row.cssselect('td.ratingColumn div[data-titleid]')[0].get('data-titleid')
-    title = row.cssselect('td.titleColumn a')[0].text
-    rating = row.cssselect('td.ratingColumn.imdbRating strong')[0].text
-    print(id, title, rating)
-```
-
-### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
-
-Modify the script above to get the
-
-1) year each movie was made and
-2) the number of users that rated the movie
-
-## Twitter
-
-https://twitter.com/DataDhrumil
+#### Scrape Index
 
 ```python
-#!/usr/bin/env python3
-
 import requests
-import lxml.html
+from bs4 import BeautifulSoup
+from pprint import pprint as pp
 
-response = requests.get("https://twitter.com/datadhrumil")
-doc = lxml.html.fromstring(response.content)
+def get_soup(url):
+    response = requests.get(url)
+    return BeautifulSoup(response.text, 'html.parser')
 
-for el in doc.cssselect("div.js-tweet-text-container"):
-    print(el.text_content().strip())
-    print("-------------------------------------")
+def parse_index(soup):
+    post_elements = soup.select('.post-wrapper article')
+    posts = []
+    for el in post_elements:
+        post = {
+            'id': el.get('id'),
+            'subject': el.select('h1 a')[0].text,
+            'link': el.select('h1 a')[0].get('href')
+        }
+        posts.append(post)
+    return posts
+
+url = 'https://kinja.com/poolreports?startTime=1492123377164'
+
+while True:
+    print(url)
+    index_soup = get_soup(url)
+    posts = parse_index(index_soup)
+    pp(posts)
+
+    button = index_soup.select('.load-more__button a')
+    if button:
+        url = "https://publicpool.kinja.com/" + button[0].get('href')
+    else:
+        break
 ```
 
-## SongMeanings
-
-http://songmeanings.com/popular/lyrics/?chart=2018-01-07
+#### Scrape Post
 
 ```python
-#!/usr/bin/env python3
-
 import requests
-import lxml.html
+from bs4 import BeautifulSoup
+from pprint import pprint as pp
 
-response = requests.get("http://songmeanings.com/popular/lyrics/?chart=2018-01-07")
-doc = lxml.html.fromstring(response.content)
+def get_soup(url):
+    response = requests.get(url)
+    return BeautifulSoup(response.text, 'html.parser')
 
-table = doc.cssselect("table[summary]")[0]
-for item in table.cssselect("tbody > tr.item"):
-    cells = item.getchildren()
-    rank = cells[0].text_content().strip()
-    title = cells[1].text_content().strip()
-    margin = cells[2].text_content().strip()
-    print(rank, title, margin)
+def parse_post(soup):
+    return {
+        'subject': soup.select('h1.headline a')[0].text,
+        'body': soup.select('div.entry-content')[0].get_text(separator='\n'),
+        'timestamp': soup.select('article time')[0].get('datetime'),
+    }
+
+url = 'https://publicpool.kinja.com/subject-remarks-by-president-trump-at-the-american-far-1831763583'
+post_soup = get_soup(url)
+post = parse_post(post_soup)
+
+print(post['subject'])
+print(post['timestamp'])
+print(post['body'])
 ```
+
+#### Scrape Index and Post
+
+```python
+import requests
+from bs4 import BeautifulSoup
+from pprint import pprint as pp
+
+def get_soup(url):
+    response = requests.get(url)
+    return BeautifulSoup(response.text, 'html.parser')
+
+def parse_post(soup):
+    return {
+        'subject': soup.select('h1.headline a')[0].text,
+        'body': soup.select('div.entry-content')[0].get_text(separator='\n'),
+        'timestamp': soup.select('article time')[0].get('datetime'),
+    }
+
+def parse_index(soup):
+    post_elements = soup.select('.post-wrapper article')
+    posts = []
+    for el in post_elements:
+        post = {
+            'id': el.get('id'),
+            'subject': el.select('h1 a')[0].text,
+            'link': el.select('h1 a')[0].get('href')
+        }
+        posts.append(post)
+    return posts
+
+url = 'https://kinja.com/poolreports?startTime=1492123377164'
+
+while True:
+    print(url)
+    index_soup = get_soup(url)
+    posts = parse_index(index_soup)
+
+    for post in posts:
+        post_soup = get_soup(post['link'])
+        final_post = parse_post(post_soup)
+        final_post.update(post)
+        print(final_post)
+
+    button = index_soup.select('.load-more__button a')
+    if button:
+        url = "https://publicpool.kinja.com/" + button[0].get('href')
+    else:
+        break
+```
+
