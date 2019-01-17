@@ -116,3 +116,6 @@ for row in data['members']:
 
 -->
 
+**Bonus** 
+
+Write one row per power rather than one row per member.
