@@ -34,8 +34,7 @@ import csv
 
 with open('testwrite.csv', 'r') as f:
     reader = csv.DictReader(f)
-    # Convert Ordered Dict to regular dict (python 3.6 or higher)
-    rows = [dict(row) for rows in reader]
+    rows = [dict(row) for row in reader] # Convert Ordered Dict to regular dict (python 3.6 or higher)
 
 print(rows)
 ```
