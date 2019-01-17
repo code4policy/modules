@@ -34,11 +34,10 @@ import csv
 
 with open('testwrite.csv', 'r') as f:
     reader = csv.DictReader(f)
-    rows = list(reader)
+    # Convert Ordered Dict to regular dict (python 3.6 or higher)
+    rows = [dict(row) for rows in reader]
 
-for row in rows:
-    item = dict(row) # Convert Ordered Dict to regular dict (python 3.6 or higher)
-    print(item)
+print(rows)
 ```
 
 Note that since we have loaded the entire CSV into memory in the variable `rows` we can now put our `for` loop outside of the context manager since we no longer need access to the file, `f`.
