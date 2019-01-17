@@ -3,15 +3,18 @@
 We can use the `datetime` module to parse dates and convert them from one format to another. We will primarily be using the `datetime.datetime.strptime` and `datetime.datetime.strftime` methods. Check http://strftime.org/ for the format string codes.
 
 ```python
-import datetime
+from datetime import datetime
 
 raw_date = "2017-01-11"
 date_format = "%Y-%m-%d"
 
-parsed_date = datetime.datetime.strptime(raw_date, date_format)
+parsed_date = datetime.strptime(raw_date, date_format)
 date_str = parsed_date.strftime("%m/%d/%y") # 01/11/17
 print(date_str)
+
 ```
+
+Its often a good idea to put this conversion into a function if you plan to use it again.
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
