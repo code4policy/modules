@@ -2,7 +2,7 @@
 
 ## Data Transformation Practice
 
-Follow the instructions in this repository's README: https://github.com/dmil/conversions
+Follow the instructions in this repository's README: https://github.com/code4policy/conversions
 
 ## Demo of Jupyter Notebooks
 
