@@ -62,7 +62,7 @@ vegetables = [
 Write a python program that
 
 1. Loops through each vegetable
-2. In the loop, writes the name of each vegetable and the color into a CSV
+2. In the loop, writes the name of each vegetable and the color into a CSV called `vegetables.csv`
 
 	The CSV should look like this:
 	
