@@ -47,4 +47,7 @@ print(cool_people)
 1. Read vegetables.csv into a variable called `vegetables`.
 2. Loop through `vegetables` and filter down to only green vegtables using a whitelist.
 3. Print veggies to the terminal
-4. Bonus: Output another csv called `green_vegetables.csv`.
+4. Write the veggies to a json file called `greenveggies.json`
+
+**Bonus:** 
+Output another csv called `green_vegetables.csv`.
