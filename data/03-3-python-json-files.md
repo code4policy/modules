@@ -86,8 +86,6 @@ The output should look like this:
 | Eternal Flame   | 1,000,000 | Unknown        | ['Immortality', 'Heat Immunity', 'Inferno', 'Teleportation', 'Interdimensional travel'] | Super hero squad | Metro City |  2,016 | Super tower |   True |
 
 
-HINT: Powers will need to be transformed from a list to a string. You could use `str(powers)` to do this.
-
 
 <!--
 
