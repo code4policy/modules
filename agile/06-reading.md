@@ -1,9 +1,9 @@
 # Agile Reading
 
 ## Recommended Reading
+- [Scrum: The Art of Doing Twice the Work in Half the Time](https://www.amazon.com/Scrum-Doing-Twice-Work-Half/dp/038534645X) [Chapter 1] (provided)
 - [Elements of Scrum](https://www.amazon.com/Elements-Scrum-Chris-Sims-ebook/dp/B004O0U74Q/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1546492282&sr=1-2&keywords=elements+of+scrum) [Part I and Part II] 
 	- (Go ahead and read the whole thing if you find yourself interested, its not too long)
-- [Scrum: The Art of Doing Twice the Work in Half the Time](https://www.amazon.com/Scrum-Doing-Twice-Work-Half/dp/038534645X) [Chapter 1]
 
 ## Implementation and procurement of agile-driven projects in the US government
 - Implementation: https://playbook.cio.gov/
@@ -16,7 +16,8 @@
 	- https://blog.newrelic.com/wp-content/uploads/80893.pdf
 	- https://www.theatlantic.com/technology/archive/2015/07/the-secret-startup-saved-healthcare-gov-the-worst-website-in-america/397784/
 	- http://www.nytimes.com/2013/10/25/opinion/getting-to-the-bottom-of-healthcaregovs-flop.html
-- Creation of USDS (our guest speaker will discuss this further)
+- Creation of USDS (our guest speaker David Zvenyach will discuss this further)
+	- https://www.youtube.com/watch?v=3OgsRa7VDtI
 	- https://www.wired.com/2016/07/inside-the-obama-tech-surge-as-it-hacks-the-pentagon-and-va/
 
 ## Additional Resources
@@ -35,4 +36,4 @@
 
 1. Read the recommended reading
 2. Spend some time reading whatever intersets you from the above menu of choices - feel free to go off script and read about anything else tangentially related that you find valuable. If your research takes you to something interesting, send it to your classmates on Slack. Participate in a discussion in slack about any of the topics you've read about. Remember, participation in discussions on slack is required and will be graded.
-3. Write down questions you might have about agile and tech projects in government as you go along. Our guest speakers will be Eric Mill and David Zvenyach, both formerly of 18F, who will discuss running agile teams in government.
+3. Write down questions you might have about agile and tech projects in government as you go along. One of our guest speakers will be David Zvenyach, former executive director of 18F who will discuss running agile teams in government.

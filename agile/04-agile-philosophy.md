@@ -24,7 +24,7 @@ Source: [http://agilemanifesto.org/](http://agilemanifesto.org/)
 * Also found here: [https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/]( https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/)
 
 ### Few additional resources
-* [The cartoon](https://www.tamingdata.com/wp-content/uploads/2010/07/tree-swing-project-management-large.png): Agile helps to prevent this. Continuous delivery and feedback.
+* [The cartoon](http://web.archive.org/web/20190108105432/https://www.tamingdata.com/wp-content/uploads/2010/07/tree-swing-project-management-large.png): Agile helps to prevent this. Continuous delivery and feedback.
 * Agile vs Waterfall: http://www.agilenutshell.com/agile_vs_waterfall
 
 ### An Agile J-Term
