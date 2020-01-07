@@ -62,6 +62,6 @@ https://hansolbach.github.io/frontend/INDEX.html | [github](https://github.com/h
 
 Leave a note in #section_a or #section_b slack channel with an idea for a dataset and/or visualization that you have researched. Check back in on the channel at the end of the day or before class starts to see what your classmates have posted and reply to at least one person in slack (if their post is further up the channel, you can reply with a "thread").
 
-![](https://content.evernote.com/shard/s150/sh/dd6b877b-b7ac-448e-97f2-0667a31a85dc/fd1d6c1de64dc879/res/3a31973c-3017-4183-906e-4e475ede1fff/skitch.png =10x20)
+![](https://content.evernote.com/shard/s150/sh/dd6b877b-b7ac-448e-97f2-0667a31a85dc/fd1d6c1de64dc879/res/3a31973c-3017-4183-906e-4e475ede1fff/skitch.png)
 
 Through the discussion in the Slack chats you should start to get a sense of who you might want to be in a group with. We will finalize groups during the next class.
