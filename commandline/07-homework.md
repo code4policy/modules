@@ -39,32 +39,32 @@ for row in reader:
 
 ### Part 1
 
-1. cd into your assignments directory
-2. save this program as `filter.py`
-3. make the script executable (hint: chmod)
-4. `curl` the 2017 quarter 1 expenditure file from https://projects.propublica.org/congress/assets/staffers/2017Q1-house-disburse-detail.csv and pipe it into `./filter.py`
-	
+1. Read the script above and try and understand what it's doing.
+2. cd into your assignments directory
+3. save this program as `filter.py`
+4. make the script executable (`chmod +x filter.py`)
+5. `curl` the 2017 quarter 1 expenditure file from https://projects.propublica.org/congress/assets/staffers/2017Q1-house-disburse-detail.csv and pipe it into `./filter.py`
+
 	note: you have to use the `-N` flag on `curl`
 	```
 	curl -N "https://projects.propublica.org/congress/assets/staffers/2017Q1-house-disburse-detail.csv" | ./filter.py
 	```
 
-5. redirect the output into a file `expensive_water.csv`
-6. pipe `expensive_water.csv` into `csvstat` and redirect that into a file called `expensive_water_summary.txt`
+6. redirect the output into a file `expensive_water.csv`
+7. pipe `expensive_water.csv` into `csvstat` and redirect that into a file called `expensive_water_summary.txt`
+8. open `expensive_water.csv` in Excel and take a look
+9. open a file called `expensive_water_description.txt`. In your own words, in a few sentences, explain what you've just done.
 
 ### Part 2
 
-1. Modify the above program to get another subset of the data that is interesting to you.
-2. Redirect the output to a file called `output.csv`.
-3. Write a short description. It can be as short as two sentences.
-4. Put it in a file called `description.txt`.
-5. Slackcat the contents of `descrption.txt` to the `#assignments` slack channel:
-
-	```
-	cat description.txt | slackcat -s -c assignments
-	```
-6. Pipe `output.csv` into `csvstat` and redirect that into a file called `summary.txt`.
-7. You will learn how to submit summary.txt and output.csv via github tomorrow.
+1. cd into your assignments directory
+2. Save this program again, but this time as `filter_modified.py`
+3. Modify the above program to get a different subset of the data that is interesting to you.
+4. Redirect the output to a file called `output.csv`.
+5. Pipe `output.csv` into `csvstat` and redirect that into a file called `summary.txt`.
+6. Look at `output.csv` and `summary.txt`
+7. Write a short description of what you've found out about this subset of data and put it in a file called `description.txt`.
+8. You will learn how to submit summary.txt and output.csv via github during the next class.
 
 ### Hints
 
@@ -73,3 +73,8 @@ for row in reader:
 	- remember the `.` refers to the current directory, so `./filter.py` means run the `filter.py` script that is located in the current directory
 - make sure filter.py has a shebang on top. the shebang is `#!/usr/bin/env python3`. without the shebang, the shell won't know how to execute your script
 - use the 2017 quarter 1 file, quarter 2 might have some issues
+
+
+### Final Thoughts
+
+Try your best to not just complete the assignment, but also understand what you're doing each step of the way.
