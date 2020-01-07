@@ -1,10 +1,10 @@
 # Project Brainstorm
 
-Your project will involve creating a webpage where you visualize one or more datasets in order to tell a story about or make a case for something in your area of policy interest. In order to do this you will need to select one or more datasets and visualizations. Please make sure you have one distinct set of data and one distinct visualization minimum per team member. I ask that each team member contribute one pre-planning exercise. You may not use all of them in your final project, but this will provide you with a few options to start from.
+Your project will involve creating a webpage where you visualize one or more datasets in order to tell a story about or make a case for something in your area of policy interest. In order to do this you will need to select one or more datasets and visualizations. The idea behind this exercise is **not** to develop a vision for product (before you even have any users / user stories), but to start to wrap your head around what might be possible in the scope of this project and to start thinking about datasets that interest you.
 
 ## Find a relevant dataset
 
-http://data.gov is a good place to start, but definitely spend some time surfing around elsewhere for datasets of interest. Depending on the expertise on your team and your level of comfort with different data formats, it may be easiest to look for data that is either in a simple JSON structure or a CSV file.
+http://data.gov is a good place to start, but definitely spend some time surfing around elsewhere for datasets of interest. Depending on the expertise on your team and your level of comfort with different data formats, it may be easiest to look for data that is either in a simple JSON structure or a CSV file. data.fivethirtyeight.com is another place with datasets that may be of interest to some of you.
 
 You may also consider data that has been exposed via an API (we'll discuss these in class), however it may take a little more effort to get data out of an API compared to pre-prepared datasets.
 
@@ -36,7 +36,7 @@ The end goal will be to take the example visualization and manipulate it to fit 
 
 ### Examples
 
-Here are some examples of projects from previous years. I expect that the projects from this year will be a little more polished since you will have much more time than students in previous years did due to the structure of the course. I will also be asking you to think a little harder about telling a coherent narrative with a visualization that makes sense for your particular dataset. Still, looking at previous projects might give you some ideas for your own.
+Here are some examples of projects from previous years. I expect that the projects from this year will be a little more polished since you will have much more time than students in the first year of the course did due to changes in the structure of the course. I will also be asking you to think a little harder about telling a coherent narrative with a visualization that makes sense for your particular dataset. Still, looking at previous projects might give you some ideas for your own.
 
 **2017 examples**
 
@@ -60,7 +60,8 @@ https://hansolbach.github.io/frontend/INDEX.html | [github](https://github.com/h
 
 ## Assignment
 
-Fill out this form. You can either provide one dataset/visualization and flesh out your thinking in a few sentences, or you can provide two with less detail.
-https://docs.google.com/forms/d/1mgaoOdTYlX_8B2zzIgq1vDr0PDMyOI_qcjw7atvj83w/edit
+Leave a note in #section_a or #section_b slack channel with an idea for a dataset and/or visualization that you have researched. Check back in on the channel at the end of the day or before class starts to see what your classmates have posted and reply to at least one person in slack (if their post is further up the channel, you can reply with a "thread").
 
-Leave a note in your project group slack channel with an idea for a dataset and/or visualization that you find interesting. Brainstorm together in your group chat channel so that when you come to class next week, you at least have some ideas bouncing around. At this stage groups should not be deciding anything, just tossing ideas out there and converging on a general theme that all the members would be interested in.
+![](https://content.evernote.com/shard/s150/sh/dd6b877b-b7ac-448e-97f2-0667a31a85dc/fd1d6c1de64dc879/res/3a31973c-3017-4183-906e-4e475ede1fff/skitch.png =10x20)
+
+Through the discussion in the Slack chats you should start to get a sense of who you might want to be in a group with. We will finalize groups during the next class.
