@@ -136,7 +136,7 @@ Within a Repository you have
 6. commit
 	
 	```
-	git commit -m "add day 1 homework"
+	git commit -m "add day 1 class work"
 	git status
 	git log
 	```
