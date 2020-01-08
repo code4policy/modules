@@ -229,10 +229,10 @@ Within a Repository you have
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: cloning and pulling
 
-1. Clone code4policy repository.
+1. Clone code4policy 2020 repository.
 
 	```
-	git clone git@github.com:dmil/code4policy.git
+	git clone https://github.com/code4policy/2020
 	```
 
 2. Dhrumil will now push a commit.
