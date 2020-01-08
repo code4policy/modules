@@ -1,4 +1,4 @@
-# Front-End Stack
+# Front-End Stack (abridged)
 
 We'll be leaning on Mozilla's tutorials to learn the basics of HTML, CSS, and JavaScript. This is your standard front-end stack for the browser.
 
