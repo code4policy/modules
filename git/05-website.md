@@ -16,11 +16,18 @@
 	```html
 	<!DOCTYPE html>
 	<html>
-	<body>
-
-	<h1>Hello World</h1>
-
-	</body>
+		<head>
+			<title>Simple Website</title>
+		</head>
+		<body>
+		
+			<h1>Hello,World</h1>
+			
+			<h2>My First Subheading</h2>
+			
+			<p>My first paragraph.</p>
+		
+		</body>
 	</html>
 	```
 6. Double click on that file to view it in a web browser (you can refresh the page to view it again after you add new code)
@@ -39,42 +46,11 @@ GitHub also doubles as a static web server! If you enable a feature called "[Git
 
 ### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-1. Add a heading (h1, h2) and paragraph (p) tag
-
-	```
-	<!DOCTYPE html>
-	<html>
-	<body>
-	
-	<h1>Hello,World</h1>
-	<h2>My First Subheading</h2>
-	
-	<p>My first paragraph.</p>
-	
-	</body>
-	</html>
-	```
-
-2. Commit this with a meaningful commit message.
-
-	```
-	git status
-	git add index.html
-	git commit -m "add a subhead and a paragraph"
-	git status
-	```
-
-3. Push the code to github.
-
-	```
-	git push
-	```
-
-4. Go to the github repo's settings and under Github Pages choose "master" branch as the source.
+1. Go to the github repo's settings and under Github Pages choose "master" branch as the source.
 
 	![](https://i.imgur.com/8EhdwWM.png)
 
-5. Go to username.github.io/myname-simple-website and you should see the HTML page we created. You might have to wait a minute before it shows up.
+2. Go to username.github.io/myname-simple-website and you should see the HTML page we created. You might have to wait a minute before it shows up.
 
 ## HTML
 
@@ -86,7 +62,7 @@ The promise of HTML was originally to link text pages to one another. So lets do
 
 ### Links
 
-https://www.w3schools.com/tags/tag_a.asp
+[https://www.w3schools.com/tags/tag_a.asp](https://www.w3schools.com/tags/tag_a.asp)
 
 ### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
