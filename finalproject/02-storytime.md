@@ -8,7 +8,7 @@
 ## Getting Started
 
 - Before we start, assign a "product owner" and a "scrum master" in your group.
-- Lets also take a second to brainstorm who the stakeholders are and make a notecard with each (team-member, professor, reader of your website)
+- Take a few moments to brainstorm a list of stakeholders (team-member, professor, reader of your website) and write them down.
 
 ### Setting up GitHub project boards
 
@@ -26,9 +26,9 @@
 
 **Part 1 - Write User Stories**
 
-Talk among your group and start capturing user stories for your project. Its okay if they seem beyond the scope of what you think is possible in two one-week sprints. I anticipate you'll end up with something around 10 or so stories, maybe more. You may not ultimately get to some of these and that's alright. This is an exercise in understanding the users needs, and envisioning what the product could be. Remember, a story is not a contract, it is an invitation to a discussion. 
+Talk among your group and start capturing user stories for your project. Its okay if they seem beyond the scope of what you think is possible in two one-week sprints. Create as many stories as you need to capture what you know about user needs so far, I anticipate you'll end up with at least 10 or so stories, maybe more. You may not ultimately get to building some of these and that's alright. This is an exercise in understanding the users needs, and envisioning what the product could be. Remember, a story is not a contract, it is an invitation to a discussion. 
 
-This isn't just a hokey exerecise you have to do, so don't slack off or settle for bad user stories. This is really a conversation about what the final product will look like. Take each discrete story and put it on a notecard in the "User Stories" column of your "backlog" project board. Here are some examples:
+These should be **real** user-stories that help guide your actual project, not hypothetical ones. They should define what you and your teammates hope to build, so be honest about who your users are. During this first stage your stories don't have to be super refined, we will think more about INVEST and the definitions of done in the next part. Take each discrete story and put it on a notecard in the "User Stories" column of your "backlog" project board. Here are some examples:
 
 > **As a** design student applying for jobs
 >
@@ -52,13 +52,20 @@ This isn't just a hokey exerecise you have to do, so don't slack off or settle f
 > **So that** it is less difficult to coordinate if we're all working on separate pages.
 
 -- 
+
 > **As a** student who cares about my GPA
 >
 > **I want** to make sure the requirements for the project are met and documented
 >
 > **So that** nothing gets left out and we get a good grade in the class.
- 
-These should be **real** user-stories that help guide your  actual project, not hypothetical ones. They should define what you and your teammates hope to build, so be honest about who your users are. During this first stage your stories don't have to be super refined, we will think more about INVEST and the definitions of done in the next part.
+
+-- 
+
+> **As a** creator of an online visualization
+>
+> **I want** to be properly attributed
+>
+> **So that** I don't feel that someone else is taking credit for my work.
 
 
 **Part 2 - Organize and Refine User Stories**
