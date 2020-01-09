@@ -28,7 +28,9 @@
 
 Talk among your group and start capturing user stories for your project. Its okay if they seem beyond the scope of what you think is possible in two one-week sprints. Create as many stories as you need to capture what you know about user needs so far, I anticipate you'll end up with at least 10 or so stories, maybe more. You may not ultimately get to building some of these and that's alright. This is an exercise in understanding the users needs, and envisioning what the product could be. Remember, a story is not a contract, it is an invitation to a discussion. 
 
-These should be **real** user-stories that help guide your actual project, not hypothetical ones. They should define what you and your teammates hope to build, so be honest about who your users are. During this first stage your stories don't have to be super refined, we will think more about INVEST and the definitions of done in the next part. Take each discrete story and put it on a notecard in the "User Stories" column of your "backlog" project board. Here are some examples:
+These should be **real** user-stories that help guide your actual project, not hypothetical ones. They should define what you and your teammates hope to build, so be honest about who your users are. During this first stage your stories don't have to be super refined, we will think more about INVEST and the definitions of done in the next part. Take each discrete story and put it on a notecard in the "User Stories" column of your "backlog" project board. 
+
+Here are some examples:
 
 > **As a** design student applying for jobs
 >
