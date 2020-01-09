@@ -10,10 +10,17 @@
 - Before we start, assign a "product owner" and a "scrum master" in your group.
 - Lets also take a second to brainstorm who the stakeholders are and make a notecard with each (team-member, professor, reader of your website)
 
-### Setting up a Trello board
+### Setting up GitHub project boards
 
-- Everyone in the group should make a trello account and sign in
-- Have the product owner copy the board `T1-User-Stories`, but rename it to use your group number rather than T1 (so for example `A2-User-Stories`)
+- The product owner should create a new GitHub repository where your group project will live (initialize it with a README file). There will only be one repository for the group project and it will live in the product owner's GitHub account.
+- In the "Projects" tab: 
+	- create a project called "Backlog" (don't use a template), and put two columns in that project "`Personas`" and "`User Stories`".
+- In the "Issues" tab:
+	- under "Labels" 
+		- Open up the "labels" and delete all the existing labels
+		- Create a new label called "User Story"
+	- under "Milestones"
+		- create two milestones: SPRINT 1 and SPRINT 2
 
 ## StoryTime Meeting
 
@@ -21,7 +28,7 @@
 
 Talk among your group and start capturing user stories for your project. Its okay if they seem beyond the scope of what you think is possible in two one-week sprints. I anticipate you'll end up with something around 10 or so stories, maybe more. You may not ultimately get to some of these and that's alright. This is an exercise in understanding the users needs, and envisioning what the product could be. Remember, a story is not a contract, it is an invitation to a discussion. 
 
-This isn't just a hokey exerecise you have to do, so don't slack off or settle for bad user stories. This is really a conversation about what the final product will look like. Take each discrete story and put it on a notecard. Here are some examples:
+This isn't just a hokey exerecise you have to do, so don't slack off or settle for bad user stories. This is really a conversation about what the final product will look like. Take each discrete story and put it on a notecard in the "User Stories" column of your "backlog" project board. Here are some examples:
 
 > **As a** design student applying for jobs
 >
