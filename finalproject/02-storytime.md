@@ -28,7 +28,7 @@
 
 Talk among your group and start capturing user stories for your project. Its okay if they seem beyond the scope of what you think is possible in two one-week sprints. Create as many stories as you need to capture what you know about user needs so far, I anticipate you'll end up with at least 10 or so stories, maybe more. You may not ultimately get to building some of these and that's alright. This is an exercise in understanding the users needs, and envisioning what the product could be. Remember, a story is not a contract, it is an invitation to a discussion. 
 
-These should be **real** user-stories that help guide your actual project, not hypothetical ones. They should define what you and your teammates hope to build, so be honest about who your users are. During this first stage your stories don't have to be super refined, we will think more about INVEST and the definitions of done in the next part. Take each discrete story and put it on a notecard in the "User Stories" column of your "backlog" project board. 
+These should be **real** user-stories that help guide your actual project, not hypothetical ones. They should define what you and your teammates hope to build, so be honest about who your users are. During this first stage your stories don't have to be super refined, we will think more about INVEST and the definitions of done in the next part. Take each discrete story and put it in a note in the "User Stories" column of your "backlog" project board. 
 
 Here are some examples:
 
@@ -87,7 +87,8 @@ Here are some examples:
 		
 	Remember, the stories should capture user needs. You don't have to make them too granular since stories will eventually get broken down into tasks.
 
-4. Select the most immediate user stories (probably ones on the smaller end of your list at this point), and make sure they meet I-N-V-E-S-T and have a strong definition of done. Enter them into the top of a trello list called "USER STORIES".
-	1. use a checklist to make sure they meet I-N-V-E-S-T
-	2. add definition of done
-	3. add acceptance criteria / definitions of done
+4. Select the most immediate user stories (probably ones on the smaller end of your list at this point), and convert each one to an "issue". Make sure they meet I-N-V-E-S-T and have a strong definition of done. You only have to do this for a handful of well-defined issues at the top of your stack, not for the ill defined ones at the bottom of the stack. You can deal with those during your next storytime meeting. 
+	1. convert the "note" to an "issue" (you can hit the `...` at the top right side of the card)
+	2. use a checklist to make sure they meet I-N-V-E-S-T
+	3. add one or more definitions of done (this can be text or a checklist)
+	3. 
