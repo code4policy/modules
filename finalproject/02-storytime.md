@@ -91,4 +91,3 @@ Here are some examples:
 	1. convert the "note" to an "issue" (you can hit the `...` at the top right side of the card)
 	2. use a checklist to make sure they meet I-N-V-E-S-T
 	3. add one or more definitions of done (this can be text or a checklist)
-	3. 
