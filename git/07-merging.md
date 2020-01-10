@@ -2,36 +2,57 @@
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-1. 	`cd` into the universe folder and open the directory in sublime as well.
+1. 	`cd` into the `<yourname>-simple-website/` folder and open the directory in sublime as well.
 
 	```
-	cd ~/Development/universe
-	subl ~/Development/universe
+	cd ~/Development/<yourname>-simple-website
+	subl .
 	```
 
 2. Run `git status` to make sure the repository is "clean" (i.e. there are no "untracked files", "unstaged changes", or "staged changes").
 
 3. Run `git pull` to ensure you have the latest changes in the repository.
 
-4. Create a branch called `blue-universe`.
-	1. Modify the facts in `mars.txt` to add a new line "Mars is blue". Use `git diff` to ensure that you only modified that one line and nothing else.
+4. Create a branch called `teal-website`.
+	1. Add the following to the **top** of `styles/styles.css`
+	
+		```css
+		body {
+			background: teal;
+		}
+		```
+	2. Use `git diff` to ensure that you only modified that one thing and nothing else.
 	2. Commit this change to the branch.
 	3. Push the branch.
 	4. Create a pull request but do not merge it.
 
-5. Check out the master branch and then create a new branch called `red-universe`.
-	1. Modify the facts in `mars.txt` to add a new line "Mars is red". Use `git diff` to ensure that you only modified that one line and nothing else.
+5. Check out the master branch and then create a new branch called `orange-website`.
+	1. Add the following to the **top** of `styles/styles.css`
+
+		```css
+		body {
+			background: orange;
+		}
+		```
+	2. Use `git diff` to ensure that you only modified that one thing and nothing else.
 	2. Commit this change to the branch.
 	3. Push the branch.
 	4. Create a pull request but do not merge it.
 
-6. Merge the `red-universe` pull request. Try to merge the `blue-universe` pull request and it should say the branch cannot be automatically merged. This mean's there is a merge conflict.
+6. Merge the `orange-website` pull request. Try to merge the `teal-website` pull request and it should say the branch cannot be automatically merged. This mean's there is a merge conflict.
 
-7. Create a branch called `parallel-universe`.
-	1. Edit `earth.txt` with the text: "There are no people on this planet."
+7. Create a branch called `black-website`.
+	1. Add the following to the **top** of `styles/styles.css`
+
+		```css
+		body {
+			background: orange;
+		}
+		```
+	2. Use `git diff` to ensure that you only modified that one thing and nothing else.
 	2. Commit this change to the branch.
 	3. Push the branch.
-	4. Do not merge this branch back in as this universe runs parallel to the real `universe`...
+	4. Do not merge this branch, we're going to throw away these changes
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
