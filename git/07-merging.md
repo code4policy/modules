@@ -26,7 +26,9 @@
 	3. Push the branch.
 	4. Create a pull request but do not merge it.
 
-5. Check out the master branch and then create a new branch called `orange-website`.
+5. Check out the `master` branch
+
+6. Create a new branch called `orange-website`.
 	1. Add the following to the **top** of `styles/styles.css`
 
 		```css
@@ -39,9 +41,9 @@
 	3. Push the branch.
 	4. Create a pull request but do not merge it.
 
-6. Merge the `orange-website` pull request. Try to merge the `teal-website` pull request and it should say the branch cannot be automatically merged. This mean's there is a merge conflict.
+7. Merge the `orange-website` pull request. Try to merge the `teal-website` pull request and it should say the branch cannot be automatically merged. This mean's there is a merge conflict.
 
-7. Create a branch called `black-website`.
+8. Create a branch called `black-website`.
 	1. Add the following to the **top** of `styles/styles.css`
 
 		```css
