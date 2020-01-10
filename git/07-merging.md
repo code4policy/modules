@@ -46,7 +46,7 @@
 
 		```css
 		body {
-		    background: orange;
+		    background: black;
 		}
 		```
 	2. Use `git diff` to ensure that you only modified that one thing and nothing else.
