@@ -56,7 +56,8 @@
 	3. Push the branch.
 	4. Do not merge this branch, we're going to throw away these changes
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+1. `cd` into your **universe** repository 
 
 1. Make sure the repository is clean and you are in the master branch.
 
@@ -74,7 +75,6 @@
 	3. Create a pull request using `alternative-facts`.
 
 5. Attempt to merge the pull request and try to resolve the merge conflicts.
-
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
