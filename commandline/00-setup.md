@@ -16,7 +16,7 @@ on so you never get lost.
 2. Create the starship configuration file at `~/.config/starship.toml`:
 
     ```bash
-    mkdirp -p ~/.config
+    mkdir ~/.config
     touch ~/.config/starship.toml
     subl ~/.config/starship.toml
     ```
