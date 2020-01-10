@@ -46,40 +46,52 @@ on so you never get lost.
 
 4. Edit your shell profile to enable starship.
 
-    - On macOS 10.15+ (Catalina):
+    <details>
+    <summary>On macOS 10.15+ (Catalina):</summary>
     
+    1. Open `~/.zshrc` using Sublime Text:
     ```bash
     subl ~/.zshrc
     ```
     
-    Add this to the end of the file:
+    2. Then, add this to the end of the file:
 
     ```bash
     eval "$(starship init zsh)"
     ```
+  
+    </details>
 
-    - On macOS 10.14 and lower:
+    <details>
+    <summary>On macOS 10.14 and lower:</summary>
     
-    ```
+    1. Open `~/.bash_profile` using Sublime Text:
+    ```bash
     subl ~/.bash_profile
     ```
-
-    Add this to the end of the file:
+    
+    2. Then, add this to the end of the file:
 
     ```bash
     eval "$(starship init bash)"
     ```
+  
+    </details>
 
-    - On Linux:
+    <details>
+    <summary>On Linux:</summary>
     
+    1. Open `~/.bashrc` using Sublime Text:
     ```bash
     subl ~/.bashrc
     ```
     
-    Add this to the end of the file:
+    2. Then, add this to the end of the file:
 
     ```bash
     eval "$(starship init bash)"
     ```
+  
+    </details>
 
 5. Open a new tab in your Terminal and navigate (`cd`) to a git repository. See the pretty colors!
