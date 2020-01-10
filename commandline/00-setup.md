@@ -58,6 +58,7 @@ on so you never get lost.
     Then, add this to the end of the file:
 
     ```bash
+    export EDITOR="subl --wait"
     eval "$(starship init zsh)"
     ```
 
@@ -75,6 +76,7 @@ on so you never get lost.
     Then, add this to the end of the file:
 
     ```bash
+    export EDITOR="subl --wait"
     eval "$(starship init bash)"
     ```
 
@@ -92,6 +94,7 @@ on so you never get lost.
     Then, add this to the end of the file:
 
     ```bash
+    export EDITOR="subl --wait"
     eval "$(starship init bash)"
     ```
 
