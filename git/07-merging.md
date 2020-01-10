@@ -91,16 +91,34 @@
     git clone git@github.com:XXXXX/demo-website.git
     ```
 
-4. The product owner should create an `index.html` and a an empty folder called `our-team`. Commit and push this change directly to the `master` branch. Here is a sample `index.html`:
+4. The product owner should create an `index.html` and a page called `our-team/index.html`. Commit and push this change directly to the `master` branch. 
+
+	Here is a sample `index.html`:
+	```html
+	<!DOCTYPE html>
+	<html>
+	    <head>
+	        <title>Demo Website</title>
+	    </head>
+	    <body>
+	        <h1>Our Demonstration Website</h1>
+	        <a href='our-team/index.html'>Learn more about our team</a>
+	    </body>
+	</html>
+	```
+
+
+	Here is a sample `our-team/index.html`:
 	
 	```html
 	<!DOCTYPE html>
 	<html>
-	<body>
-
-	<h1>Demo Website</h1>
-
-	</body>
+	    <head>
+	        <title>Demo Website</title>
+	    </head>
+	    <body>
+	        <h1>About Us!</h1>
+	    </body>
 	</html>
 	```
 
@@ -121,24 +139,24 @@
 		3. create a pull request
 	2. Product owner should review and merge all of the PRs. There should be no conflicts.
 
-8. The product owner should create links to each of these individal pages back into the `index.html`.
+8. The product owner should create links to each of these individal pages back into the `our-team/index.html`.
 
 	```html
 	<!DOCTYPE html>
 	<html>
+	<head>
+	    <title>Demo Website</title>
+	</head>
 	<body>
-
-	<h1>Our Website</h1>
-
-	<ul>
-	    <li><a href="our-team/rachel.html">Rachel</a></li>
-	    <li><a href="our-team/monica.html">Monica</a></li>
-	    <li><a href="our-team/phoebe.html">Phoebe</a></li>
-	    <li><a href="our-team/joey.html">Joey</a></li>
-	    <li><a href="our-team/chandler.html">Chandler</a></li>
-	    <li><a href="our-team/ross.html">Ross</a></li>
-	</ul>
-
+	    <h1>About Us!</h1>
+	    <ul>
+	        <li><a href="our-team/rachel.html">Rachel</a></li>
+	        <li><a href="our-team/monica.html">Monica</a></li>
+	        <li><a href="our-team/phoebe.html">Phoebe</a></li>
+	        <li><a href="our-team/joey.html">Joey</a></li>
+	        <li><a href="our-team/chandler.html">Chandler</a></li>
+	        <li><a href="our-team/ross.html">Ross</a></li>
+	    </ul>
 	</body>
 	</html>
 	```
