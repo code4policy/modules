@@ -60,7 +60,7 @@ on so you never get lost.
     If you opened the `bashrc` or `bash_profile`, add the following line:
     
     ```bash
-    eval "$(starship init zsh)"
+    eval "$(starship init bash)"
     ```
 
 6. Open a new tab in your Terminal and navigate (`cd`) to a git repository. See the pretty colors!
