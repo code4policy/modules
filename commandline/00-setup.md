@@ -49,12 +49,12 @@ on so you never get lost.
     <details>
     <summary>On macOS 10.15+ (Catalina):</summary>
     
-    1. Open `~/.zshrc` using Sublime Text:
+    Open `~/.zshrc` using Sublime Text:
     ```bash
     subl ~/.zshrc
     ```
     
-    2. Then, add this to the end of the file:
+    Then, add this to the end of the file:
 
     ```bash
     eval "$(starship init zsh)"
@@ -65,12 +65,12 @@ on so you never get lost.
     <details>
     <summary>On macOS 10.14 and lower:</summary>
     
-    1. Open `~/.bash_profile` using Sublime Text:
+    Open `~/.bash_profile` using Sublime Text:
     ```bash
     subl ~/.bash_profile
     ```
     
-    2. Then, add this to the end of the file:
+    Then, add this to the end of the file:
 
     ```bash
     eval "$(starship init bash)"
@@ -81,12 +81,12 @@ on so you never get lost.
     <details>
     <summary>On Linux:</summary>
     
-    1. Open `~/.bashrc` using Sublime Text:
+    Open `~/.bashrc` using Sublime Text:
     ```bash
     subl ~/.bashrc
     ```
     
-    2. Then, add this to the end of the file:
+    Then, add this to the end of the file:
 
     ```bash
     eval "$(starship init bash)"
