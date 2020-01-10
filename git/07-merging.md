@@ -18,7 +18,7 @@
 	
 		```css
 		body {
-			background: teal;
+		    background: teal;
 		}
 		```
 	2. Use `git diff` to ensure that you only modified that one thing and nothing else.
@@ -31,7 +31,7 @@
 
 		```css
 		body {
-			background: orange;
+		    background: orange;
 		}
 		```
 	2. Use `git diff` to ensure that you only modified that one thing and nothing else.
@@ -46,7 +46,7 @@
 
 		```css
 		body {
-			background: orange;
+		    background: orange;
 		}
 		```
 	2. Use `git diff` to ensure that you only modified that one thing and nothing else.
