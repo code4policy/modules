@@ -48,7 +48,7 @@ on so you never get lost.
 
     <details>
     <summary>On macOS 10.15+ (Catalina):</summary>
-    
+    <p>
     Open `~/.zshrc` using Sublime Text:
     ```bash
     subl ~/.zshrc
@@ -59,12 +59,12 @@ on so you never get lost.
     ```bash
     eval "$(starship init zsh)"
     ```
-  
+    </p>
     </details>
 
     <details>
     <summary>On macOS 10.14 and lower:</summary>
-    
+    <p>
     Open `~/.bash_profile` using Sublime Text:
     ```bash
     subl ~/.bash_profile
@@ -75,12 +75,12 @@ on so you never get lost.
     ```bash
     eval "$(starship init bash)"
     ```
-  
+    </p>
     </details>
 
     <details>
     <summary>On Linux:</summary>
-    
+    <p>
     Open `~/.bashrc` using Sublime Text:
     ```bash
     subl ~/.bashrc
@@ -91,7 +91,7 @@ on so you never get lost.
     ```bash
     eval "$(starship init bash)"
     ```
-  
+    </p>
     </details>
 
 5. Open a new tab in your Terminal and navigate (`cd`) to a git repository. See the pretty colors!
