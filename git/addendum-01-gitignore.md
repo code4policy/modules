@@ -29,6 +29,7 @@ Here is one way to make sure git always ignores the `.DS_Store` file so that you
 	echo ".DS_Store" > .gitignore
 	git add .gitignore
 	git commit -m "make git ignore .DS_Store files"
+	git push
 	```
 	
 That's it. Git will now always ignore the `.DS_Store` file in that repository.
