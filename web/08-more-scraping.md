@@ -1,4 +1,4 @@
-# Web 7: Scraping
+# Web 8: More Scraping
 
 **Dependencies**: `pip3 install requests beautifulsoup4`
 
