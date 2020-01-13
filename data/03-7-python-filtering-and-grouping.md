@@ -41,6 +41,8 @@ Output:
             {'color': 'red', 'make': 'Toyota', 'model': 'Auris'}]}
 ```
 
+If you use Python's [Pandas](https://pandas.pydata.org/) library for data manipulation and analysis instead, the code would look like this: https://gist.github.com/AlJohri/59c9762845519f999eb28fe45276f4c1
+
 ## Piping smaller files together
 
 If you're overwhelmed by large python files, you can split up the work into steps and pipe them together. To do this, you'll need to read from STDIN and write to STDOUT in each step.
