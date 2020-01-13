@@ -106,6 +106,7 @@ On macOS, install Tabula by running `brew cask install tabula`.
 
 ### HTML (Hypertext Markup Language)
 
+- It also uses the idea of a "tree" to represent the structure of contents on a web page.
 - Copy/Paste - try this first, sometimes you can just copy an HTML table and paste directly into excel then save as CSV
 - import.io (and other [similar tools](https://gist.github.com/cassidoo/9b1791a47411dd1253af2e5e8ef7c72a)) is especially good with extracting tables from websites, but can also extract data from other parts of a website using CSS selectors.
 
