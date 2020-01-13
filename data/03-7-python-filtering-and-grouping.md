@@ -1,4 +1,4 @@
-# Data 3-6: Python - Filtering and Grouping
+# Data 3-7: Python - Filtering and Grouping
 
 ```python
 from pprint import pprint
