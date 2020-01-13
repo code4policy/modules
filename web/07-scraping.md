@@ -1,4 +1,4 @@
-# Web 8: More Scraping
+# Web 7: Scraping
 
 **Dependencies**: `pip3 install requests lxml cssselect`
 
