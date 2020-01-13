@@ -74,11 +74,14 @@ while True:
         post = parse_post(post_soup)
         posts.append(post)
 
+    if len(posts) > 100:
+        break
+
     # check if load more button exists
-    button = index_soup.select('.load-more__button a')
+    button = index_soup.select('div.row a.js_link button.button')
     if button:
         # get url from the load more button
-        url = "https://publicpool.kinja.com/" + button[0].get('href')
+        url = "https://publicpool.kinja.com/" + button[0].parent.get('href')
     else:
         # exit the loop if we reached the last page
         break
