@@ -118,7 +118,7 @@ https://github.com/unitedstates/congress-legislators
 
 # Data 1.5: Government Data
 
-- Kirsten's Slides on Government Data
+- Kirsten's Slides on Government Data (slide 50)
 - https://5stardata.info/en/
 - http://opendatahandbook.org/
 
