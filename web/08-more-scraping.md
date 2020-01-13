@@ -18,7 +18,7 @@ def get_soup(url):
 
 def parse_post(soup):
     return {
-        'subject': soup.select('h1.headline a')[0].text,
+        'subject': soup.select('header h1 a')[0].text,
         # extract text out of all child elements
         'body': soup.select('div.entry-content')[0].get_text(separator='\n'),
         'timestamp': soup.select('article time')[0].get('datetime'),
@@ -46,7 +46,7 @@ def get_soup(url):
 
 def parse_post(soup):
     return {
-        'subject': soup.select('h1.headline a')[0].text,
+        'subject': soup.select('header h1 a')[0].text,
         # extract text out of all child elements
         'body': soup.select('div.entry-content')[0].get_text(separator='\n'),
         'timestamp': soup.select('article time')[0].get('datetime'),
