@@ -17,7 +17,7 @@ What D3 is Not
 
 ## Getting Started
 
-Lets grab some code from a basic D3 visualization and get it up and running on a website. We'll use this line chart to start with: https://bl.ocks.org/mbostock/3902569
+Lets grab some code from a basic D3 visualization and get it up and running on a website. We'll use this line chart to start with: https://web.archive.org/web/20161225091855/http://bl.ocks.org/mbostock/3902569
 
 ### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example - Part 1
 
@@ -40,7 +40,7 @@ Lets create a new webpage with a D3 visualization in it. We'll call this `chart-
 	touch data.tsv
 	subl .
 	```
-4. Grab the code from the [example d3 visualization](https://bl.ocks.org/mbostock/3902569) (https://bl.ocks.org/mbostock/3902569) and put it in `index.html`, grab the data and put it in `data.tsv`
+4. Grab the code from the [example d3 visualization](https://web.archive.org/web/20161225091855/http://bl.ocks.org/mbostock/3902569) (observable version: https://observablehq.com/@d3/line-chart-with-tooltip) and put it in `index.html`, grab the data and put it in `data.tsv`
 
 
 5. Now if you run a simple HTTP server, the code will run.
