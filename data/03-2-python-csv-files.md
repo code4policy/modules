@@ -24,9 +24,7 @@ This snippet opens a file in read only mode and uses the csv module to instantia
 
 The DictReader will parse the CSV and return a dictionary for each record where the keys of the dictionary are the header of the csv. 
 
-Then we take all of those dictionaries and put them into a list with `rows = list(reader)`. [^1] 
-
-[^1]: `reader` is what is referred to as an `iterable` in python. Running the `list` function exhausts the iterator and just gives us the contents of the reader as a list.)
+Then we take all of those dictionaries and put them into a list with `rows = list(reader)`. `reader` is what is referred to as an `iterable` in python. Running the `list` function exhausts the iterator and just gives us the contents of the reader as a list.)
 
 
 ```python
@@ -34,6 +32,7 @@ import csv
 
 with open('testwrite.csv', 'r') as f:
     reader = csv.DictReader(f)
+    rows = list(reader)
     rows = [dict(row) for row in reader] # Convert Ordered Dict to regular dict (python 3.6 or higher)
 
 print(rows)
