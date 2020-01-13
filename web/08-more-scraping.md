@@ -20,8 +20,8 @@ def parse_post(soup):
     return {
         'subject': soup.select('header h1 a')[0].text,
         # extract text out of all child elements
-        'body': soup.select('div.entry-content')[0].get_text(separator='\n'),
-        'timestamp': soup.select('article time')[0].get('datetime'),
+        'body': soup.select('div.js_post-content')[0].get_text(separator='\n'),
+        'timestamp': soup.select('main time')[0].get('datetime'),
     }
 
 url = 'https://publicpool.kinja.com/subject-remarks-by-president-trump-at-the-american-far-1831763583'
@@ -48,15 +48,14 @@ def parse_post(soup):
     return {
         'subject': soup.select('header h1 a')[0].text,
         # extract text out of all child elements
-        'body': soup.select('div.entry-content')[0].get_text(separator='\n'),
-        'timestamp': soup.select('article time')[0].get('datetime'),
+        'body': soup.select('div.js_post-content')[0].get_text(separator='\n'),
+        'timestamp': soup.select('main time')[0].get('datetime'),
     }
 
 def parse_index(soup):
-    link_elements = soup.select('.post-wrapper article h1 a')
     links = []
-    for el in link_elements:
-        link = el.get('href')
+    for el in soup.select('main article.js_post_item a.js_link h2'):
+        link = el.parent.get('href')
         links.append(link)
     return links
 
