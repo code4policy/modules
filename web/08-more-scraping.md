@@ -54,7 +54,7 @@ def parse_post(soup):
 
 def parse_index(soup):
     links = []
-    for el in soup.select('main article.js_post_item a.js_link h2'):
+    for el in soup.select('a.js_link h2'):
         link = el.parent.get('href')
         links.append(link)
     return links
