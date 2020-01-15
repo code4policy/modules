@@ -32,10 +32,10 @@ We're **not** going to have a proper "back end" server that pulls from a databas
 For each dataset you should have:
 
 - a copy of the original data in the format you got it in
-- a `README.md` or `README.txt` file with a link to the original data source and an explanation about how you transformed the original data into the final format you needed. If you've done the transformation using a python script, just uplaod that script (no need to document). If you used some other means, please document your data transformation process in the README file. It should be a step by step explanation, not just one pithy sentence like "I transformed the data with excel".
+- a `README.md` or `README.txt` file with a link to the original data source and an explanation about how you transformed the original data into the final format you needed. If you've done the transformation using a python script (or in any other programming language), just uplaod that script -- no need to document. Just comments within the code will be sufficient. If you used some other means, please document your data transformation process in the README file. It should be a step by step explanation, not just one pithy sentence like "I transformed the data with excel".
 - a copy of the final data which will be consumed by the visualization
 
-Remember, sometimes you might be able to tell a better story by filtering the data down to an interesting subset rather than visualizing all of it. Refer back to the "Data Driven Storytelling" lecture [https://slides.com/dhrumilmehta/deck-dcee62b7-28ae-4199-8d47-4ceba73739aa-5-7#/1](https://slides.com/dhrumilmehta/deck-dcee62b7-28ae-4199-8d47-4ceba73739aa-5-7#/1) for tips on possible ways to tell a good data-drven story.
+Remember, sometimes you might be able to tell a better story by filtering the data down to an interesting subset rather than visualizing all of it. Refer back to the ["Making Good Charts" lecture](https://docs.google.com/presentation/d/1tk3kWduR791qut2KFTNWIKlQuk4xrA-bvdIryTQHffE/edit#slide=id.g7c12118c05_0_15) for tips on possible ways to tell a good data-drven story.
 
 ### Code Organization / Cleanliness
 
@@ -104,15 +104,15 @@ Appoint a scrum master, a project owner, and team members.
   * The scrum master is in charge of documenting standup meetings.
   * Team members (and the scrum master and product owner) will collaborate using GitHub to build the project together.
 
-### Trello Boards
+### Project Boards
 
-Your Trello should contain 3 boards:
+Your project should contain 3 boards:
 
 - Sprint 1
 - Sprint 2
-- User Stories 
+- Backlog
 
-The User Stories board will contain all the stories that you didn't get to ordered roughly from smallest to largest with the smaller ones more fleshed out (definitions of done + INVEST). The sprint boards will contain the user stories you took on during that sprint and columns for TODO, DOING, BLOCKED, and DONE.
+The Backlog board will contain all the stories that you didn't get to ordered roughly from smallest to largest with the smaller ones more fleshed out (definitions of done + INVEST). The sprint boards will contain the user stories you took on during that sprint and columns for TODO, DOING, BLOCKED, and DONE.
 
 ### Daily Scrum Meeting
 
@@ -171,7 +171,7 @@ In addition to one of each per team member, as a team please agree on one thing 
 
 Process
 
-* Link to Trello [task boards](https://www.mountaingoatsoftware.com/agile/scrum/scrum-tools/task-boards) for SPRINT 1, SPRINT 2
+* Link to [task boards](https://www.mountaingoatsoftware.com/agile/scrum/scrum-tools/task-boards) for SPRINT 1, SPRINT 2
 * Link to USER STORIES board (for any additional user stories)
 * Link to a record of standup meetings including burndown for each sprint. Something like this:
 
@@ -191,13 +191,14 @@ Product
 
 * A link to your final project rendered on GitHub pages
 * A "data" or "backend" folder containing original source data, transformation steps (or python script), and final data that your visualization consumes for each dataset
-* A completed final project reflection from each student (these will be graded individually - a google form will be sent out).
+* A completed final project **reflection** from each student (these will be graded individually - a google form will be sent out).
+* A completed final project **submission** from each student (these will be graded individually - a google form will be sent out).
 
 ## Submitting the Project
 
 When you're ready to submit the project, please create a new github issue in your repository called "Ready for Review".
 
-In your team's slack channel, post a link, to that issue and mention @dhrumil letting me know that the project is submitted and ready for my review. Once I've recieved that note from you, I may start grading the project. Please note that the projects are due by midnight of **Sunday Jan 20**.
+In your team's slack channel, post a link, to that issue and mention @dhrumil letting me know that the project is submitted and ready for my review. Once I've recieved that note from you, I may start grading the project. Please note that the projects are due by midnight of **Monday Jan 20**.
 
 Please **let me know** if you think your team needs more time and won't be able to meet the originally set due date so that I know when to expect a submission.
 
@@ -230,11 +231,11 @@ The rest of your grade for the course will be:
 
 ## Availability
 
-I am on campus at least Friday and Saturday and available to meet either in person or via video chat. My office is in "Belfer Lobby 2A" which is located to the right of the Belfer entrance (although you may have to use a different entrance to the building on weekends). Just shoot me a message on slack letting me know you're coming in case I'm wandering around Harvard Square or at a nearby cafe and I can arrange to meet you there or can help remotely via Slack.
+I am on campus most of Saturday and Sunday and available to meet either in person or via video chat. I will be in the classroom (R-306). Just shoot me a message on slack letting me know you're coming in case I'm wandering around Harvard Square or at a nearby cafe and I can arrange to meet you there or can help remotely via Slack.
 
 ## Course Evaluations
 
-You should have received an email about the course evaluations, they are accessible through the [canvas page for this class](https://canvas.harvard.edu/) and are **due on January 31**. This is the third time this module was offered at HKS and a fairly new curriculum. Your honest feedback will be particularly important both in helping me understand how to best iterate on the course as well as helping the Kennedy School better understand the role of technical education in the curriculum. Please take some time to thoughtfully fill out the course evaluation.
+You should have received an email about the course evaluations, they are accessible through the [canvas page for this class](https://canvas.harvard.edu/) and are **due on January 31**.  Your honest feedback will be particularly important both in helping me understand how to best iterate on the course as well as helping the Kennedy School better understand the role of technical education in the curriculum. Please take some time to thoughtfully fill out the course evaluation.
 
 ## Final Note
 
