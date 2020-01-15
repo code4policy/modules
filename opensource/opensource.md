@@ -1,29 +1,11 @@
 # Homework
 
-On the last day of class Seamus Kraft, Director of the [OpenGov Foundation](https://www.opengovfoundation.org/) and an advocate for open source technology and transparancy in congress, will be skyping in from Washington DC. Seamus was one of the voices that helped to [convince congress to adopt open source technology](http://congressionaldata.org/open-source-software-now-permitted-in-the-u-s-house-of-representatives-2/). You will be debating Seamus on why congress should be adopting open source software. Seamus will be playing the role of a member of congress (or a congressional staffer) who is skeptical of open source software, bringing up the many arguments that he has encountered as to why open source ought not be allowed. Depending on how we feel we can make it a more informal discussion, however I would still like for you to be well read on the topic you chose going into this discussion.
+Swartz Chapter 7 http://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005
 
-## Assignment 
+## Menu
 
-Spend at least two hours reading selections from the reading list. Some of the selections are required, others are optional. Required selections are marked as such. This should not be the end of your reading, this list is just a place to begin. Once you've done some general reading, you will select a topic area from the topics below, and focus your remaining time drilling into one particular topic.
-
-## Topic Assignment
-
-Please sign yourself up for one of the following groups in this google doc:
-https://docs.google.com/spreadsheets/d/1y_nJtNseCnFV01W2YQ34vYafYOFQkwb3wg9V6McF-zM/edit?usp=sharing
-
-As you're reading, please contribute to the slack channel corresponding to the topic you signed up for:
-
-1. Business Case & Cost (#opensource-cost) - discuss the cost advantages of open source software for a congressional office
-2. Ethics (#opensource-ethics) - discuss the ethics-related issues of adopting open source software for a congressional office
-3. Maintainance (#opensource-maintain)  - discuss the advantages for maintaining software that is open source
-4. Security (#opensource-security) - discuss the security implications of open source software
-
-## Artifacts
-
-After having done some research and reading for an hour or longer, have a discussion on Slack (in the channel you've signed up for #opensource-cost, #opensource-ethics, #opensource-maintain, or #opensource-security) about the topic area you've selected. Post at least one comment of your own, and respond to at least one other person's comment in a meaningful way (I will read these responses so make sure you're engaging thoughtfully and contributing to a better understanding of the topic area). Discuss the advantages and disadvantages of open source software, particularly as it pertains to your topic area. Before the debate/discussion, you and the other people who have selected that subject area can review the points that everyone made in the slack channel and pick the most interesting or convincing ones to talk to Seamus about.
-
-## Reading List
-What is open source?
+* Guide to chosing an open source license
+   * https://choosealicense.com/
 
 * Wikipedias
     * https://en.wikipedia.org/wiki/Open-source_model
@@ -31,15 +13,15 @@ What is open source?
     * https://en.wikipedia.org/wiki/Open-source_software_development#Model
 * Open Source Intro / Philosophy
     * http://www.dreamsongs.com/IHE/IHE-27.html
-    * (**required**) https://opensource.org/osd
+    * https://opensource.org/osd
 * Open vs Free
-    * (**recommended**) https://www.gnu.org/philosophy/open-source-misses-the-point.en.html
+    * https://www.gnu.org/philosophy/open-source-misses-the-point.en.html
     * https://www.ubuntu.com/about/about-ubuntu/our-philosophy
 * DOD
-    * (**required**)http://dodcio.defense.gov/Open-Source-Software-FAQ/#Defining_Open_Source_Software_.28OSS.29
+    * http://dodcio.defense.gov/Open-Source-Software-FAQ/#Defining_Open_Source_Software_.28OSS.29
     * https://hackerone.com/resources/hack-the-pentagon
 * Whitehouse
-    * (**required**)https://www.whitehouse.gov/blog/2016/03/09/leveraging-american-ingenuity-through-reusable-and-open-source-software
+    * https://www.whitehouse.gov/blog/2016/03/09/leveraging-american-ingenuity-through-reusable-and-open-source-software
     * https://sourcecode.cio.gov/
     * https://www.whitehouse.gov/sites/default/files/omb/memoranda/2016/m-16-12_1.pdf
 * HHS
@@ -47,7 +29,7 @@ What is open source?
 * 18F
     * https://18f.gsa.gov/2015/01/16/open-source-for-good-government/
     * https://github.com/18F/open-source-policy/blob/master/policy.md
-    * (**required**)https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/
+    * https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/
 * House
     * http://opengovfoundation.org/open-source-software-now-permitted-in-the-u-s-house-of-representatives/
     * https://www.wired.com/2016/08/open-source-won-now/
@@ -57,7 +39,7 @@ What is open source?
 * Writings of Aaron Swartz
     * http://www.aaronsw.com/weblog/usefultransparency
     * http://crookedtimber.org/2012/07/03/a-database-of-folly/
-    * (**recommended**) Chapter 7 http://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005
+    * Chapter 7 http://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005
 * Ethics
     *  [Senate ethics code of conduct summary - ("gifts" page)](http://www.ethics.senate.gov/public/index.cfm/files/serve?File_id=1aec2c45-aadf-46e3-bb36-c472bcbed20f)
     * [House Ethics - Gifts](https://ethics.house.gov/gifts/house-gift-rule)
@@ -70,11 +52,11 @@ What is open source?
     * https://opengovfoundation.org/why-congressional-technology-spending-matters-and-how-to-improve-the-situation/
 
 
-non-us
+* non-us
 
-* https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable
-* https://www.gov.uk/service-manual/service-standard/make-all-new-source-code-open
-* https://www.gov.uk/service-manual/technology/working-with-open-standards
-* http://meity.gov.in/content/free-and-open-source-software
-* https://timreview.ca/article/130
-* https://www.wired.com/2013/04/openstack-india/
+   * https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable
+   * https://www.gov.uk/service-manual/service-standard/make-all-new-source-code-open
+   * https://www.gov.uk/service-manual/technology/working-with-open-standards
+   * http://meity.gov.in/content/free-and-open-source-software
+   * https://timreview.ca/article/130
+   * https://www.wired.com/2013/04/openstack-india/
