@@ -88,6 +88,12 @@ Each chart should have
 
 Kudos if you manage to get all of that into the chart itself. If not, you may write the parts you weren't able to get into the chart in a little note under the chart. If you chose the latter option, I would expect that chart notes will have a different CSS style that distinguish them from the rest of the text on your page.
 
+### User Centric Design
+
+Finally, a core component of agile software development is keeping the user at the center of the software design process. One of the way we do that is to make user personas and user stories to capture requirements. As such, one of the criteria for grading will be how well the project serves the users as stated in the user stories. Remember though, in this class the product is both a website for your users as well as a learning tool for you. In that sense you are one of the users, and your story can also be captured in the user stories. 
+
+For example: A group may spend a lot of time on the styles for their website if one of their user stories involves showing off their design skills in their portfolio. Another team may have a very spartan website, but have spent their time making lots of modifications to the original JavaScript chart because one of their user stories involves exploring an unfamiliar programming language.
+
 ## Process
 
 Remember to keep your processes agile. This means you team will value:
@@ -100,7 +106,7 @@ Remember to keep your processes agile. This means you team will value:
 ### Roles
 Appoint a scrum master, a project owner, and team members.
 
-  * The product-owner is in charge of documenting progress on your scrum board in trello every day.
+  * The product-owner is in charge of documenting progress on your scrum board every day.
   * The scrum master is in charge of documenting standup meetings.
   * Team members (and the scrum master and product owner) will collaborate using GitHub to build the project together.
 
@@ -125,14 +131,14 @@ Remember, one of the twelve principles of agile development is:
 
 Since Agile development prioritizes individuals and interactions over processes and tools, and highly values face to face conversations, the scrum meeting should be either in person or via video conference - you may elect to use Slack if scheduling becomes difficult, but that is the least preferred method. If you think video conferences are not working, you can make a quick pivot to in-person meetings.
 
-Please document the date and time of each daily standup meeting for your "process" submission along with whether it was in-person, on skype, or via slack. I should see activity on trello during that time. As you say what you did since the last meeting and what you intend to do before the next meeting move the cards to the appropriate column in the board.
+Please document the date and time of each daily standup meeting for your "process" submission along with whether it was in-person, on skype, or via slack. I should see activity on GitHub during that time. As you say what you did since the last meeting and what you intend to do before the next meeting move the cards to the appropriate column in the board.
 
 The scrum master will note down the number of points completed at the end of each meeting.
 
 
 ### User Stories
 
-In your trello board, there should be a list containing user stories in this format:
+In your scrum board, there should be a list containing user stories in this format:
 
 >As a ____
 >
@@ -147,7 +153,7 @@ Your team will hold a sprint-planning meeting at the start of the project period
 
 During the first part of the meeting the team will collectively decide how much they think they can accomplish.
 
-During the second part, you will break the stories down into tasks and put them on a trello board. Everyone on the team will assign tasks to themselves. This will involve a round of scrum "poker".
+During the second part, you will break the stories down into tasks and put them on a scrum board. Everyone on the team will assign tasks to themselves. This will involve a round of scrum "poker".
 
 Most of the tasks on your scrum board will have a number attached to them as a result of this meeting. Those numbers should reflect your progress as a team. You should be keeping track of your "burndown" or "burnup" every day (how many points you've accomplished).
 
@@ -208,7 +214,7 @@ Your project will be worth 40% of your grade, that will be divided as follows
 
 * 10% process
 	* Sprint Review (2x)
-	* Trello Boards (2x sprints, 1x user story backlog)
+	* Scrum Boards (2x sprints, 1x user story backlog)
 	* Burndown Charts (2x)
 	* Collaboration on GitHub
 * 30% product
