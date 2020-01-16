@@ -2,6 +2,8 @@
 
 Swartz Chapter 7 http://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005
 
+Once you've read Swartz Chapter 7 and browsed the links of your chosing from below, please participate in discussion in the #opensource channel on slack.
+
 ## Menu
 
 * Guide to chosing an open source license
