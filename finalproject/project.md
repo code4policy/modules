@@ -47,8 +47,8 @@ Your code should also be organized in a meaningful way. One example would be Moz
 
 Another possible structure is the one you see in this example repo: 
 
-* https://github.com/dmil/example-frontend
-* https://github.com/dmil/example-frontend-2/
+* https://github.com/code4policy/example-frontend
+* https://github.com/code4policy/example-frontend-2/
 
 You're welcome to use a different file structure, but there should be some consistancy in the way your files are named and organized. Try to make sure that URL's are meaningful in the context of your application, and also that it is clear from the filenames which page each CSS, JavaScript, and data files map to which HTML files. Also, feel free to serve your entire application in either one page, or on multiple pages with links or buttons to navigate between them.
 
