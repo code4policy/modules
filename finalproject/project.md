@@ -233,7 +233,7 @@ Your project will be worth 40% of your grade, that will be divided as follows
 The rest of your grade for the course will be:
 
 * 20% in class assignments
-* 40% participation (participation during class assignments and discussions, homework assignments, participation on GitHub, Slack, and Trello)
+* 40% participation (participation during class assignments and discussions, homework assignments, participation on GitHub and Slack)
 
 ## Availability
 
