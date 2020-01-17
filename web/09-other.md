@@ -9,8 +9,11 @@
 
 ### Hanging out in the Network Tab
 
+EXAMPLE
 - https://news.gallup.com/poll/113980/Gallup-Daily-Obama-Job-Approval.aspx
 - http://polling.reuters.com/#!response/CP3_2/type/week/dates/20180301-20190115/collapsed/true
+
+TRY IT
 - http://data.desmoinesregister.com/iowa-caucus/candidate-tracker/index.php
 
 <!--
@@ -77,8 +80,6 @@ Check out the cookies on a website.
 
 https://www.dccourts.gov/cco/maincase.jsf
 
-### Poll
-intercom.io
 
 ### Not a cookie, but interesting
 https://www.propublica.org/about/pixelping
@@ -91,9 +92,3 @@ Tell me everything you can find out about a website from the network tab.
 - technologies the website uses
 - what takes a long time to load / large elements on page
 - local storage
-
-## Quote
-
-![](https://www.evernote.com/shard/s150/sh/ea7383a1-438d-4fba-8706-cd21af484ac6/56e394f2b6f72325/res/300ce791-5f8f-4ec9-b0ad-44b5f4957365/skitch.png?resizeSmall&width=832)
-
-Free to Make: How the Maker Movement is Changing Our Schools, Our Jobs, and Our Minds - by Dale Dougherty
