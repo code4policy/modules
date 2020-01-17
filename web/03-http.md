@@ -50,7 +50,25 @@ You'll read a little more about REST-ful webpages in your homework tonight. For 
 	* I can GET a **resource** or list of resources, or I can **POST** to an **endpoint** which can trigger the creation of a resource.
 	* Any kind of request can be programmed to do any kind of thing (for example POST requests can also trigger scraping in the polls database), but a well formed REST-ful web applicaiton will stick to conventions.
 
-* A source once said to me:
+## A Simple CRUD Application
+
+A source once said to me:
 > The government is just as series of CRUD applications that interact with each other.
 
-* CRUD Apps - "CRUD apps" have four functions: **C**reate **R**ead **U**pdate **D**elete resoures. Understanding the concept of a CRUD app can help you understand REST and HTTP verbs a little better.
+"CRUD apps" have four functions: **C**reate **R**ead **U**pdate **D**elete resoures. Understanding the concept of a CRUD app can help you understand REST and HTTP verbs a little better.
+
+* Back End 
+	* https://github.com/code4policy/simple-crud-app
+* Front End
+	* https://github.com/code4policy/simple-crud-app-frontend
+
+#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+
+Let's spin up a simple CRUD APP!
+
+1. Create an Ubuntu EC2 instance on Amazon Web Services (AWS) and SSH into it
+2. Host the "back end" 
+3. open the INSOMNIA app to make an http GET request to the "back end"
+4. in the INSOMNIA app to make a http POST request to the "back end"
+4. spin up the "front end" locally and point to the new "back end"
+

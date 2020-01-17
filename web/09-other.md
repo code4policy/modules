@@ -1,5 +1,5 @@
 
-## Examples
+## The Network Tab!
 
 [http://money.cnn.com/2015/01/21/technology/security/obamacare-website-advertisers/](http://money.cnn.com/2015/01/21/technology/security/obamacare-website-advertisers/)
 
@@ -70,7 +70,7 @@ Modifying CSS
 Modifying JavaScript
 
 
-### Cookies
+## Cookies
 
 Types of Cookies
 
@@ -84,7 +84,7 @@ https://www.dccourts.gov/cco/maincase.jsf
 ### Not a cookie, but interesting
 https://www.propublica.org/about/pixelping
 
-## Try It
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
 Tell me everything you can find out about a website from the network tab.
 

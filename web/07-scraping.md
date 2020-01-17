@@ -31,7 +31,7 @@ Modify the script above to get the
 
 ## Twitter
 
-https://twitter.com/DataDhrumil
+Scrape: https://twitter.com/DataDhrumil
 
 ```python
 #!/usr/bin/env python3
@@ -57,6 +57,13 @@ Modify the script above to get the
 
 1. number of likes for each tweet
 2. number of replies for each tweet
+
+#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+
+A quick aside....Let's set up this scraper on a cronjob using the `crontab`.
+
+https://crontab.guru/
+
 
 ## SongMeanings
 

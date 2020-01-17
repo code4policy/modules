@@ -27,6 +27,22 @@ There are lots of programs that can resolve a domain name for you, one of those 
 ```
 dig google.com +short
 ```
+
+#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+
+Let's set up a custom domain!
+
+1. In the GitHub repo, create a file called CNAME with the name of the domain
+2. Set up the apex domain name to point to GitHub's servers in Namecheap:
+	
+	https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain
+	
+3. Check that the domain is correct using `dig`
+
+
+
+
+
 ## Routing
 
 Data travels sent over the internet is chopped up and sent in packets. Here is [what an IP packet looks like](https://en.wikipedia.org/wiki/Network_packet#Example:_IP_packets). It has a **header** which contains the metadata and a **payload** which contains the data. Different protocols handle packets differently. For example, some protocols like those you might use to stream video will tolerate packet loss, other protocols like TCP/IP which is used to transmit websites don't).
