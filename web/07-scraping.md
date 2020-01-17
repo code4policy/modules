@@ -26,8 +26,8 @@ for row in doc.cssselect('.lister-list tr'):
 
 Modify the script above to get the
 
-1) year each movie was made and
-2) the number of users that rated the movie
+1. year each movie was made and
+2. the number of users that rated the movie
 
 ## Twitter
 
@@ -42,10 +42,21 @@ import lxml.html
 response = requests.get("https://twitter.com/datadhrumil")
 doc = lxml.html.fromstring(response.content)
 
-for el in doc.cssselect("div.js-tweet-text-container"):
-    print(el.text_content().strip())
-    print("-------------------------------------")
+for tweet in doc.cssselect("div.js-original-tweet"):
+
+	text = tweet.cssselect('.js-tweet-text-container')[0].text_content().strip()
+	retweets = tweet.cssselect('.js-actionRetweet .ProfileTweet-actionCountForPresentation')[0].text_content().strip()
+	print(text)
+	print("retweets = " + retweets)
+	print("-------------------------------------")
 ```
+
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+Modify the script above to get the
+
+1. number of likes for each tweet
+2. number of replies for each tweet
 
 ## SongMeanings
 
@@ -68,3 +79,8 @@ for item in table.cssselect("tbody > tr.item"):
     margin = cells[2].text_content().strip()
     print(rank, title, margin)
 ```
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+1. Scrape the title and lyrics of the following song and print them to the terminal
+
+ - https://songmeanings.com/songs/view/7354/
