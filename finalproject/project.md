@@ -197,8 +197,8 @@ Product
 
 * A link to your final project rendered on GitHub pages
 * A "data" or "backend" folder containing original source data, transformation steps (or python script), and final data that your visualization consumes for each dataset
-* A completed final project **reflection** from each student (these will be graded individually - a google form will be sent out).
-* A completed final project **submission** from each student (these will be graded individually - a google form will be sent out).
+* A completed final project **technical reflection** from each student (these will be graded individually - a google form will be sent out): https://docs.google.com/forms/d/e/1FAIpQLSccCEa2BQe6SfmfAdgWpR9WGIqYU_bswOOKTcFC5DUAHViG2w/viewform
+* A completed **final project reflection** from each student (these will be graded individually - a google form will be sent out).: https://docs.google.com/forms/d/e/1FAIpQLScoFfm1Bc0mnspFZrsz6hkOGEO4fN9I3Lzlq3Ov5Fd50_Xgug/viewform
 
 ## Submitting the Project
 
