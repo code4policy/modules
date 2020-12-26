@@ -36,7 +36,7 @@ A few directories have special symbols:
 Below is an example directory structure from macOS.
 
 ```
-.
+/
 ├── Applications
 └── Users
     └── mehtad
