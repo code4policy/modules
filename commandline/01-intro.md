@@ -19,7 +19,9 @@ Once you become comfortable with the basics, it can be a more powerful way to us
 
 * `<command>` is the action we want the computer to take. This is the program that you are running.
 * `<options>` (or "flags") modify the behavior of the command
-* `<arguments>` (or positional arguments) are the things we want the command to act on. They are the "inputs" to the program that you are running. You can view the manual for a command by typing `man <command>`. Sometimes, you can view a help page by typing `<command> --help`.
+* `<arguments>` (or positional arguments) are the things we want the command to act on. They are the "inputs" to the program that you are running. 
+
+You can view the manual for a command by typing `man <command>`. Sometimes, you can view a help page by typing `<command> --help`.
 
 #### `df`
 
