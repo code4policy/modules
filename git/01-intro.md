@@ -1,11 +1,11 @@
 # Git
 
 > Git (/ɡɪt/[8]) is a version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source code management in software development,[9] but it can be used to keep track of changes in any set of files. As a distributed revision control system it is aimed at speed,[10] data integrity,[11] and support for distributed, non-linear workflows.[12]
-> - Wikipedia
+> -Wikipedia
 
 
 > Git is an open source program for tracking changes in text files.
-> https://help.github.com/articles/github-glossary/
+> -GitHub (https://help.github.com/articles/github-glossary/)
 
 ## What is Git?
 
