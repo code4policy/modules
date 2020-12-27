@@ -1,4 +1,4 @@
-# Git 1: Introduction
+# Git and GitHub 1: Introduction
 
 > Git (/ɡɪt/[8]) is a version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source code management in software development,[9] but it can be used to keep track of changes in any set of files. As a distributed revision control system it is aimed at speed,[10] data integrity,[11] and support for distributed, non-linear workflows.[12]
 > - Wikipedia
@@ -22,11 +22,16 @@ Here are some problems we face as developers, and how git solves them:
 
 Git allows us to make save points at any time. These save points are called 'commits'. Once a save point is made, it's permanent, and allows us to go back to that save point at any time. From there, we can see what the code looked like at that point, or even start building off that version.
 
+![](../assets/commits1.jpg)
+
 #### Keeping track of what each version 'meant'
 
 Every commit has a description (commit message), which allows us to describe what changes were made between the current and previous commit. This is usually a description of what features were added or what bugs were fixed.
 
 Additionally, git supports tagging, which allows us to mark a specific commit as a specific version of our code (e.g. '2.4.5').
+
+![](../assets/commitmessages.jpg)
+
 
 #### Comparing changes to past versions
 
@@ -45,7 +50,39 @@ refactoring (rewriting) existing code. Because git makes it easy to go back to a
 known good state, we can experiment without worrying that we'll be unable to
 undo the experimental work.
 
-## Git, for things other than code
+## Git versus GitHub
+
+* **Git** is a distributed version control system. It is a technology.
+
+	![](../assets/git.png)
+
+* **GitHub** is a social coding platform where git repositories are stored and where people can collaborate on projects. GitHub is great both for collaboration within your organization, but also provides an excellent model for open source collaboration across organizations or with the public. We do both of these here at FiveThirtyEight.
+
+	![](../assets/github.png)
+
+
+* On **GitHub** you can find **Git** repositories. 
+
+	![](../assets/git-notequal-github.png)
+
+Learn More: https://jahya.net/blog/git-vs-github/
+
+## Some Vocabulary
+
+The basics:
+
+* **Git** - version control software
+* **Repository** - a folder containing your files and also containing a structure that helps keep track of changes in those files. When you intialize a repository, git creates a hidden folder (`.git` folder) that stores the changes to those files.
+* **Commit** - the basic unit of a git repository is a commit. It is a set of changes to a file. A commit usually comes with an id as well as a **commit message** that describes the change.
+
+Working with others:
+
+* **GitHub** - a place to host git repositories and collaborate
+* **Local Repository** - the version of a git repository on your local computer
+* **Remote Repository** - the version of a git repository stored somewhere else that your local repository is connected to (frequently on GitHub)
+
+
+## Git and GitHub for things other than code
 * Auditing system for changes on a file
 * For collaboratively editing a text document
 * [For drafting government web design standards!](https://github.com/18F/web-design-standards)
@@ -59,4 +96,3 @@ undo the experimental work.
 	* https://government.github.com/
 	* https://government.github.com/community/
 
-<!-- TODO: integrate stuff from intro.md -->
