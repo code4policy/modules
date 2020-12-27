@@ -18,13 +18,13 @@ Above all else, Git is a fast and **distributed** version control system, that a
 
 Here are some problems we face as developers, and how git solves them:
 
-#### Reverting to past versions
+#### Reverting to past "save points" or commits
 
 Git allows us to make save points at any time. These save points are called 'commits'. Once a save point is made, it's permanent, and allows us to go back to that save point at any time. From there, we can see what the code looked like at that point, or even start building off that version.
 
 ![](../assets/commits1.jpg)
 
-#### Keeping track of what each version 'meant'
+#### Keeping track of what each save point, or commit, 'meant'
 
 Every commit has a description (commit message), which allows us to describe what changes were made between the current and previous commit. This is usually a description of what features were added or what bugs were fixed.
 
@@ -33,7 +33,7 @@ Additionally, git supports tagging, which allows us to mark a specific commit as
 ![](../assets/commitmessages.jpg)
 
 
-#### Comparing changes to past versions
+#### Comparing changes to past save points, or commits
 
 It's often important to see content of the actual changes that were made. This can be useful when:
 
