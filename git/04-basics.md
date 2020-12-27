@@ -1,4 +1,4 @@
-# Git 4: Basics
+# Git: Basics
 
 ## Some Vocabulary
 

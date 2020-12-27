@@ -1,4 +1,4 @@
-# Git 12: Workflow
+# Git: Workflow
 
 ## Overall Workflow
 
