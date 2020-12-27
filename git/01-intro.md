@@ -18,13 +18,13 @@ Above all else, Git is a fast and **distributed** version control system, that a
 
 Here are some problems we face as developers, and how git solves them:
 
-#### Reverting to past "save points" or commits
+#### Reverting to past save points (commits)
 
 Git allows us to make save points at any time. These save points are called 'commits'. Once a save point is made, it's permanent, and allows us to go back to that save point at any time. From there, we can see what the code looked like at that point, or even start building off that version.
 
 ![](../assets/commits1.jpg)
 
-#### Keeping track of what each save point, or commit, 'meant'
+#### Keeping track of what each save point 'meant' (commit messages)
 
 Every commit has a description (commit message), which allows us to describe what changes were made between the current and previous commit. This is usually a description of what features were added or what bugs were fixed.
 
@@ -33,7 +33,7 @@ Additionally, git supports tagging, which allows us to mark a specific commit as
 ![](../assets/commitmessages.jpg)
 
 
-#### Comparing changes to past save points, or commits
+#### Comparing changes to past save points (diff)
 
 It's often important to see content of the actual changes that were made. This can be useful when:
 
@@ -42,6 +42,12 @@ It's often important to see content of the actual changes that were made. This c
 * reviewing code as a team for correctness or quality/style
 
 Git allows us to easily see these changes (called a `diff`) for any given commit.
+
+#### Non-linear workflow (branches)
+
+Git enables you to work using a non-linear workflow. This means that you can have multiple versions of a project or "branches" with different save points, or "commits", simultaneously within the same folder and easily toggle bgttween them. You can split new branches off a project when you're looking to experiment or implement a new feature, and you can merge those branches back into the main (formerly known as "master") branch when you're ready to incorporate them into a project.
+
+![](https://wac-cdn.atlassian.com/dam/jcr:746be214-eb99-462c-9319-04a4d2eeebfa/01.svg?cdnVersion=1386)
 
 #### Fearlessness in making changes
 
