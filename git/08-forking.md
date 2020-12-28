@@ -1,4 +1,4 @@
-# Git 7: Forking
+# Git: Forking
 
 ## Key Terms
 

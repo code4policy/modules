@@ -1,4 +1,4 @@
-# Git 9: Reference
+# Git: Reference
 
 # Getting Started
 
