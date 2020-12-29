@@ -2,6 +2,8 @@
 
 Help! I'm randomly typing git commands into the terminal.
 
+![](images/crying.jpeg)
+
 Ok Ok...lets chill and take a systematic approach to this.
 
 

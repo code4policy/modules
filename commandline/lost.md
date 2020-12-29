@@ -2,6 +2,8 @@
 
 If you find yourself staring blankly at the terminal unsure what to do next, start with the following:
 
+![](lost.jpg)
+
 ## Where am I?
 
 **p**rint **w**orking **d**irectory 
