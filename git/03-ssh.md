@@ -1,4 +1,12 @@
-# Git: SSH and Security
+# Git: SSH and Encryption
+
+In order to write code locally on our computer and be able to push to GitHub (or pull from GitHub) daily without constantly having to enter a username and password each time, we're going to set up SSH keys. 
+
+> SSH keys come in pairs, a public key that gets shared with services like GitHub, and a private key that is stored only on your computer. If the keys match, you're granted access.
+>
+> The cryptography behind SSH keys ensures that no one can reverse engineer your private key from the public one.
+>
+> source: https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html
 
 
 ## Setup
@@ -113,12 +121,6 @@ cat ~/.ssh/id_rsa
 ```
 
 This public and private key pair are mathematically linked. As the name suggests, you can share your **public key** far and wide, but must keep your **private key** safe and secure.
-
-> SSH keys come in pairs, a public key that gets shared with services like GitHub, and a private key that is stored only on your computer. If the keys match, you're granted access.
->
-> The cryptography behind SSH keys ensures that no one can reverse engineer your private key from the public one.
->
-> source: https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html
 
 
 ## Cryptography Basics
