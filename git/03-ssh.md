@@ -92,7 +92,7 @@ The following steps are a simplification of the steps found in [GitHub's documen
 	> provide shell access.
 	```
 
-## Recap: What did we just do?
+### Recap: What did we just do?
 
 We just created a public/private SSH Key pair. There is now a folder on your computer called `.ssh` *(it is a hidden folder, hidden folders have names that start with `.`)*. You can run this command to see the files in that folder.
 
@@ -129,7 +129,7 @@ A system with a public and private key is known as asymmetric encrpytion, or pri
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fNC3jCCGJ0o/0.jpg)](https://www.youtube.com/watch?v=fNC3jCCGJ0o)
 
-## What can you do with cryptographic keys?
+### What can you do with cryptographic keys?
 
 * Share our public key to securely communicate with GitHub (or other services).
 * Use someone else's public key to [encrypt](https://gist.github.com/colinstein/de1755d2d7fbe27a0f1e) and send a message only they can read.
@@ -138,11 +138,11 @@ A system with a public and private key is known as asymmetric encrpytion, or pri
 * Copy a file securely from another computer using secure copy (`scp`).
 * Lots of other things....
 
-## So this is what encryption is all about?
+### So this is what encryption is all about?
 
 Yeah, its a really powerful tool that doesn't require a geeky genius to use.
 
-## Other applications
+### Other applications
 
 * Encrypting Files: https://bjornjohansen.no/encrypt-file-using-ssh-key
 * HTTPS (We'll cover this more in a later lesson)
