@@ -7,8 +7,8 @@ Lesson | Description
 [`02-intro-github.md`](./02-intro-github.md) | Intro to GitHub
 [`03-ssh.md`](./03-ssh.md) | SSH and Encrpytion (an aside)
 [`04-basics.md`](./04-basics.md) | Git and GitHub basics from the commandline
-[`05-website.md`](./05-website.md) | Setting up a simple website
-[`06-branching.md`](./06-branching.md) | Branching
+[`05-website.md`](./05-commandline-git.md) | Using Git from the command line
+[`06-branching.md`](./06-branching.md) | Branching from the command line
 [`07-merging.md`](./07-merging.md) | Merging
 [`08-forking.md`](./08-forking.md) | Forking
 
