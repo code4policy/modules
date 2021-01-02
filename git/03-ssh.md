@@ -1,6 +1,6 @@
 # Git: SSH and Encryption
 
-In order to write code locally on our computer and be able to push to GitHub (or pull from GitHub) daily without constantly having to enter a username and password each time, we're going to set up SSH keys. 
+In order to write code locally on our computer and be able to push to GitHub (or pull from GitHub) daily without constantly having to enter a username and password each time, we're going to set up **SSH keys**. 
 
 > SSH keys come in pairs, a public key that gets shared with services like GitHub, and a private key that is stored only on your computer. If the keys match, you're granted access.
 >
