@@ -120,7 +120,7 @@ cat ~/.ssh/id_rsa.pub
 cat ~/.ssh/id_rsa
 ```
 
-This public and private key pair are mathematically linked. As the name suggests, you can share your **public key** far and wide, but must keep your **private key** safe and secure.
+This public and private key pair are mathematically linked. As the name suggests, you can share your **public key** far and wide, but must keep your **private key** safe and secure. Since we have shared out public key with GitHub, we can now create a secure connection to GitHub from our computer with our private key.
 
 
 ## Cryptography Basics
