@@ -170,6 +170,12 @@ Finally, if you want to play around more with encryption, I'd highly reccomend [
 
 Later in class, if there is time, we will learn how to send each other encrypted messages using the SSH keys we just created today! ([modules/security/encryption.md](../security/encryption.md#-example))
 
+### Misc
+
+The math behind Cryptography has something to do with finding the factors of really large prime numbers. This article on arstechnica provides a great rundown!
+https://arstechnica.com/information-technology/2013/02/lock-robster-keeping-the-bad-guys-out-with-asymmetric-encryption/
+
 ## Questions?
 
 Discuss with your classmates in the #encryption channel in Slack! If I'm around, I can chime in too. Or ask me during class!
+
