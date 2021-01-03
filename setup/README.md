@@ -15,7 +15,6 @@ Order:
     ```
     brew install python
     brew install node
-    python --version
     ```
 
     Ubuntu/WSL:
