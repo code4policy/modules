@@ -1,14 +1,8 @@
 # macOS Setup
 
-1. Install XCode Command Line Tools (CLT).
+1. Install homebrew following the instructions at https://brew.sh/.
 
-   ```
-   xcode-select --install
-   ```
-
-2. Install homebrew following the instructions at https://brew.sh/.
-
-3. Open Terminal and check if git is already installed.
+2. Open Terminal and check if git is already installed.
 
    ```
    git --version
