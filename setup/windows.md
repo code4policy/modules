@@ -50,3 +50,5 @@
    # Mark file as safe to run
    chmod +x ~/bin/subl
    ```
+
+9. Go through the instructions at [shell.md](./shell.md).
