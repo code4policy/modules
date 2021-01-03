@@ -10,14 +10,14 @@ Order:
 4. And last, set up your ssh keys using [../git/03-ssh.md](../git/03-ssh.md#setup)
 5. Install python.
   
-  macOS:
-  ```
-  brew install python
-  python --version
-  ```
-  
-  Ubuntu/WSL:
-  ```
-  sudo apt-get update
-  sudo apt-get install python3 python3-pip
-  ```
+    macOS:
+    ```
+    brew install python
+    python --version
+    ```
+
+    Ubuntu/WSL:
+    ```
+    sudo apt-get update
+    sudo apt-get install python3 python3-pip
+    ```
