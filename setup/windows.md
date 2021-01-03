@@ -13,12 +13,12 @@
 
 4. Restart.
 
-5. Install [Ubuntu](https://www.microsoft.com/store/apps/9nblggh4msv6) from Windows Store.
+5. Install [Ubuntu](https://www.microsoft.com/store/apps/9nblggh4msv6) from the Microsoft Store.
 
    - Setup user/pass.
    - Create shortcut to WSL home folder on desktop.
 
-6. Install [Windows Terminal](https://aka.ms/terminal).
+6. Install [Windows Terminal](https://aka.ms/terminal) from the Microsoft Store.
 
    - Pin Windows Terminal to taskbar.
    - Change `defaultProfile` to WSL.
