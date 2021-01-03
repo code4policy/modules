@@ -10,20 +10,9 @@
 		* https://insomnia.rest/
 	* Cookier Viewer
 		* Chrome: [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=en)
-		* Firefox: [Cookie-Editor](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/)
+		* Firefox: [Cookie-Editor](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/)	
 
-2. Install ngrok
-
-	Mac:
-
-	`brew install ngrok`
-	
-	Ubuntu:
-	
-	`sudo snap install ngrok`
-	
-
-3. Get an FEC API Key
+2. Get an FEC API Key
 
 	* https://api.data.gov/signup/
 	
