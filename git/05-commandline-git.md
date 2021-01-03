@@ -68,68 +68,30 @@ Let's practice using Git from the command line.
 
 1. Backup the `assignments` directory.
 2. cd into your directory `~/Development/assignments`
-3. run `pwd` and `ls` to remind yourself where you are and what is there
-4. intitialize a git repository in the folder. Your shell prompt (`PS1`) should also show that we are now in a git repository.
+3. run `pwd` and `ls` to remind yourself where you are and what is there.
+4. Change to the folder with day 1 homework (https://classroom.github.com/a/ciZOS9c2). Your shell prompt (`PS1`) should show that we are now in a git repository.
 
 	```
-	git init
 	git status
 	git log
 	```
 
-5. Add day 1 homework to the staging area.
-
-	```
-	git add sayhello.py
-	git add expensive_water.csv
-	git add expensive_water_summary.txt
-	git add description.txt
-	git add output.csv
-	git add summary.txt
-	git status
-	git log
-	```
-
-6. commit
-	
-	```
-	git commit -m "add day 1 class work"
-	git status
-	git log
-	```
-
-7. create a [blank github repo](https://github.com/new) called "assignments"
-8. set your remotes (follow the instructions in the new github repository, it should look something like below)
-
-	```
-	git remote add origin git@github.com:<username>/<repo>.git
-	git push --set-upstream origin master
-	```
-
-9. push your commits
-
-	```
-	git push
-	```
-
-10. check if the code is pushed online
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: universe
 
 1. cd into your directory `~/Development/universe`
-2. run `pwd` and `ls` to remind yourself where you are and what is there
-3. intitialize a git repository in the folder
+2. run `pwd` and `ls` to remind yourself where you are and what is there.
+3. Change to the folder with day 1 assignment on folder structure (https://classroom.github.com/a/wtsFvR6p). Your shell prompt (`PS1`) should show that we are now in a git repository.
 
 	```
-	git init
 	git status
 	git log
 	```
 
-4.  add mars.txt
+4.  Create `visitors/oumuamua.txt` and add it
 
 	```
-	git add solar_system/planets/mars.txt
+	git add visitors/oumuamua.txt
 	git status
 	git log
 	```
@@ -137,37 +99,12 @@ Let's practice using Git from the command line.
 5. commit
 
 	```
-	git commit -m "add mars"
+	git commit -m "add visitors"
 	git status
 	git log
 	```
 
-6. add earth
-
-	```
-	git add solar_system/planets/earth
-	git status
-	git log
-	```
-
-7. commit
-
-	```
-	git commit -m "add earth"
-	git status
-	git log
-	```
-
-8. create a [blank github repo](https://github.com/new) called "universe"
-
-9. set your remotes (follow the instructions in the new github repository, it should look something like below)
-	
-	```
-	git remote add origin git@github.com:XXXXX/XXXXX.git
-	git push --set-upstream origin master
-	```
-
-10. push your 2 commits
+6. push your commit
 
 	```
 	git push
