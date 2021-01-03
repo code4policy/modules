@@ -26,6 +26,7 @@ Its often a good idea to put this conversion into a function if you plan to use 
 
 Answer:
 
+from datetime import datetime
 birthday = "1-May-12"
 datetime.strptime(birthday, "%d-%b-%y").strftime("%-m/%-d/%Y")
 
