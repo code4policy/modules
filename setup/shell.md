@@ -7,6 +7,8 @@
    Ensure you are using `bash` instead of `zsh`. Newer macOS versions come with `zsh` as the default. We will switch it back to bash.
 
    - Check if you are on bash by opening the Terminal and run: `echo "$SHELL"`. If the result ends with "zsh", continue to the next step.
+   - Run `brew install bash` to get the latest bash.
+   - Run `sudo subl /etc/shells` file add `/usr/local/bin/bash` as the last line of the file.
    - Run `chsh -s /bin/bash` to switch the default shell back to bash. It will prompt you for the password which you can type in and press enter.
    - Run `touch ~/.bash_profile` create the bash profile.
    - Run `subl ~/.bash_profile` to open up the bash profile in Sublime Text.
