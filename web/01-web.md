@@ -36,8 +36,14 @@ Navigate to `http://localhost:8000/` in your web browser
 
 #### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 	
-Part of the beauty of the web is that any node can be a server. You don't need special hardware. Your computer, your watch, your raspberry pi, your fridge - with the right programming, any one of them can be a server. I will temporarily open the website that python is serving to `localhost` from my computer to the internet securely using a service called [ngrok](https://ngrok.com/).
+Part of the beauty of the web is that any node can be a server. You don't need special hardware. Your computer, your watch, your raspberry pi, your fridge - with the right programming, any one of them can be a server. I will temporarily open the website that python is serving to `localhost` from my computer to the internet securely using a program called [localtunnel](https://github.com/localtunnel/localtunnel).
 
+For instructor only:
+```
+brew install node
+npm install -g localtunnel
+lt -p 8000
+```
 
 #### Ports
 
