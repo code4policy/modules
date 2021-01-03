@@ -12,4 +12,6 @@
 
 5. Install sublime text: `brew install sublime-text`.
 
+6. Install iterm2: `brew install iterm2`.
+
 6. Go through the instructions at [shell.md](./shell.md).
