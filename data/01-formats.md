@@ -102,7 +102,7 @@ I have had success extracting data from PDFs with off the shelf tools when eithe
   - http://tabula.technology/
   - https://pdftables.com/
 
-On macOS, install Tabula by running `brew cask install tabula`.
+On macOS, install Tabula by running `brew install tabula`.
 
 ### HTML (Hypertext Markup Language)
 
