@@ -21,7 +21,8 @@
 6. Install [Windows Terminal](https://aka.ms/terminal).
 
    - Pin Windows Terminal to taskbar.
-   - Change `defaultProfile` and set `"startingDirectory":"\\\\wsl$\\[DISTRONAME]\\home\\[USERNAME]"`.
+   - Change `defaultProfile` to WSL.
+   - Set `"startingDirectory":"\\\\wsl$\\Ubuntu\\home\\[USERNAME]"`.
 
 7. Install [wsl-open](https://github.com/4U6U57/wsl-open).
 
