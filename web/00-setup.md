@@ -16,7 +16,7 @@
 
 	Mac:
 
-	`brew cask install ngrok`
+	`brew install ngrok`
 	
 	Ubuntu:
 	
