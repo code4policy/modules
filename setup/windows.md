@@ -5,8 +5,9 @@
    - Use `winver` to check the current version.
    - https://en.wikipedia.org/wiki/Windows_10_version_history
 
-2. Install Sublime Text 3.
-
+2. Install [Sublime Text 3](https://www.sublimetext.com/3).
+   
+   - Pin Sublime Text to taskbar.
    - Disable Hot Exit.
 
 3. Install [Windows Subsystem for Linux (WSL 1)](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps).
