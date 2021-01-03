@@ -186,45 +186,8 @@ The command line not only lets you navigate the file system but also manipulate 
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-In your home directory, make a folder called `Development`. This is where we will keep all of the code for the class.
+Complete the following assignment: https://classroom.github.com/a/wtsFvR6p
 
-1. In the `Development` folder, create a new folder called `universe` and create the following structure of files and folders.
-
-    ```
-    .
-    └── solar_system
-        ├── planets
-        │   ├── asteroid_belt.txt
-        │   ├── earth
-        │   │   └── continents
-        │   │       ├── africa.txt
-        │   │       ├── antarctica.txt
-        │   │       ├── asia.txt
-        │   │       ├── australia.txt
-        │   │       ├── europe.txt
-        │   │       ├── north_america
-        │   │       │   └── countries
-        │   │       │       ├── canada.txt
-        │   │       │       ├── mexico.txt
-        │   │       │       └── united_states.txt
-        │   │       └── south_america.txt
-        │   ├── jupiter.txt
-        │   ├── mars.txt
-        │   ├── mercury.txt
-        │   ├── neptune.txt
-        │   ├── pluto.txt
-        │   ├── saturn.txt
-        │   ├── uranus.txt
-        │   └── venus.txt
-        └── stars
-            └── sun.txt
-
-    7 directories, 19 files
-    ```
-
-2. Delete asteroid belt, since that isn't a planet.
-
-3. Move pluto to a folder called "other".
 
 ### Finding Files and Folders
 
