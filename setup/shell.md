@@ -1,7 +1,5 @@
 # Shell
 
-_Instructions copied/modified from [../commandline/04-unix.md#-example-permanently-setting-an-environment-variable](../commandline/04-unix.md#-example-permanently-setting-an-environment-variable)._
-
 1. The first step is different for macOS vs Ubuntu/WSL:
 
    a. macOS
@@ -34,3 +32,7 @@ _Instructions copied/modified from [../commandline/04-unix.md#-example-permanent
 
 3. Close and reopen the terminal to see the changes.
 
+
+-----
+
+_Instructions copied/modified from [../commandline/04-unix.md#-example-permanently-setting-an-environment-variable](../commandline/04-unix.md#-example-permanently-setting-an-environment-variable)._
