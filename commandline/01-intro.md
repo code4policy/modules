@@ -197,7 +197,7 @@ don't go down rabbit holes trying to figure something out if there is someone wh
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-Experiment working with `cowsay` in the command line by completing the following assignment: https://classroom.github.com/a/62sqVx4G
+Let's see if you can learn how to use a new command! Experiment working with `cowsay` in the command line by completing the following assignment: https://classroom.github.com/a/62sqVx4G
 
 ## Dangers
 
