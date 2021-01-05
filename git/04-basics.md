@@ -51,4 +51,4 @@ Within a Repository you have
 
 Let's give it a try! We're going to **clone** a repository for a simple website fro GitHub down to our computer where we can work with it **locally**. We will make some edits to the code, **commit** those changes and then **push** the changes back up to the **remote** repository in GitHub.
 
-https://classroom.github.com/a/IcLXBRpw
+https://github.com/code4policy/simple-website
