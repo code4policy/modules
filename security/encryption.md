@@ -17,72 +17,59 @@ cat ~/.ssh/id_rsa
 
 ## Cryptography Basics
 
-Videos:
+## Cryptography Basics
 
-* [Cryptography 101](https://www.youtube.com/watch?v=fNC3jCCGJ0o)
-* [What is Cryptography](https://www.youtube.com/watch?v=68Pqir_moqA)
-* [What is SSH](https://www.youtube.com/watch?v=zlv9dI-9g1U)
+A brief aside...
 
-Images below sourced from [David Brumly at Carnegie Mellon University](https://www.youtube.com/watch?v=fNC3jCCGJ0o)
+A system with a public and private key is known as asymmetric encrpytion, or private key encryption. Check out this video from [David Brumly at Carnegie Mellon University](https://www.youtube.com/watch?v=fNC3jCCGJ0o) for a quick overview of the basics of cryptography.
 
-![](https://www.evernote.com/shard/s150/sh/ceba42f8-128c-478b-b857-2b033294a4df/f70388b235260b5a/res/6eaede67-b674-4c28-9306-5b8414d849ae/skitch.png?resizeSmall&width=832)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fNC3jCCGJ0o/0.jpg)](https://www.youtube.com/watch?v=fNC3jCCGJ0o)
 
-![](https://www.evernote.com/shard/s150/sh/a5150f27-e630-48fb-8794-a1342cfe5076/0c664f25dd396804/res/51319142-13b1-45cd-af94-1cb7177b5bda/skitch.png?resizeSmall&width=832)
+### What can you do with cryptographic keys?
 
-![](https://www.evernote.com/shard/s150/sh/d2a42614-b368-4536-ada4-f2f641832ec9/b13ba0462deb7322/res/bb33443a-bfe6-4002-b98a-d0aa87c73bf9/skitch.png?resizeSmall&width=832)
+* Share our public key to securely communicate with GitHub (or other services).
+* Use someone else's public key to [encrypt](https://gist.github.com/colinstein/de1755d2d7fbe27a0f1e) and send a message only they can read.
+* Encrypt or sign a document with your private key to prove that it originated with you (anyone can use your public key to decrypt, or verify your signature)
+* Remotely login into another computer with a program known as secure shell (`ssh`).
+* Copy a file securely from another computer using secure copy (`scp`).
+* Lots of other things....
 
-![](https://www.evernote.com/shard/s150/sh/5614e630-0ea0-4a55-ba14-cf679593fee6/99133c73ac3eca6f/res/30c2aa9c-6fe1-4fae-b8ff-d5b631209b99/skitch.png?resizeSmall&width=832)
-
-## Asymmetric vs Symmetric
-
-* Asymmetric - encrypt with public key, decrypt with private key
-* Symmetric - encrypt and decrypt with same key.
-
-## HTTPS
-
-### How it works:
-
-> ...This pair of asymmetric keys is used in the SSL handshake to exchange a further key for both parties to symmetrically encrypt and decrypt data. The client uses the server's public key to encrypt the symmetric key and send it securely to the server, and the server uses its private key to decrypt it.
-
-*source*: https://robertheaton.com/2014/03/27/how-does-https-actually-work/
-
-1. Asymmetric encryption for handshake
-2. Symmetric encryption for communication
-
-A quick video: https://www.youtube.com/channel/UCLMgZUQzqdZ6z-_13OWUX7g
-
-### HTTPS in Government
-
-* https://obamawhitehouse.archives.gov/blog/2015/06/08/https-everywhere-government
-* https://https.cio.gov/
-* https://pulse.cio.gov/https/domains/
-* Talk to Eric Mill! https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/
-
-## What can you do with these?
-
-* Securely communicate with GitHub.
-* Use them to encrypt files, data, or messages.
-	* https://gist.github.com/colinstein/de1755d2d7fbe27a0f1e
-* Securely leak sensitive information to journalists - 
-	* https://securedrop.org/
-	* https://www.propublica.org/article/how-to-leak-to-propublica
-* Use secure shell (`ssh`) to remote into another computer.
-	* `ssh fivethirtyeight@538stats` 
-	*  and also show it on VNC (remote login)
-* Copy a file securely from another computer using secure  copy (`scp`).
-* Encryption also is at the core of cryptocurrencies. To transfer a cryptocurrency.
-	* https://walletgenerator.net/
-* Verifying Identity, Chat, etc... (see keybase)
-
-## So this is what encryption is all about?
+### So this is what encryption is all about?
 
 Yeah, its a really powerful tool that doesn't require a geeky genius to use.
 
-## Other applications
+### Other applications
 
-* [Encrypting Files](https://bjornjohansen.no/encrypt-file-using-ssh-key)
-* [HTTPS](https://www.youtube.com/watch?v=w0QbnxKRD0w) - We'll cover this more in a later lesson
-* Cryptocurrency - https://walletgenerator.net/
+* Encrypting Files: https://bjornjohansen.no/encrypt-file-using-ssh-key
+* HTTPS (We'll cover this more in a later lesson)
+
+	[![How HTTPS works](https://img.youtube.com/vi/w0QbnxKRD0w/0.jpg)](https://www.youtube.com/watch?v=w0QbnxKRD0w)
+
+	- https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/
+	- https://https.cio.gov/
+* Cryptocurrency: https://walletgenerator.net/
+* Chat (Signal, WhatsApp, Ketbase etc... are end-to-end encrypted chat platforms)
+* Digital Signatures: https://us-cert.cisa.gov/ncas/tips/ST04-018
+* Voting (in Estonia, at least): https://www.youtube.com/watch?v=GuKiJKL4WdI
+* Identification https://www.youtube.com/watch?v=9POUIiyhowk
+
+Check out [this video](https://www.youtube.com/watch?v=9POUIiyhowk) about all of the digital services Estnoia has been able to provide by issuing a public/private key pair to each citizen:
+
+[![Digital services in Estonia.](https://img.youtube.com/vi/9POUIiyhowk/0.jpg)](https://www.youtube.com/watch?v=9POUIiyhowk)
+
+### Want to try it out?
+
+Finally, if you want to play around more with encryption, I'd highly reccomend [Keybase](https://keybase.io/). Keybase allows you to encrpyt messages as you can see in the gif below using someone else's public key. Then, you can send that message to them over any public medium and ONLY they can read it. You can also encrypt a message with multiple keys. Keybase has a lot of other great features including secure chat, idenity verification, file transfer, and more. I would encourage you to play around with it and learn more and really bring the idea of public and private keys to life!
+
+![](https://i.gyazo.com/603c3f0335d2966282b0f9e7ed71ff84.gif)
+
+
+Later in class, if there is time, we will learn how to send each other encrypted messages using the SSH keys we just created today! ([modules/security/encryption.md](../security/encryption.md#-example))
+
+### Misc
+
+The math behind Cryptography has something to do with finding the factors of really large prime numbers. This article on arstechnica provides a great rundown!
+https://arstechnica.com/information-technology/2013/02/lock-robster-keeping-the-bad-guys-out-with-asymmetric-encryption/
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
@@ -128,3 +115,7 @@ Lot of thorny policy issues related to:
 
 * Check out https://keybase.io/
 * Prime numbers and whatnot: https://arstechnica.com/information-technology/2013/02/lock-robster-keeping-the-bad-guys-out-with-asymmetric-encryption/
+
+## Questions?
+
+Discuss with your classmates in the #encryption channel in Slack! If I'm around, I can chime in too. Or ask me during class!
