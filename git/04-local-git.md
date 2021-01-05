@@ -1,5 +1,9 @@
 # Using Git Locally
 
+Now let's learn how to use Git locally from our computer. While there are GUIs (graphical user interfaces) for Git on your computer like GitHub Desktop, we're going to use the command line to learn Git. That's because this is a key transferrable skill that applies to any kind of coding.
+
+- [ ] Learning objective: Build a "mental model" of what your computer is doing.
+
 ## Some Vocabulary
 
 * **Git** - version control software
