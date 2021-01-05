@@ -6,7 +6,7 @@
 2. Start discussing what you just read in Slack. There is an #agile channel where you can discuss. Note down any burning questions you might have about the reading.
 
 ## Recommended Reading
-- [Scrum: The Art of Doing Twice the Work in Half the Time](https://www.amazon.com/Scrum-Doing-Twice-Work-Half/dp/038534645X) [Chapter 1] (provided)
+- [Scrum: The Art of Doing Twice the Work in Half the Time](https://www.amazon.com/Scrum-Doing-Twice-Work-Half/dp/038534645X) [Chapter 1] (provided on canvas)
 - [Elements of Scrum](https://www.amazon.com/Elements-Scrum-Chris-Sims-ebook/dp/B004O0U74Q/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1546492282&sr=1-2&keywords=elements+of+scrum) [Part I and Part II] 
 	- (Go ahead and read the whole thing if you find yourself interested, its not too long)
 
