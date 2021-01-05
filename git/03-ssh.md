@@ -1,4 +1,4 @@
-# Git: SSH and Encryption
+# Git: SSH
 
 In order to write code locally on our computer and be able to push to GitHub (or pull from GitHub) daily without constantly having to enter a username and password each time, we're going to set up **SSH keys**. 
 
