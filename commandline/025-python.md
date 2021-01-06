@@ -22,8 +22,6 @@ Lets create and run a very small python program
 3. Run `hello.py`
 
     ```bash
-    pwd
-    cd ~/Development/assignments
     python3 hello.py
     ```
 
