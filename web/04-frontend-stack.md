@@ -1,11 +1,12 @@
 # Front-End Stack
 
-We'll be leaning on Mozilla's tutorials to learn the basics of HTML, CSS, and JavaScript. This is your standard front-end stack for the browser.
+We'll be leaning on Mozilla's tutorials to learn the basics of HTML, CSS, and JavaScript. This is your standard front-end stack for the browser. But first, some information about websites and how they work:
+
+https://projects.propublica.org/graphics/images/data-institute/presentations/how-websites-work.pdf
 
 ## HTML
 
-* Tutorial: [https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
-)
+* Tutorial: [https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
 
 ## CSS
 * Tutorial: [https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
