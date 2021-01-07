@@ -112,7 +112,7 @@ Let's practice using Git from the command line.
 5. Push these commits to github.
 -->
 
-1. repeat the steps above 3 times, each time for a different planet
+Repeat the steps above 3 times, each time for a different planet
 
 **bonus** 
 
