@@ -79,7 +79,7 @@ Let's practice using Git from the command line.
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: universe
 
-1. cd into your directory `~/Development/universe`
+1. cd into your directory `~/Development/universe-<NAME>`
 2. run `pwd` and `ls` to remind yourself where you are and what is there.
 3. Change to the folder with day 1 assignment on folder structure (https://classroom.github.com/a/wtsFvR6p). Your shell prompt (`PS1`) should show that we are now in a git repository.
 
