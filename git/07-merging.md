@@ -2,10 +2,10 @@
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-1. 	`cd` into the `<yourname>-simple-website/` folder and open the directory in sublime as well.
+1. 	`cd` into the `5-simple-website-<yourname>/` folder and open the directory in sublime as well.
 
 	```
-	cd ~/Development/<yourname>-simple-website
+	cd ~/Development/5-simple-website-<yourname>
 	subl .
 	```
 

@@ -74,9 +74,17 @@ git branch -d <branchname>
 
 1. `cd` into the assignments repository (`~/Development/assignments`).
 
-2. List the branches currently in the repository. It should just be `master` with an asterisk next to it showing that is the current active branch.
+2. Clone the following repository: `git@github.com:code4policy/2021-hw5-hellopy.git`.
+
+	```shell
+	git clone git@github.com:code4policy/hellopy.git
+	```
+
+
+3. Open folder `hellopy`. List the branches currently in the repository. It should just be `main` with an asterisk next to it showing that is the current active branch.
 
 	```
+	cd hellopy
 	git branch
 	```
 
@@ -133,7 +141,7 @@ git branch -d <branchname>
 
 13. Go to github.com and see the branch appear in the dropdown window. Click on it and then view the list of commits within this branch.
 
-14. Go to the pull requests tab and create a new pull request. Leave `base` as `master` and set the `compare` branch to your new `add-comments` branch. Give it a title and a description and create the pull request.
+14. Go to the pull requests tab and create a new pull request. Leave `base` as `main` and set the `compare` branch to your new `add-comments` branch. Give it a title and a description and create the pull request.
 
 ![](https://i.imgur.com/XNmv1lk.png)
 
@@ -156,7 +164,7 @@ Example PRs:
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-1. In `<name>-simple-website/` create a new branch called `linkedin-link`
+1. In `5-simple-website-<name>/` create a new branch called `linkedin-link`
 
 2. In this new branch, put a link to your LinkedIn profile at the bottom of your simple website.
 
