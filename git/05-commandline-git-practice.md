@@ -75,7 +75,7 @@ Let's practice using Git from the command line.
 	git log
 	git pull
 	```
-4.  open `mars.txt in sublime text and add a new fact to it about mars and save the file
+4.  open `mars.txt` in sublime text and add a new fact to it about mars and save the file
 
 5.  add that change to the staging area. But first, glance at your staging area (`git status`) and your commit log (`git log`) to update your mental model
 
