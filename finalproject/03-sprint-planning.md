@@ -18,7 +18,7 @@ Now go through each user story at the top of your stack and do the following:
 
 1. Product owner presents each story and makes sure everyone knows what that story means.
 2. Team agrees to take it on in this sprint or not
-	* If the team agrees, add the story to the milestonee for this sprint, then take the user story and break it down into tasks. Put those tasks in the sprint backlog and be sure to refer to the relevant user story, prioritizing the most important at the top.
+	* If the team agrees, add the story to the project board for this sprint, then take the user story and break it down into tasks. Put those tasks in the sprint backlog and be sure to refer to the relevant user story, prioritizing the most important at the top.
 	* If the team doesn't agree, figure out where to prioritize it in your stack of user stories. There is no need to break this out into tasks just yet.
 
 ### Planning Poker
