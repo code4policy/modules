@@ -73,13 +73,7 @@ git checkout <branchname>
 	2. add the remaining team members (and the prof and the TA) as collaborators to the repo. this is done under the repo settings
 	3. enable github pages on this repo with the `master` branch as the source
 
-3. Everyone should clone the empty repository.
-
-    ```
-    git clone git@github.com:XXXXX/demo-website.git
-    ```
-
-4. The product owner should create an `index.html` and a page called `our-team/index.html`. Commit and push this change directly to the `master` branch. 
+3. The product owner should create an `index.html` and a page called `our-team/index.html`. Commit and push this change directly to the `master` branch. 
 
 	Here is a sample `index.html`:
 	```html
@@ -110,26 +104,26 @@ git checkout <branchname>
 	</html>
 	```
 
-5. Everyone else should pull these changes.
+4. Everyone should clone the repository.
 
     ```
-    git pull
+    git clone git@github.com:XXXXX/demo-website.git
     ```
 
-6. All team members, should create branches titled `add-member-<name>`. For example, I would do:
+5. All team members, should create branches titled `add-member-<name>`. For example, I would do:
 
   ```
   git checkout -b add-member-dhrumil
   ```
 
-7. In this branch, each team member should create a file that is titled `our-team/<name>.html`. For example, I would create `our-team/dhrumil.html`. Add some basic information about yourself to this page. Be sure to only create this one file - there should be no other changes to the repository. It's important to keep your code changes isolated when working with git to avoid unecessary merge conflicts.
+6. In this branch, each team member should create a file that is titled `our-team/<name>.html`. For example, I would create `our-team/dhrumil.html`. Add some basic information about yourself to this page. Be sure to only create this one file - there should be no other changes to the repository. It's important to keep your code changes isolated when working with git to avoid unecessary merge conflicts.
 	1. Each member should:
 		1. commit this change to the branch
 		2. push it
 		3. create a pull request
 	2. Product owner should review and merge all of the PRs. There should be no conflicts.
 
-8. The product owner should create links to each of these individal pages back into the `our-team/index.html`.
+7. The product owner should create links to each of these individal pages back into the `our-team/index.html`.
 
 	```html
 	<!DOCTYPE html>
@@ -151,7 +145,7 @@ git checkout <branchname>
 	</html>
 	```
 
-9. All team members should checkout the master branch and pull the latest code.
+8. All team members should checkout the master branch and pull the latest code.
 
 #### Delete branch
 
