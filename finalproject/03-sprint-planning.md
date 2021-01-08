@@ -4,11 +4,10 @@
 
 The product owner should create a "project" in your GitHub repo with the follownig columns to begin with.
 
-1. User Stories 
-2. Todo
-3. Doing
-4. Blocked
-5. Done
+1. Todo
+2. In Progress
+3. Blocked
+4. Done
 
 The leftmost column will contain the user stories that the team has committed to finish by the end of this sprint.
 
