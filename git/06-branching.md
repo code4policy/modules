@@ -41,3 +41,33 @@ While there are other ways to merge branches, we will be using pull requests. Wh
 ![](https://s3.amazonaws.com/media-p.slid.es/uploads/489063/images/3229907/Comparing_master___endorsement___dmil_dhrumil-simple-website.png)
 
 In this screenshot, I am creating a Pull Request from the `endorsement` branch (compare) to the `master` branch (base). Note that this pull request has 1 commit.
+
+## Commands
+
+#### List Branches
+
+```
+git branch
+```
+
+#### Create (and switch to) a new branch
+
+The `-b` flag creates a new branch.
+
+```
+git checkout -b <branchname>
+```
+
+#### Switch branch
+
+```
+git checkout <branchname>
+```
+
+#### Delete branch
+
+```
+git branch -d <branchname>
+```
+
+
