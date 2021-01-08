@@ -116,34 +116,13 @@ git checkout <branchname>
   git checkout -b add-member-dhrumil
   ```
 
-6. In this branch, each team member should create a file that is titled `our-team/<name>.html`. For example, I would create `our-team/dhrumil.html`. Add some basic information about yourself to this page. Be sure to only create this one file - there should be no other changes to the repository. It's important to keep your code changes isolated when working with git to avoid unecessary merge conflicts.
+6. In this branch, each team member should edit `our-team/index.html` and add some basic information about yourself to this page. Be sure to only create this one file - there should be no other changes to the repository. It's important to keep your code changes isolated when working with git to avoid unecessary merge conflicts.
 	1. Each member should:
 		1. commit this change to the branch
 		2. push it
 		3. create a pull request
 	2. Product owner should review and merge all of the PRs. There should be no conflicts.
 
-7. The product owner should create links to each of these individal pages back into the `our-team/index.html`.
-
-	```html
-	<!DOCTYPE html>
-	<html>
-	<head>
-	    <title>Demo Website</title>
-	</head>
-	<body>
-	    <h1>About Us!</h1>
-	    <ul>
-	        <li><a href="our-team/rachel.html">Rachel</a></li>
-	        <li><a href="our-team/monica.html">Monica</a></li>
-	        <li><a href="our-team/phoebe.html">Phoebe</a></li>
-	        <li><a href="our-team/joey.html">Joey</a></li>
-	        <li><a href="our-team/chandler.html">Chandler</a></li>
-	        <li><a href="our-team/ross.html">Ross</a></li>
-	    </ul>
-	</body>
-	</html>
-	```
 
 8. All team members should checkout the master branch and pull the latest code.
 
