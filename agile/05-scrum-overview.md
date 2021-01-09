@@ -39,7 +39,7 @@ A toolset for Agile Software Development
 - Product Backlog (list of user stories)
 	- Definition of done / acceptance criteria
 	- I-N-V-E-S-T
-- Sprint Backlog (list of tasks)
+- Sprint Backlog
 - Task Board (trello)
 	- ICEBOX, TODO, DOING, BLOCKED, DONE
 	- can customize based on your definition of done (multiple stages of done?)
