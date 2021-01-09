@@ -54,7 +54,7 @@ When working with branches, here is the general workflow to adhere to.
 
 ## Workflow Types
 
-### Feature Branches
+### Feature Branches (recommended)
 
 ![](https://i.imgur.com/T6pJPY8.jpg)
 
