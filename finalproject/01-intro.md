@@ -16,7 +16,7 @@ The final project will take place in two sprints
 
 For each sprint I expect teams to submit
 
-1. A task board (on Trello) conatining
+1. A task board (on GitHub) conatining
 	*  a list of user stories you have committed to for the sprint that have a checklist for INVEST and one or more definiions of done
 	*  cards with tasks for each user story that each have estimated values
 
