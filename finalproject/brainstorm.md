@@ -58,6 +58,17 @@ https://hansolbach.github.io/frontend/INDEX.html | [github](https://github.com/h
 - B3 - Fake News - https://oliver-backes.github.io/our-website/
 - B4 - Cyber Attacks - https://irenesolaiman.github.io/b4-project/
 
+**2020 examples**
+
+- A1  -  Digital Government -  [website](https://miamayixuan.github.io/Final-Project/index.html), [github](https://github.com/miamayixuan/Final-Project/projects)
+- A2  -  Unpacking Foreign Influence & Disinformation on Twitter -  [website](https://jcharlottef.github.io/A2_Project/web_pages/HTML/home), [github](https://github.com/jcharlottef/A2_Project/projects)
+- A3  -  Visualizing Learning Across Pakistan -  [website](https://rhashimo.github.io/a3-education/index.html), [github](https://github.com/rhashimo/a3-education/projects)
+- A4  -  Socialism in the Media -  [website](https://jonhudgins.github.io/A4-Group-Project-/index.html), [github](https://github.com/jonhudgins/A4-Group-Project-/projects)
+- B1  -  (EV)olve Boston [about Electric Cars] -  [website](https://cpeterson1105.github.io/boston_group/), [github](https://github.com/cpeterson1105/boston_group/projects)
+- B2  -  The Rise of the Far Right -  [website](https://aragab87.github.io/WhoVotes/index.html), [github](https://github.com/aragab87/WhoVotes/projects)
+- B3  -  Digital Africa -  [website](https://psinsub.github.io/b3-group-project/index.html), [github](https://github.com/psinsub/b3-group-project/projects)
+- B4  -  Maps, Measles and Media -  [website](https://sclazenby.github.io/maps_measles_media/), [github](https://github.com/sclazenby/maps_measles_media//projects)
+
 ## Assignment
 
 Do some exploration and fill out this form:
