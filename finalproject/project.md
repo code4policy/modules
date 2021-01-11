@@ -197,8 +197,8 @@ Product
 
 * A link to your final project rendered on GitHub pages
 * A "data" or "backend" folder containing original source data, transformation steps (or python script), and final data that your visualization consumes for each dataset
-* A completed final project **technical reflection** from each student (these will be graded individually - a google form will be sent out): https://docs.google.com/forms/d/e/1FAIpQLSccCEa2BQe6SfmfAdgWpR9WGIqYU_bswOOKTcFC5DUAHViG2w/viewform
-* A completed **final project reflection** from each student (these will be graded individually - a google form will be sent out).: https://docs.google.com/forms/d/e/1FAIpQLScoFfm1Bc0mnspFZrsz6hkOGEO4fN9I3Lzlq3Ov5Fd50_Xgug/viewform
+* A completed final project **technical reflection** from each student (these will be graded individually - a google form will be sent out): https://forms.gle/Et6WcfnMgh3Ln6yi6
+* A completed **final project reflection** from each student (these will be graded individually - a google form will be sent out).: https://forms.gle/2GXotHFYERGZ1zkBA
 
 ## Submitting the Project
 
@@ -237,7 +237,9 @@ The rest of your grade for the course will be:
 
 ## Availability
 
-I am on campus most of Saturday and Sunday and available to meet either in person or via video chat. I will be in the classroom (R-306). Just shoot me a message on slack letting me know you're coming in case I'm wandering around Harvard Square or at a nearby cafe and I can arrange to meet you there or can help remotely via Slack.
+~~I am on campus most of Saturday and Sunday and available to meet either in person or via video chat. I will be in the classroom (R-306). Just shoot me a message on slack letting me know you're coming in case I'm wandering around Harvard Square or at a nearby cafe and I can arrange to meet you there or can help remotely via Slack.~~ 
+
+**note for 2021 students**: I will be available on ohyay most of the day after noon on Saturday and Sunday. I may be wandering around the house, but Slack me and I will appear!
 
 ## Course Evaluations
 
