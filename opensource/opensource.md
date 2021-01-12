@@ -23,9 +23,9 @@ Once you've read Swartz Chapter 7 and browsed the links of your chosing from bel
     * http://dodcio.defense.gov/Open-Source-Software-FAQ/#Defining_Open_Source_Software_.28OSS.29
     * https://hackerone.com/resources/hack-the-pentagon
 * Whitehouse
-    * https://www.whitehouse.gov/blog/2016/03/09/leveraging-american-ingenuity-through-reusable-and-open-source-software
+    * https://www.obamawhitehouse.gov/blog/2016/03/09/leveraging-american-ingenuity-through-reusable-and-open-source-software
     * https://sourcecode.cio.gov/
-    * https://www.whitehouse.gov/sites/default/files/omb/memoranda/2016/m-16-12_1.pdf
+    * https://www.obamawhitehouse.gov/sites/default/files/omb/memoranda/2016/m-16-12_1.pdf
 * HHS
     * https://www.hhs.gov/open/2016-plan/open-source-software.html
 * 18F
