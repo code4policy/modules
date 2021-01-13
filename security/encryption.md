@@ -17,8 +17,6 @@ cat ~/.ssh/id_rsa
 
 ## Cryptography Basics
 
-## Cryptography Basics
-
 A brief aside...
 
 A system with a public and private key is known as asymmetric encrpytion, or private key encryption. Check out this video from [David Brumly at Carnegie Mellon University](https://www.youtube.com/watch?v=fNC3jCCGJ0o) for a quick overview of the basics of cryptography.
