@@ -22,7 +22,7 @@ You can find example D3 visualizations at the following places, but I'd also enc
 - http://christopheviau.com/d3list/gallery.html
 - https://github.com/d3/d3/wiki/Gallery
 
-In this course you won't be asked to create you own D3 visualization (unless you want to try!). We will however, select an example visualization, and learn enough code to tweak it to suit the needs of your dataset. You will also manipulate the data in your dataset to fit the format that the visualization requires.
+In this course you won't be asked to create your own D3 visualization (unless you want to try!). We will however, select an example visualization, and learn enough code to tweak it to suit the needs of your dataset. You will also manipulate the data in your dataset to fit the format that the visualization requires.
 
 This [graphic by FT Visual Journalism team](https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary) is a good starting point if you're not sure what type of visulization you need.
 
@@ -58,10 +58,20 @@ https://hansolbach.github.io/frontend/INDEX.html | [github](https://github.com/h
 - B3 - Fake News - https://oliver-backes.github.io/our-website/
 - B4 - Cyber Attacks - https://irenesolaiman.github.io/b4-project/
 
+**2020 examples**
+
+- A1  -  Digital Government -  [website](https://miamayixuan.github.io/Final-Project/index.html), [github](https://github.com/miamayixuan/Final-Project/projects)
+- A2  -  Unpacking Foreign Influence & Disinformation on Twitter -  [website](https://jcharlottef.github.io/A2_Project/web_pages/HTML/home), [github](https://github.com/jcharlottef/A2_Project/projects)
+- A3  -  Visualizing Learning Across Pakistan -  [website](https://rhashimo.github.io/a3-education/index.html), [github](https://github.com/rhashimo/a3-education/projects)
+- A4  -  Socialism in the Media -  [website](https://jonhudgins.github.io/A4-Group-Project-/index.html), [github](https://github.com/jonhudgins/A4-Group-Project-/projects)
+- B1  -  (EV)olve Boston [about Electric Cars] -  [website](https://cpeterson1105.github.io/boston_group/), [github](https://github.com/cpeterson1105/boston_group/projects)
+- B2  -  The Rise of the Far Right -  [website](https://aragab87.github.io/WhoVotes/index.html), [github](https://github.com/aragab87/WhoVotes/projects)
+- B3  -  Digital Africa -  [website](https://psinsub.github.io/b3-group-project/index.html), [github](https://github.com/psinsub/b3-group-project/projects)
+- B4  -  Maps, Measles and Media -  [website](https://sclazenby.github.io/maps_measles_media/), [github](https://github.com/sclazenby/maps_measles_media//projects)
+
 ## Assignment
 
-Leave a note in #section_a or #section_b slack channel with an idea for a dataset and/or visualization that you have researched. Check back in on the channel at the end of the day or before class starts to see what your classmates have posted and reply to at least one person in slack (if their post is further up the channel, you can reply with a "thread").
+Do some exploration and fill out this form:
+https://docs.google.com/forms/d/e/1FAIpQLSf770hC0E-HxPtKgQXu8n3UMtn92LIfOPKrtdotdKIoUPqGZg/viewform
 
-![](https://content.evernote.com/shard/s150/sh/dd6b877b-b7ac-448e-97f2-0667a31a85dc/fd1d6c1de64dc879/res/3a31973c-3017-4183-906e-4e475ede1fff/skitch.png)
-
-Through the discussion in the Slack chats you should start to get a sense of who you might want to be in a group with. We will finalize groups during the next class.
+Leave a note in #section_a or #section_b slack channel with an idea for a dataset and/or visualization that you have researched. 

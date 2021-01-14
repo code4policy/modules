@@ -33,9 +33,9 @@ print(data)
 
 In a new file called `cookveggies.py`
 
-1. Read `vegetables.csv` (see previous section) into a variable called `vegetables`.
+1. Read `output/vegetables.csv` (see previous section) into a variable called `vegetables`.
 2. Print the variable `vegetables`.
-2. Write `vegetables` as a JSON file called `vegetables.json`. It should look like this:
+2. Write `vegetables` as a JSON file called `output/vegetables.json`. It should look like this:
 
     ```
 	[

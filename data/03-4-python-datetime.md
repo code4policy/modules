@@ -18,9 +18,19 @@ Its often a good idea to put this conversion into a function if you plan to use 
 
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
-1. Set a variable birthday = "1-May-12".
-2. Parse the date using datetime.datetime.strptime.
+1. Set a variable `birthday = "1-May-12"`.
+2. Parse the date using `datetime.datetime.strptime`.
 3. Use strftime to output a date that looks like "5/1/2012".
+
+<!--
+
+Answer:
+
+from datetime import datetime
+birthday = "1-May-12"
+datetime.strptime(birthday, "%d-%b-%y").strftime("%-m/%-d/%Y")
+
+-->
 
 Warning! Excel can make dates really weird. Beware: https://github.com/Quartz/bad-data-guide#spreadsheet-has-dates-in-1900-1904-1969-or-1970
 

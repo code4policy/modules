@@ -64,110 +64,72 @@ git checkout -b <branchname>
 git checkout <branchname>
 ```
 
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+
+1. Get into your teams.
+
+2. The product owner should:
+	1. create a repository under their account named `demo-website` (or use your project website!)
+	2. add the remaining team members (and the prof and the TA) as collaborators to the repo. this is done under the repo settings
+	3. enable github pages on this repo with the `master` branch as the source
+
+3. The product owner should create an `index.html` and a page called `our-team/index.html`. Commit and push this change directly to the `master` branch. 
+
+	Here is a sample `index.html`:
+	```html
+	<!DOCTYPE html>
+	<html>
+	    <head>
+	        <title>Demo Website</title>
+	    </head>
+	    <body>
+	        <h1>Our Demonstration Website</h1>
+	        <a href='our-team/index.html'>Learn more about our team</a>
+	    </body>
+	</html>
+	```
+
+
+	Here is a sample `our-team/index.html`:
+	
+	```html
+	<!DOCTYPE html>
+	<html>
+	    <head>
+	        <title>Demo Website</title>
+	    </head>
+	    <body>
+	        <h1>About Us!</h1>
+	    </body>
+	</html>
+	```
+
+4. Everyone should clone the repository.
+
+    ```
+    git clone git@github.com:XXXXX/demo-website.git
+    ```
+
+5. All team members, should create branches titled `add-member-<name>`. For example, I would do:
+
+  ```
+  git checkout -b add-member-dhrumil
+  ```
+
+6. In this branch, each team member should edit `our-team/index.html` and add some basic information about yourself to this page. Be sure to only create this one file - there should be no other changes to the repository. It's important to keep your code changes isolated when working with git to avoid unecessary merge conflicts.
+	1. Each member should:
+		1. commit this change to the branch
+		2. push it
+		3. create a pull request
+	2. Product owner should review and merge all of the PRs. There should be no conflicts.
+
+
+8. All team members should checkout the master branch and pull the latest code.
+
 #### Delete branch
 
 ```
 git branch -d <branchname>
 ```
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-1. `cd` into the assignments repository (`~/Development/assignments`).
-
-2. List the branches currently in the repository. It should just be `master` with an asterisk next to it showing that is the current active branch.
-
-	```
-	git branch
-	```
-
-3. Let's create a new branch called `add-comments`.
-
-	```
-	git checkout -b add-comments
-	```
-
-4. Run `git branch` to check that a new branch was created and it is the active branch. Your shell prompt (`PS1`) should also show the current active branch.
-
-	```
-	git branch
-	```
-
-5. Open sayhello.py in your text editor and to the best of your knowledge add comments describing what the code is doing.
-	
-	```python
-	#!/usr/bin/env python3
-	# this is a sample comment
-	# add your own comments to describe what this script does
-	import sys
-	name = sys.stdin.read()
-	print("Hello " + name + "!")
-	```
-
-6. Run `git diff` to see what has changed (what lines were added/deleted).
-
-7. Commit the change.
-
-	```
-	git commit -m "add comments to sayhello.py"
-	```
-
-8. Run `git status` to make sure the repository is "clean" (i.e. there are no "untracked files", "unstaged changes", or "staged changes").
-
-9. Run `git log` and see that your new commit is in the list.
-
-10. Switch back to the master branch.
-
-	```
-	git checkout master
-	git branch
-	```
-
-11. Run `git log` again. Notice that the commit does not appear in the history of the master branch.
-
-12. Push the changes from the `add-comments` branch. You will run into an error asking you to set the "upstream" branch. Do what the instructions tell you to.
-
-	```
-	git checkout add-comments
-	git push
-	``` 
-
-13. Go to github.com and see the branch appear in the dropdown window. Click on it and then view the list of commits within this branch.
-
-14. Go to the pull requests tab and create a new pull request. Leave `base` as `master` and set the `compare` branch to your new `add-comments` branch. Give it a title and a description and create the pull request.
-
-![](https://i.imgur.com/XNmv1lk.png)
-
-15. Review the files changed and click the big green merge button on the bottom of the PR.
-
-### Example Branches and PRs in the Wild
-
-Private FiveThirtyEight repository:
-
-- [https://github.com/fivethirtyeight/general-forecast](https://github.com/fivethirtyeight/general-forecast)
-- https://projects.fivethirtyeight.com/2016-election-forecast/
-
-Public 18F repository:
-
-- [https://github.com/18F/web-design-standards](https://github.com/18F/web-design-standards)
-
-Example PRs:
-
-- For example #471, 468, 461 in #general-forecast
-
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
-
-1. In `<name>-simple-website/` create a new branch called `linkedin-link`
-
-2. In this new branch, put a link to your LinkedIn profile at the bottom of your simple website.
-
-	```
-	<a href="https://www.linkedin.com/in/dhrumilmehta">  Find me on LinkedIn!</a>
-	```
-
-3. Commit the change in the feature branch.
-
-4. Push the feature branch to GitHub
-
-4. Create a pull request from the feature branch and merge it.
-
-5. Check the website online and make sure it has changed.

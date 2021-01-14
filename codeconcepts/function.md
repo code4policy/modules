@@ -13,6 +13,7 @@ brew install python
 Ubuntu 
 
 ```
+sudo apt-get update
 sudo apt-get install python3
 sudo apt-get install python3-pip
 ```
@@ -101,89 +102,5 @@ def multiply(a,b):
 This would both print to the terminal and return a value. The return is the very last logical thing that happens in the execution of a function. Once a `return` is called, no additional code can be run inside the function. The same is true in JavaScript (and all programming languages).
 
 ## Try It
-1. create a new branch in your `assignments` git repo called "calculator"
-2. inside that branch create a new file called `calculator.py`
 
-3. Write a program that defines four functions (multiply, add, subtract, and divide). These functions should not print anything, they should simply perform a mathematical operation on the two arguments and return the value.
-
-4. Commit to git `git commit -m "add functions to calculator"`and push the change to github.  `git push`
-
-5. At the bottom of the file, Call the function and print a line explaining what is happening. Like this:
-	
-	```python
-	print("I'm going use the calculator functions to multiply 5 and 6")
-	x = multiply(5,6)
-	print(x)
-	```
-	
-6. Commit this change and explain what you just did in the commit message
-
-7. Run the file with the following command to make sure your python is all right:
-
-	```
-	python3 calculator.py
-	```
-
-8. Make sure everything works correctly and issue a pull request on github back to the master branch with a message explaining what changes you made in this branch.
-
-9. Accept the pull request into the master branch and delete the `calculator` branch on github.
-
-10. Checkout the master branch, and pull the version of master with the calculator branch merged
-
-	```
-	git checkout master
-	git pull
-	```
-
-11. Delete your local version of the calculator branch
-
-	```
-	git branch -D calculator
-	```
-
-**bonus**
-
-1. Add two more functions, square and cube.
-2. Make a function called square_n_times that takes two arguments, number and n. square the number n times and return the result.
-
-## Try It
-
-1. create a new branch in your `assignments` git repo called "js-calculator"
-2. inside that branch create a new file called `calculator.js`
-
-3. Write (in javascript) a program that defines four functions (multiply, add, subtract, and divide). These functions should not print anything, they should simply perform a mathematical operation on the two arguments and return the value.
-
-4. Commit to git `git commit -m "add functions to calculator"`and push the change to github.  `git push`
-
-5. At the bottom of the file, Call the function and print a line explaining what is happening. Like this:
-	
-	```javascript
-	console.log("I'm going use the calculator functions to multiply 5 and 6")
-	var x = multiply(5,6)
-	console.log(x)
-	```
-
-6. Commit this change and explain what you just did in the commit message
-
-7. Run the file with the following command to make sure your python is all right:
-
-	```
-	node calculator.js
-	```
-
-8. Make sure everything works correctly and issue a pull request on github back to the master branch with a message explaining what changes you made in this branch.
-
-9. Accept the pull request into the master branch and delete the `js-calculator` branch on github.
-
-10. Checkout the master branch, and pull the version of master with the calculator branch merged
-
-	```
-	git checkout master
-	git pull
-	```
-
-11. Delete your local version of the js-calculator branch
-
-	```
-	git branch -D js-calculator
-	```
+Complete the following assignment: https://classroom.github.com/a/qqn_nYAr

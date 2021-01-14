@@ -197,8 +197,8 @@ Product
 
 * A link to your final project rendered on GitHub pages
 * A "data" or "backend" folder containing original source data, transformation steps (or python script), and final data that your visualization consumes for each dataset
-* A completed final project **technical reflection** from each student (these will be graded individually - a google form will be sent out): https://docs.google.com/forms/d/e/1FAIpQLSccCEa2BQe6SfmfAdgWpR9WGIqYU_bswOOKTcFC5DUAHViG2w/viewform
-* A completed **final project reflection** from each student (these will be graded individually - a google form will be sent out).: https://docs.google.com/forms/d/e/1FAIpQLScoFfm1Bc0mnspFZrsz6hkOGEO4fN9I3Lzlq3Ov5Fd50_Xgug/viewform
+* A completed final project **technical reflection** from each student (these will be graded individually - a google form will be sent out): https://forms.gle/Et6WcfnMgh3Ln6yi6
+* A completed **final project reflection** from each student (these will be graded individually - a google form will be sent out).: https://forms.gle/2GXotHFYERGZ1zkBA
 
 ## Submitting the Project
 
@@ -233,7 +233,7 @@ Your project will be worth 40% of your grade, that will be divided as follows
 
 ## Availability
 
-I am on Ohyay and Slack most of Saturday and Sunday and available to meet via video chat. If you can't find me on Ohyay, just shoot me a message on Slack letting me know you're coming in case I'm wandering around the house.
+I am on Ohyay and Slack most of Saturday and Sunday and available to meet via video chat. If you can't find me on Ohyay, just shoot me a message on Slack letting me know you're coming in case I'm wandering around the house. The TAs should also be around (on and off) over the weekend.
 
 ## Course Evaluations
 
