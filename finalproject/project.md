@@ -22,7 +22,7 @@ Find a visualization that does a good job explaining to the reader the point you
 - http://christopheviau.com/d3list/gallery.html
 - https://github.com/d3/d3/wiki/Gallery
 
-In addition to modifying the data, I am asking that you make at least one small modification to the demo code provided to you. It can be something as simple as modifying a color, or something more ambitious if you chose.
+In addition to modifying the data, I am asking that you make **at least one small modification** to the demo code provided to you. It can be something as simple as modifying a color, or something more ambitious if you chose.
 
 
 ### Your Dataset
@@ -70,7 +70,7 @@ Try to bring together the website into one cohesive whole. Each person may have 
 
 In addition to telling a coherent story across the site, one way to give your site a consistent look and feel is to put all the CSS in one file and have some CSS selectors that apply to the whole site, and others that apply only to particular charts on the site. Refer back to the lessons on correctly using "id" and "class" selectors to avoid conflicting CSS.
 
-Some teams may chose to bring this consistency by focusing more on the CSS, others may focus more on having a coherent narrative structure. Some teams may decide to do both (which will get you more points). Regardless of how you chose to demonstrate consistency, the website should show that you've been working as a team to build a unified product.
+Some teams may chose to bring this consistency by focusing more on the CSS, others may focus more on having a coherent narrative structure. Some teams may decide to do both. Regardless of how you chose to demonstrate consistency, the website should show that you've been working as a team to build a unified product.
 
 ### Visualizations
 
@@ -146,7 +146,7 @@ In your scrum board, there should be a list containing user stories in this form
 >
 >so that ____.
 
-The user stories should be well defined. Each card should have an explicit "definition of done" and should meet I-N-V-E-S-T. The 5-6 stories that you and your team have commited to for the last sprint should be labeled somehow. There should also be additional user stories that are maybe less fleshed out further down in that list.
+The user stories should be well defined. Each card should have an explicit "definition of done" and should mostly meet I-N-V-E-S-T. The stories that you and your team have commited to for the last sprint should be labeled somehow. There should also be additional user stories that are maybe less fleshed out further down in your Backlog.
 
 ### Sprint Planning
 Your team will hold a sprint-planning meeting at the start of the project period. This meeting will be split into two parts as described in "SCRUM: A Breathtakingly Breif and Agile Introduction". Re-read the section on sprint planning before starting this meeting.
@@ -204,7 +204,7 @@ Product
 
 When you're ready to submit the project, please create a new github issue in your repository called "Ready for Review".
 
-In your team's slack channel, post a link, to that issue and mention @dhrumil letting me know that the project is submitted and ready for my review. Once I've recieved that note from you, I may start grading the project. Please note that the projects are due by midnight of **Monday Jan 20**.
+In your team's slack channel, post a link, to that issue and mention @dhrumil letting me know that the project is submitted and ready for my review. Once I've recieved that note from you, I may start grading the project. Please note that the projects are due by midnight of **Monday Jan 18**.
 
 Please **let me know** if you think your team needs more time and won't be able to meet the originally set due date so that I know when to expect a submission.
 
@@ -230,18 +230,14 @@ Your project will be worth 40% of your grade, that will be divided as follows
 		* Data transformation (scripted or documented)
 		* Clean and organized
 
-The rest of your grade for the course will be:
-
-* 20% in class assignments
-* 40% participation (participation during class assignments and discussions, homework assignments, participation on GitHub and Slack)
 
 ## Availability
 
-I am on campus most of Saturday and Sunday and available to meet either in person or via video chat. I will be in the classroom (R-306). Just shoot me a message on slack letting me know you're coming in case I'm wandering around Harvard Square or at a nearby cafe and I can arrange to meet you there or can help remotely via Slack.
+I am on Ohyay and Slack most of Saturday and Sunday and available to meet via video chat. If you can't find me on Ohyay, just shoot me a message on Slack letting me know you're coming in case I'm wandering around the house.
 
 ## Course Evaluations
 
-You should have received an email about the course evaluations, they are accessible through the [canvas page for this class](https://canvas.harvard.edu/) and are **due on January 31**.  Your honest feedback will be particularly important both in helping me understand how to best iterate on the course as well as helping the Kennedy School better understand the role of technical education in the curriculum. Please take some time to thoughtfully fill out the course evaluation.
+You should have received an email about the course evaluations, they are accessible through the [canvas page for this class](https://canvas.harvard.edu/) and are **due on January 21**.  Your honest feedback will be particularly important both in helping me understand how to best iterate on the course as well as helping the Kennedy School better understand the role of technical education in the curriculum. Please take some time to thoughtfully fill out the course evaluation.
 
 ## Final Note
 
