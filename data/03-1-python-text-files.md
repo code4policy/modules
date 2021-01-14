@@ -33,4 +33,4 @@ Create a file called `name.txt` with your full name in it.
 Write a python script called `readwrite.py` that:
 
 1. reads `name.txt` into a variable `my_name` and then
-2. writes a new file named `hello.txt` with the contents `Hello, my name is <my_name>.`
+2. writes a new file named `output/hello.txt` with the contents `Hello, my name is <my_name>.`
