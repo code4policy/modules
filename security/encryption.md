@@ -90,6 +90,7 @@ https://arstechnica.com/information-technology/2013/02/lock-robster-keeping-the-
 	```
 5. Send your encrpyted file to Dhrumil on Slack, you can use the #scratchwork channel, a public network. Nobody other than Dhrumil will be able to read it anyway!!!
 
+6. Wait for dhrumil to decrypt your message! (he will use the following command)
 	```
 	ssh-keygen -p -m PEM -f ~/.ssh/id_rsa
 	openssl rsautl -decrypt -oaep -inkey ~/.ssh/id_rsa -in secretmessageal.txt.enc -out /dev/stdout
