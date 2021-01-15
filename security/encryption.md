@@ -71,33 +71,7 @@ https://arstechnica.com/information-technology/2013/02/lock-robster-keeping-the-
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-1. Create a new empty folder and cd into it.
-
-	```
-	cd ~/Development
-	mkdir encryption
-	cd ~/Development/encryption
-	touch secretmessage.txt
-	```
-2. Save your secret message inside `secretmessage.txt`
-	
-3. Grab Dhrumil's public key from slack's #general channel and save it in your folder.
-
-4. Encrypt a message with Dhrumil's public key
-
-	```
-	openssl rsautl -encrypt -oaep -pubin -inkey <(ssh-keygen -e -f dhrumilskey.pub -m PKCS8) -in secretmessage.txt -out secretmessage.txt.enc
-	```
-5. Send your encrpyted file to Dhrumil on Slack, you can use the #scratchwork channel, a public network. Nobody other than Dhrumil will be able to read it anyway!!!
-
-6. Wait for dhrumil to decrypt your message! (he will use the following command)
-	```
-	ssh-keygen -p -m PEM -f ~/.ssh/id_rsa
-	openssl rsautl -decrypt -oaep -inkey ~/.ssh/id_rsa -in secretmessageal.txt.enc -out /dev/stdout
-	```
-6. Wow! I feel so secure! Except here is a more secure way that is recommended. Also I might consider using a PGP key 
-	
-	https://bjornjohansen.no/encrypt-file-using-ssh-key
+Click on this link for the encryption assignment: https://classroom.github.com/a/CUy9NKP_
 
 ## Types of Keys: SSH, PGP, GPG
 
