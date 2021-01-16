@@ -71,7 +71,7 @@ https://arstechnica.com/information-technology/2013/02/lock-robster-keeping-the-
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
 
-Click on this link for the encryption assignment: https://classroom.github.com/a/CUy9NKP_
+Click on this link for the encryption assignment: [https://classroom.github.com/a/CUy9NKP_](https://classroom.github.com/a/CUy9NKP_)
 
 ## Types of Keys: SSH, PGP, GPG
 
