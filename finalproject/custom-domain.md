@@ -1,6 +1,6 @@
 # Custom Domains
 
-**Want to serve your website on your very own custom domain name?** You can do that! There are easy ways to either a) connect a particular project repository to a domain name or sub-domain name or b) wire up your GitHub account so that **any** repo you create and serve off GitHub pages automatically is served on that custom domain. Here we're going to explore how to do the former.
+**Want to serve your website on your very own custom domain name?** You can do that! There are easy ways to either a) connect a particular project repository to a domain name or sub-domain name or b) wire up your GitHub account so that **any** repo you create and serve off GitHub pages automatically is served on that custom domain. Here we're going to explore how to do the former:
 
 **Step 1:** Buy a domain name at your domain vendor of choice, like namecheap.com - and login to the dashboard for that vendor. 
 
