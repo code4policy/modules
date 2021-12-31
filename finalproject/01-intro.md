@@ -4,13 +4,12 @@ The final project will take place in two sprints
 
 **Sprint 1 - MVP**
 
-- Section B - Jan 7-14
-- Section A - Jan 8-15
+First week of class + weekend (roughly)
 
 **Sprint 2 - Submission**
 
-- Section B - Jan 14-21
-- Section A - Jan 15-21
+Second week of class + weekend (roughly)
+
 
 ## Requirements
 
