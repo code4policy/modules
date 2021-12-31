@@ -34,6 +34,9 @@ User stories ought to have a definition of done. Generally there is one generic 
 Source:
 [http://agileforall.com/new-to-agile-invest-in-good-user-stories/](http://agileforall.com/new-to-agile-invest-in-good-user-stories/)
 
+Further reading:
+[https://www.agilealliance.org/glossary/user-stories/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'user*20stories))~searchTerm~'~sort~false~sortDirection~'asc~page~1)](https://www.agilealliance.org/glossary/user-stories/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'user*20stories))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
+
 ### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
 
 Since we're running a scrummy class, and this class is our product. Lets write good user stories for the class! Lets do this one in pairs.
