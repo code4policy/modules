@@ -64,7 +64,7 @@ git checkout -b <branchname>
 git checkout <branchname>
 ```
 
-## ❇️ Try It
+## ➡️ Try It
 
 1. Get into your teams.
 
