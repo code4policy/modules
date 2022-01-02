@@ -26,7 +26,7 @@ print(full_text)
 ```
 
 
-### ❇️ Try It
+### ➡️ Try It
 
 Create a file called `name.txt` with your full name in it.
 
