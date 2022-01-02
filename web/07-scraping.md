@@ -22,7 +22,7 @@ for row in doc.cssselect('.lister-list tr'):
     print(id, title, rating)
 ```
 
-### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+### ➡️ Try It
 
 Modify the script above to get the
 
@@ -51,14 +51,14 @@ for tweet in doc.cssselect("div.js-original-tweet"):
 	print("-------------------------------------")
 ```
 
-### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+### ➡️ Try It
 
 Modify the script above to get the
 
 1. number of likes for each tweet
 2. number of replies for each tweet
 
-#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+#### ❇️ Example
 
 A quick aside....Let's set up this scraper on a cronjob using the `crontab`.
 
@@ -86,7 +86,7 @@ for item in table.cssselect("tbody > tr.item"):
     margin = cells[2].text_content().strip()
     print(rank, title, margin)
 ```
-### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+### ➡️ Try It
 
 1. Scrape the title and lyrics of the following song and print them to the terminal
 

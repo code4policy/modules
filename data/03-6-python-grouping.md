@@ -60,7 +60,7 @@ This should output:
 
 If you use Python's [Pandas](https://pandas.pydata.org/) library for data manipulation and analysis instead, the code would look like this: https://gist.github.com/AlJohri/59c9762845519f999eb28fe45276f4c1
 
-### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+### ➡️ Try It
 
 1. Read `vegtables.csv` into a variable called `vegtables`.
 2. Group `vegtables` by `color` as a variable `vegtables_by_color`.

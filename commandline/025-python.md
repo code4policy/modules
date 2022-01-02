@@ -25,7 +25,7 @@ Lets create and run a very small python program
     python3 hello.py
     ```
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+## ➡️ Try It
 
 1. In your assignments folder, create a new python program called "aplusb.py"
 

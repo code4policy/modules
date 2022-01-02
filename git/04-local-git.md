@@ -51,7 +51,7 @@ Within a Repository you have
 1. In order to show your remotes, you can run `git remote -v show`. The default remote is named "origin"
 2. In order to push, you run `git push`. By default this will push from the branch you are on to a remote branch with the same name. (If you'd like to specify a branch, you can do that. The full formulation of this command is `git push <remote> <branch>`. So, for example you might say `git push origin main` to push to the "main" branch of the "origin" remote.)
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: simple-website
+## ❇️ Example: simple-website
 
 Let's give it a try! We're going to **clone** a repository for a simple website from GitHub down to our computer where we can work with it **locally**. We will make some edits to the code, **commit** those changes and then **push** the changes back up to the **remote** repository in GitHub.
 

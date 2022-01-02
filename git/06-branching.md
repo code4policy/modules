@@ -64,7 +64,7 @@ git checkout -b <branchname>
 git checkout <branchname>
 ```
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+## ❇️ Try It
 
 1. Get into your teams.
 

@@ -62,7 +62,7 @@ A source once said to me:
 * Front End
 	* https://github.com/code4policy/simple-crud-app-frontend
 
-#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+#### ❇️ Example
 
 Let's spin up a simple CRUD APP!
 
