@@ -13,6 +13,7 @@ Grab a file
 ```
 wget https://projects.propublica.org/congress/assets/staffers/2017Q1-house-disburse-detail.csv
 ```
+If running wget tells you "command not found", install it using `brew install wget` on Mac or `sudo apt-get install wget` for Ubuntu.
 
 Take a look
 
@@ -53,7 +54,7 @@ cat 2017Q1-house-disburse-detail.csv | csvgrep -c OFFICE -m WATER > spending_by_
 cat spending_by_waters_office.csv |csvstat
 
 cat 2017Q1-house-disburse-detail.csv | csvgrep -c PURPOSE -m WATER > spending_on_water.csv
-> cat spending_on_water.csv | csvstat
+cat spending_on_water.csv | csvstat
 ```
 
 Hmm...who is spending so much on water?
