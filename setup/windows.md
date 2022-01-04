@@ -26,7 +26,7 @@
 
    - Pin Windows Terminal to taskbar.
    - Change `defaultProfile` to WSL (ie: Ubuntu).
-   - Set `"startingDirectory":"\\wsl$\\Ubuntu\\home\\[USERNAME]"`.
+   - Set starting directory by clicking on the downward arrow in the top pane, then Defaults under Profiles on the right-hand pane, and set Starting directory to `"\\wsl$\\Ubuntu\\home\\[USERNAME]"`.
 
 7. Install [wsl-open](https://github.com/4U6U57/wsl-open).
 
