@@ -11,7 +11,7 @@
    - Run `touch ~/.bash_profile` create the bash profile.
    - Run `subl ~/.bash_profile` to open up the bash profile in Sublime Text.
 
-  NOTE: M1 macs may run into errors when they try to switch to bash - if so, you'll need to do these things:
+  NOTE: M1 macs may run into errors at this stage when they try to switch to bash - if so, you'll need to do the following things in addition to running the steps above:
    - Go to 'System preferences' then 'Users & Groups' and right-click on the current admin profile. Click 'Advanced Options' 
    - Under 'Login shell' change '/usr/local/bin/bash' to just say '/bin/bash'
    - Run `subl ~/.bash_profile` to open up the bash profile in Sublime Text. At the top of the file, paste `eval "$(/opt/homebrew/bin/brew shellenv)"`
