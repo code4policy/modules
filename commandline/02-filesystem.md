@@ -186,7 +186,7 @@ The command line not only lets you navigate the file system but also manipulate 
 
 ### ➡️ Try It
 
-Complete the following assignment: https://classroom.github.com/a/wtsFvR6p
+Complete the following assignment: https://classroom.github.com/a/8aL2J4bC
 
 
 ### Finding Files and Folders
