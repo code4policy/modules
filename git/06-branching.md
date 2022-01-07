@@ -126,7 +126,7 @@ git checkout <branchname>
 
 8. All team members should checkout the master branch and pull the latest code.
 
-#### Delete branch
+#### Deleting a branch locally
 
 ```
 git branch -d <branchname>
