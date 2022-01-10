@@ -17,7 +17,7 @@ What D3 is Not
 
 ## Inserting D3 into a webpage
 
-https://classroom.github.com/g/qcFuN_5O
+https://classroom.github.com/a/lThE3TSA
 
 ## Project Note
 
