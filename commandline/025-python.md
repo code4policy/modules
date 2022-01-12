@@ -2,7 +2,7 @@
 
 Lets create and run a very small python program
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+## ❇️ Example
 
 1. Create and "assignments" folder, navigate to it, and create an empty file called `hello.py`
 
