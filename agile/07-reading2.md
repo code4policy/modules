@@ -3,7 +3,7 @@
 ## Assignment
 
 1. Spend some time reading whatever intersets you from the menu of choices below - feel free to go off script and read about anything else tangentially related that you find valuable. **This is your opportunity to think about real-world applications of agile in government and get your most burning questions answered.** If your research takes you to something interesting, send it to your classmates on Slack. Participate in a discussion in slack about any of the topics you've read about (there is a channel called #agile where we can discuss). Remember, participation in discussions on slack is required and will be graded.
-2. Write down questions you might have about agile and tech projects in government as you go along. One of our guest speakers will be David Zvenyach, former executive director of 18F who will discuss running agile teams in government.
+2. Write down questions you might have about agile and tech projects in government as you go along. One of our guest speakers will be [David Eaves](https://www.hks.harvard.edu/faculty/david-eaves), who will discuss running agile teams in government.
 
 ## Menu Of Readings
 
