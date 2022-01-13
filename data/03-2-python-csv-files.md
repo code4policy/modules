@@ -33,7 +33,6 @@ import csv
 with open('testwrite.csv', 'r') as f:
     reader = csv.DictReader(f)
     rows = list(reader)
-    rows = [dict(row) for row in rows] # Convert OrderedDict to regular dict
 
 print(rows)
 ```
