@@ -58,7 +58,10 @@ This should output:
 {'Honda': 1, 'Tesla': 1, 'Toyota': 4}
 ```
 
-If you use Python's [Pandas](https://pandas.pydata.org/) library for data manipulation and analysis instead, the code would look like this: https://gist.github.com/AlJohri/59c9762845519f999eb28fe45276f4c1
+#### A quick sidenote: PANDAS
+If you're manipulating tabular data in Python, it may be a good idea to use the [Pandas](https://pandas.pydata.org/) library. This provides an abstraction called a "DataFrame" (you may be familiar with this if you've used other statistical programming languages like R. It is basically just a representation of a spreadsheet table, but in Python. 
+
+If you use Python's [Pandas](https://pandas.pydata.org/) library for data manipulation and analysis instead, the code for the above assignment would look like this: https://gist.github.com/AlJohri/59c9762845519f999eb28fe45276f4c1
 
 ### ➡️ Try It
 
