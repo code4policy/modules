@@ -191,19 +191,19 @@ Process
 	
 	If you're not meeting in person, I would also expect that your project group would have an active slack channel.
 
-* Completed retrospective google form
+* Completed retrospective google form (one per group): https://forms.gle/G7U3mbNxqzFyHapM7
 
 Product
 
 * A link to your final project rendered on GitHub pages
 * A "data" or "backend" folder containing original source data, transformation steps (or python script), and final data that your visualization consumes for each dataset
-* A completed final project **technical reflection** from each student (these will be graded individually - a google form will be sent out): https://forms.gle/PK13tcjCNvtAZFE39
+* A completed final project **technical reflection** from each student (these will be graded individually): https://forms.gle/PK13tcjCNvtAZFE39
 
 ## Submitting the Project
 
 When you're ready to submit the project, please create a new github issue in your repository called "Ready for Review".
 
-In your team's slack channel, post a link, to that issue and mention @dhrumil letting me know that the project is submitted and ready for my review. Once I've recieved that note from you, I may start grading the project. Please note that the projects are due by midnight of **Monday Jan 18**.
+In your team's slack channel, post a link, to that issue and mention @dhrumil letting me know that the project is submitted and ready for my review. Once I've recieved that note from you, I may start grading the project. Please note that the projects are due by midnight of **Monday Jan 17** (so Monday night).
 
 Please **let me know** if you think your team needs more time and won't be able to meet the originally set due date so that I know when to expect a submission.
 
@@ -236,7 +236,7 @@ I am on Ohyay and Slack most of Saturday and Sunday and available to meet via vi
 
 ## Course Evaluations
 
-You should have received an email about the course evaluations, they are accessible through the [canvas page for this class](https://canvas.harvard.edu/) and are **due on January 21**.  Your honest feedback will be particularly important both in helping me understand how to best iterate on the course as well as helping the Kennedy School better understand the role of technical education in the curriculum. Please take some time to thoughtfully fill out the course evaluation.
+You should have received an email about the course evaluations, they are accessible through the [canvas page for this class](https://canvas.harvard.edu/) and are **due by January 20**.  Your honest feedback will be particularly important both in helping me understand how to best iterate on the course as well as helping the Kennedy School better understand the role of technical education in the curriculum. Please take some time to thoughtfully fill out the course evaluation.
 
 ## Final Note
 
