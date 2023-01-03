@@ -81,10 +81,23 @@ B1 | https://aruedasanz.github.io/project-covid/
 B2 | https://vontiveros.github.io/team2/
 B3 | https://hoojeong.github.io/Team3/
 B4 | https://moorejah.github.io/project/
+
+**2022 examples**
+
+Group | URL
+------|-----
+A1: NFTs | https://code4policy.github.io/code4policy-nfts/
+A2: International Covid Aid | https://code4policy.github.io/covid-aid-impact/
+A3: Gender Inequality | https://danmek.github.io/Gender-Equity-4-Policy/
+A4: Game of Thrones | https://code4policy.github.io/GoT-Universe/
+B1: Internet Access Gender Gap | https://code4policy.github.io/code4policy-b1_internet_access/
+B2: Twitter Usage of World Leaders | https://whotweetswhat.works/
+B3: Carbon Emmissions | https://code4policy.github.io/Final_Project_Carbon_emission/
+B4: North Korea Missiles | https://eklung05.github.io/Missile-Visualization/
  
 ## Assignment
 
 Do some exploration and fill out this form:
-https://docs.google.com/forms/d/e/1FAIpQLSfb2yfGgUJwLkJqSbvJojtP_7QgRAI0yyXBTCve6fn-TwqlFg/viewform?usp=sf_link
+to create
 
 Leave a note in #section_a or #section_b slack channel with an idea for a dataset and/or visualization that you have researched. 
