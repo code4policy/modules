@@ -16,11 +16,12 @@ To visualize the data you've selected, we'll be using [Data Driven Documents in 
 
 You can find example D3 visualizations at the following places, but I'd also encourage you to google around. They're all over the internet!
 
-- http://bl.ocks.org/mbostock (Mike Bostock created D3JS, these are his examples)
-- http://bl.ocks.org/ (same website, examples by different people)
 - https://d3js.org/
 - http://christopheviau.com/d3list/gallery.html
 - https://github.com/d3/d3/wiki/Gallery
+<!-- - http://bl.ocks.org/mbostock (Mike Bostock created D3JS, these are his examples)
+- http://bl.ocks.org/ (same website, examples by different people)
+ -->
 
 In this course you won't be asked to create your own D3 visualization (unless you want to try!). We will however, select an example visualization, and learn enough code to tweak it to suit the needs of your dataset. You will also manipulate the data in your dataset to fit the format that the visualization requires.
 
