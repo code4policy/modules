@@ -71,6 +71,32 @@ https://hansolbach.github.io/frontend/INDEX.html | [github](https://github.com/h
 - B3  -  Digital Africa -  [website](https://psinsub.github.io/b3-group-project/index.html), [github](https://github.com/psinsub/b3-group-project/projects)
 - B4  -  Maps, Measles and Media -  [website](https://sclazenby.github.io/maps_measles_media/), [github](https://github.com/sclazenby/maps_measles_media//projects)
 
+**2021 examples**
+
+Group | URL
+------|-----
+A1 | https://ranimurali412.github.io/code4policy-team-a1/
+A2 | https://vicyingc.github.io/code4policya2/
+A3 | https://code4policy.github.io/Team-A3/
+A4 | https://code4policy.github.io/Team-A4/
+B1 | https://aruedasanz.github.io/project-covid/
+B2 | https://vontiveros.github.io/team2/
+B3 | https://hoojeong.github.io/Team3/
+B4 | https://moorejah.github.io/project/
+
+**2022 examples**
+
+Group | URL
+------|-----
+A1: NFTs | https://code4policy.github.io/code4policy-nfts/
+A2: International Covid Aid | https://code4policy.github.io/covid-aid-impact/
+A3: Gender Inequality | https://danmek.github.io/Gender-Equity-4-Policy/
+A4: Game of Thrones | https://code4policy.github.io/GoT-Universe/
+B1: Internet Access Gender Gap | https://code4policy.github.io/code4policy-b1_internet_access/
+B2: Twitter Usage of World Leaders | https://whotweetswhat.works/
+B3: Carbon Emmissions | https://code4policy.github.io/Final_Project_Carbon_emission/
+B4: North Korea Missiles | https://eklung05.github.io/Missile-Visualization/
+
 ## Assignment
 
 Do some exploration and fill out this form:
