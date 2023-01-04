@@ -98,6 +98,7 @@ B4: North Korea Missiles | https://eklung05.github.io/Missile-Visualization/
 ## Assignment
 
 Do some exploration and fill out this form:
-to create
+
+https://docs.google.com/forms/d/e/1FAIpQLSdl75yAkoRPH604lO6ADuVZDw1iscTMgPn_lbIWs1qM-vAfiA/viewform?usp=pp_url&entry.155702682=2023
 
 Leave a note in #section_a or #section_b slack channel with an idea for a dataset and/or visualization that you have researched. 
