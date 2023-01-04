@@ -54,7 +54,7 @@ In the example above, if I was in the Downloads folder and I wanted the relative
 
 In the same example above, the absolute path to the Documents folder would be `/Users/mehtad/Documents`.
 
-#### ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) Pop Quiz
+#### :raised_hand: Pop Quiz
 
 If you are in the Downloads folder, what folder is:
 
@@ -149,7 +149,7 @@ If you don't have Sublime Text installed, run `brew cask install sublime-text` o
 * `wc -w <path>` only counts words. A "word" is defined as any set of characters delimited by a space.
 * `wc -c <path>` only counts characters
 
-### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+### :white_check_mark: Try It
 
 1. Take some time to cd around and explore your filesystem. See what is at the root, see if you can find some of the files you use daily.
 2. Navigate to `~/Desktop` and run both `ls -a` and `tree` 
@@ -184,7 +184,7 @@ The command line not only lets you navigate the file system but also manipulate 
 * `mv <filename> <new path>` **m**o**v**es a file from its current location to `<new path>`
 * `mv <filename> <new filename>` renames a file without changing its location
 
-### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+### :white_check_mark: Try It
 
 Complete the following assignment: https://classroom.github.com/a/wtsFvR6p
 
@@ -209,7 +209,7 @@ Complete the following assignment: https://classroom.github.com/a/wtsFvR6p
     * Hit `Ctrl + c` if you want to cancel the search.
 * Much more complex string-matching patterns can be used (which we will cover in a future class).
 
-### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+### :large_orange_diamond: Example
 
 `find` all items in the `universe` folder with the `.txt` extension.
 
@@ -218,7 +218,7 @@ cd ~/Development/universe
 find . -name "*.txt"
 ```
 
-### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+### :white_check_mark: Try It
 
 `find` all **folders** in the `universe` folder. use `man find` to figure out how to get folders only.
 
