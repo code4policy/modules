@@ -186,7 +186,7 @@ The command line not only lets you navigate the file system but also manipulate 
 
 ### :white_check_mark: Try It
 
-Complete the following assignment: https://classroom.github.com/a/wtsFvR6p
+Complete the following assignment: https://classroom.github.com/a/d4WK4RbX
 
 
 ### Finding Files and Folders
