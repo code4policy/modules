@@ -27,4 +27,5 @@ data visualizations online on your local devices, either through pure d3 example
 3. [Observable Gallery](https://observablehq.com/@d3/gallery)
     
     Although the Observable Gallery contains many great visualization examples, it is not recommended to try and translate Observable code to Javascript: 
-    the process can be involved and time-consuming if you don't know what parts of the code to change.
+    the process can be involved and time-consuming if you don't know what parts of the code to change. However, the gallery does have some 
+    good examples that you can use as inspiration!
