@@ -29,3 +29,7 @@ data visualizations online on your local devices, either through pure d3 example
     Although the Observable Gallery contains many great visualization examples, it is not recommended to try and translate Observable code to Javascript: 
     the process can be involved and time-consuming if you don't know what parts of the code to change. However, the gallery does have some 
     good examples that you can use as inspiration!
+    
+## Tutorials
+
+If you want to learn how to create d3 visualizations from scratch, and understand more deeply how to use certain d3 attributes (axis, scale, SVGs), then I recommend this tutorial: https://alignedleft.com/tutorials/d3. It is a pretty short tutorial that runs through the basics of d3.
