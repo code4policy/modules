@@ -26,6 +26,7 @@ Do you have burning questions about Scrum? Like "What are the most common pitfal
 
 ### Additional Resources
 
+- Agile BS (David Z's reccomendation) https://media.defense.gov/2018/Oct/09/2002049591/-1/-1/0/DIB_DETECTING_AGILE_BS_2018.10.05.PDF
 - Chaos Report: https://www.projectsmart.co.uk/white-papers/chaos-report.pdf
 - What is Code: https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
 - Few additional thoughts
