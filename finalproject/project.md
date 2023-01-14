@@ -12,7 +12,7 @@ You are welcome to select data from any data source, as long as you are able to 
 
 ### Selecting a visualization
 
-#### Path 1 DataWrapper (or a tool, like ggplot, of your choice)
+#### Path 1: DataWrapper (or a tool, like ggplot, of your choice)
 
 Your charts may be developed in [DataWrapper](https://www.datawrapper.de/) or a tool that you are already familiar with like ggplot or Excel. Regardless of which tool you use, you will want to follow our class [style guide/charting rubric](https://docs.google.com/document/d/1F-q9jFx8902zhBnJ0o4GwSHQhqJLZKnq-L4SU7kn544/edit). This framework articulates some of the same principles our dataviz guest speakers spoke about. Make sure to think about concepts like presentation, visual heiarchy and chart headlines/labels/etc... 
 
