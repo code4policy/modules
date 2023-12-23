@@ -1,5 +1,6 @@
 # Shell
 
+0. **Install Sublime Text**: Download and install Sublime Text from the [Sublime Text website](https://www.sublimetext.com/download), following the instructions provided there. Alternatively, if you prefer a different text editor, simply install that and remember to replace `subl` in the following steps with the command specific to your chosen editor (e.g., use `code` for Visual Studio Code).
 ## macOS
 
 1. Ensure you are using `bash` instead of `zsh`. Newer macOS versions come with `zsh` as the default. We will switch it back to bash.
