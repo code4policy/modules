@@ -16,6 +16,7 @@
 **Due Friday**
  - Healthcare.gov Case Part A (provided on Slack) - Read by Friday
 
+## Additional Resources
 
 A shorter alternative to "Elements of Scrum" (in case you run out of time)
 
