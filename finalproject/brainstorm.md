@@ -22,7 +22,7 @@ You can find example D3 visualizations at the following places, but I'd also enc
 - http://christopheviau.com/d3list/gallery.html
 - https://github.com/d3/d3/wiki/Gallery
 
-In this course you won't be asked to create your own D3 visualization (unless you want to try!). We will however, select an example visualization, and learn enough code to tweak it to suit the needs of your dataset. You will also manipulate the data in your dataset to fit the format that the visualization requires.
+In this course you will be asked to create your own D3 visualization, but with the help of ChatGPT! We will use example visualizations, and learn enough code to tweak it to suit the needs of your dataset. You will also manipulate the data in your dataset to fit the format that the visualization requires.
 
 This [graphic by FT Visual Journalism team](https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary) is a good starting point if you're not sure what type of visulization you need.
 
