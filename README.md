@@ -14,6 +14,9 @@ path | module
 `security/` | [Security](./security/)
 `storytelling/` | [Data-Driven Storytelling](./storytelling/)
 `web/` | [Web + HTML, CSS, and JavaScript](./web/)
+`visualization/` | [Visualization](./visualization/)
+`apis/` | [APIs](./apis/)
+`web-scraping/` | [Web Scraping](./scraping/)
 
 
 - [TODO](./todo.md)
