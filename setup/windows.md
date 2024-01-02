@@ -10,11 +10,9 @@
    - Pin Sublime Text to taskbar.
    - Disable Hot Exit.
 
-3. Install [Windows Subsystem for Linux (WSL 1)](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps).
+3. Install [Windows Subsystem for Linux (WSL 2)](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps).
 
-4. Restart.
-
-5. Install [Ubuntu](https://www.microsoft.com/store/apps/9nblggh4msv6) from the Microsoft Store.
+4. Install [Ubuntu](https://www.microsoft.com/store/apps/9nblggh4msv6) from the Microsoft Store.
 
    - Setup user/pass.
    - Create shortcut to WSL home folder on desktop.
@@ -23,9 +21,8 @@
 
    - Pin Windows Terminal to taskbar.
    - Change `defaultProfile` to WSL.
-   - Set `"startingDirectory":"\\\\wsl$\\Ubuntu\\home\\[USERNAME]"`.
-
-7. Install [wsl-open](https://github.com/4U6U57/wsl-open).
+     
+7. Install [wsl-open](https://github.com/4U6U57/wsl-open), by running the following in your terminal
 
    ```
    # Make a bin folder in your home directory
