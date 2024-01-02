@@ -124,7 +124,7 @@ in my case it is [**http://dmil.github.io/my-simple-website**](http://dmil.githu
 * [Drafting](https://github.com/twitter/innovators-patent-agreement) and [collaborating on](https://github.com/twitter/innovators-patent-agreement/issues) legal documents
 * Design (image diff) 
 	* https://help.github.com/articles/rendering-and-diffing-images/
-* Open journalsim showcase
+* Open journalism showcase
 	* 	https://github.com/showcases/open-journalism
 * Github for Government
 	* https://government.github.com/
