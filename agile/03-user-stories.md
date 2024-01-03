@@ -1,6 +1,6 @@
 ## A Scrum-ified (Scrum-ish?) J-term
 
-[Aggregate responses](https://docs.google.com/forms/d/1Vh3nJAqUptMGIT2dP9JnKpkORG-5r3FM0LcXAigH9qA/edit#responses)
+[Aggregate responses](https://docs.google.com/forms/d/e/1FAIpQLScC3p3cNDHRRoWkE9lH2kT6XNAaY_uiILmq2dPFKiplR1KnUQ/viewform?usp=sharing)
 * Do you think that you will use code or data analysis in your future work?
 
 ## User Research
