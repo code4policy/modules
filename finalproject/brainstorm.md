@@ -16,11 +16,13 @@ To visualize the data you've selected, we'll be using [Data Driven Documents in 
 
 You can find example D3 visualizations at the following places, but I'd also encourage you to google around. They're all over the internet!
 
-- http://bl.ocks.org/mbostock (Mike Bostock created D3JS, these are his examples)
-- http://bl.ocks.org/ (same website, examples by different people)
 - https://d3js.org/
+- https://observablehq.com/@d3/gallery
 - http://christopheviau.com/d3list/gallery.html
 - https://github.com/d3/d3/wiki/Gallery
+<!-- - http://bl.ocks.org/mbostock (Mike Bostock created D3JS, these are his examples)
+- http://bl.ocks.org/ (same website, examples by different people)
+ -->
 
 In this course you will be asked to create your own D3 visualization, but with the help of ChatGPT! We will use example visualizations, and learn enough code to tweak it to suit the needs of your dataset. You will also manipulate the data in your dataset to fit the format that the visualization requires.
 
@@ -94,11 +96,9 @@ B1: Internet Access Gender Gap | https://code4policy.github.io/code4policy-b1_in
 B2: Twitter Usage of World Leaders | https://whotweetswhat.works/
 B3: Carbon Emmissions | https://code4policy.github.io/Final_Project_Carbon_emission/
 B4: North Korea Missiles | https://eklung05.github.io/Missile-Visualization/
- 
+
 ## Assignment
 
 Do some exploration and fill out this form:
-
 https://docs.google.com/forms/d/e/1FAIpQLSdl75yAkoRPH604lO6ADuVZDw1iscTMgPn_lbIWs1qM-vAfiA/viewform?usp=pp_url&entry.155702682=2023
-
 Leave a note in #section_a or #section_b slack channel with an idea for a dataset and/or visualization that you have researched. 

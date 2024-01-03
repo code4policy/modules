@@ -17,7 +17,7 @@ The term "server" can sometimes be used ambiguously, it can refer the **software
 ![](https://mdn.mozillademos.org/files/8659/web-server.svg)
 Source: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
 
-#### ❇️ Example
+#### :large_orange_diamond: Example
 
 Setting up a local server:
 
@@ -34,7 +34,7 @@ Navigate to `http://localhost:8000/` in your web browser
 * `0.0.0.0` will also work. It means something slightly different, but we won't get into that. If you want to know, do some googling! There are some decent explanations on stackoverflow.
 
 
-#### ❇️ Example
+#### :large_orange_diamond: Example
 	
 Part of the beauty of the web is that any node can be a server. You don't need special hardware. Your computer, your watch, your raspberry pi, your fridge - with the right programming, any one of them can be a server. I will temporarily open the website that python is serving to `localhost` from my computer to the internet securely using a program called [localtunnel](https://github.com/localtunnel/localtunnel).
 
@@ -51,7 +51,7 @@ Notice the example above navigates to the IP address `0.0.0.0` and port `8000`. 
 
 Here is a [list of common port numbers](https://en.wikipedia.org/wiki/Port_(computer_networking)#Common_port_numbers), it would be best to avoid serving a website through any of these.
 
-#### ❇️ Example
+#### :large_orange_diamond: Example
 
 Get the IP address for a website.
 
@@ -95,7 +95,6 @@ Web frameworks are often used to organize code on a dynamic server. Some example
 
 * **Javascript**: React, Angular, Backbone, Ember ...
 
-#### ❇️ Example
-
+#### :large_orange_diamond: Example
  * Polls Frontend [1](https://projects.fivethirtyeight.com/trump-approval-ratings/) [2](https://projects.fivethirtyeight.com/congress-generic-ballot-polls/) (HTML, CSS, JavaScript)
  * Polls Backend [URL Redacted] \(Ruby on Rails\)
