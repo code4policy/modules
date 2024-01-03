@@ -23,7 +23,7 @@
 Here is a good example repository that makes use of issues and pull requests: https://github.com/openelections/
 
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example (shorter - no local repository)
+## ❇️ Example (shorter - no local repository)
 
 1. Step 1: Fork my repository [`dmil/simple-website`](https://github.com/dmil/simple-website).
 
@@ -37,7 +37,7 @@ Here is a good example repository that makes use of issues and pull requests: ht
 
 6. I will now merge your pull requests and we can see what changes you all make to the website over time. There's a good chance we may run into some merge conflicts as well.
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example (Longer)
+## ❇️ Example (Longer)
 
 1. Step 1: Fork my repository [`dmil/simple-website`](https://github.com/dmil/simple-website).
 
@@ -93,7 +93,7 @@ More Links
 - https://government.github.com/
 - https://government.github.com/community/
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+## ➡️ Try It
 
 1. Find another partner, and fork their `<username>-simple-website`.
 2. Clone your fork onto your local computer and create a feature branch called `endorsement`.
@@ -111,7 +111,7 @@ More Links
 - https://github.com/powmedia/backbone-forms/issues/537
 - https://github.com/powmedia/backbone-forms/pull/538
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+## ➡️ Try It
 
 Make an issue on my simple-website repository: https://github.com/dmil/simple-website
 

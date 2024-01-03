@@ -101,6 +101,6 @@ def multiply(a,b):
 
 This would both print to the terminal and return a value. The return is the very last logical thing that happens in the execution of a function. Once a `return` is called, no additional code can be run inside the function. The same is true in JavaScript (and all programming languages).
 
-## Try It
+## ➡️ Try It
 
-Complete the following assignment: https://classroom.github.com/a/qqn_nYAr
+Complete the following assignment: https://classroom.github.com/a/9pY8aTQJ

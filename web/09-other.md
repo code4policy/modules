@@ -84,7 +84,7 @@ https://www.dccourts.gov/cco/maincase.jsf
 ### Not a cookie, but interesting
 https://www.propublica.org/about/pixelping
 
-### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+### ➡️ Try It
 
 Tell me everything you can find out about a website from the network tab.
 

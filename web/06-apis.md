@@ -76,7 +76,7 @@ should be used; all important and largely-unavoidable questions.
 
 ### Thinking in terms of "Resources"
 
-#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+#### ❇️ Example
 
 What are the "Resources" on Crunchbase? (Lets try to map out their database, what do we think it looks like?). [https://www.crunchbase.com/](https://www.crunchbase.com/).
 
@@ -115,7 +115,7 @@ source: http://slides.com/dhrumilmehta/how-to-tell-a-story-with-data-tools-of-th
 
 ### The network tab! (lets explore it for a minute)
 
-#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+#### ❇️ Example
 
 ### Open the network tab and inspect crunchbase
 
@@ -125,7 +125,7 @@ https://www.crunchbase.com/person/mark-zuckerberg/
 
 ## Another Case Study: The FEC
 
-#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+#### ❇️ Example
 
 1. Browse the FEC website ([https://fec.gov/](https://fec.gov/)) (formerly "https://beta.fec.gov", now  https://fec.gov) and identify all the "Resources"
 
@@ -159,7 +159,7 @@ response = requests.get(url)
 data = response.json()
 ```
 
-#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+#### ❇️ Example
 
 Lets get a sense of how to issue GET and POST requests using the requests library and HTTP bin: https://httpbin.org/
 
@@ -202,7 +202,7 @@ for candidate in data['results']:
     print(candidate['name'])
 ```
 
-#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+#### ❇️ Example
 
 Notice that Ihsaan's script only gets 20 names of Massatchusetts candidates? That's because the FEC api only returns 20 candidates at a time. One key skill to getting data out of APIs is learning how to paginate through the reesponses. Lets modify ihsaan's script to paginate the responses.
 
@@ -215,7 +215,7 @@ Notice that Ihsaan's script only gets 20 names of Massatchusetts candidates? Tha
 	```
 3. Lets add pagination to Ihsaan's script!
 
-#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+#### ❇️ Example
 
 1. Get into small groups of three
 2. Create a new file called `superpac.py`
@@ -225,7 +225,7 @@ Notice that Ihsaan's script only gets 20 names of Massatchusetts candidates? Tha
 	3. Finish by writing out the pagination code so that you get all the SuperPACs not just the first 20. Commit that code to GitHub.
 	4. In the `README.md` write the names of each of your team members. Commit and push that code to your fork in GitHub.
 
-#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+#### ❇️ Example
 
 1. Think about a question you'd want to answer with the FEC API (answering a non-trivial question will probably involve hitting multiple endpoints). Create a new file called `question.py` and write the question in the comments of that file.
 

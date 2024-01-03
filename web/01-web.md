@@ -96,6 +96,5 @@ Web frameworks are often used to organize code on a dynamic server. Some example
 * **Javascript**: React, Angular, Backbone, Ember ...
 
 #### :large_orange_diamond: Example
-
  * Polls Frontend [1](https://projects.fivethirtyeight.com/trump-approval-ratings/) [2](https://projects.fivethirtyeight.com/congress-generic-ballot-polls/) (HTML, CSS, JavaScript)
  * Polls Backend [URL Redacted] \(Ruby on Rails\)

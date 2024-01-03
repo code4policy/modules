@@ -26,7 +26,7 @@ print(full_text)
 ```
 
 
-### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+### ➡️ Try It
 
 Create a file called `name.txt` with your full name in it.
 

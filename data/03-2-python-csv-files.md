@@ -33,7 +33,6 @@ import csv
 with open('testwrite.csv', 'r') as f:
     reader = csv.DictReader(f)
     rows = list(reader)
-    rows = [dict(row) for row in rows] # Convert OrderedDict to regular dict
 
 print(rows)
 ```
@@ -41,7 +40,7 @@ print(rows)
 Note that since we have loaded the entire CSV into memory in the variable `rows` we can now put our `for` loop outside of the context manager since we no longer need access to the file, `f`.
 
 
-### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+### ➡️ Try It
 
 Write a python script called `veggies.py` that defines a list of dicts named vegetables like so:
 

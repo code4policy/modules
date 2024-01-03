@@ -25,7 +25,7 @@ Many Unix-like operating systems have arisen over the years, of which Linux is t
 * Files and Processes
 	- "[Everything is a file](https://www.youtube.com/watch?v=dDwXnB6XeiA)" (oversimplification, but a useful one)
 	- How does the operating system work?
-		- Files! [http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html](http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html)
+		- Files [http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html](http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html)
 	- `ps aux` to see the processes that are running, same as opening the "activity monitor"
 
 * Exploring the root directory (in case you're ever wondering what all those files in `/` are)
@@ -65,7 +65,7 @@ Check out all of your environment variables: `printenv`
 
 * `which echo` for example, will tell you where the echo command is located, it will be within one of the folders specified in `$PATH` otherwise you would have to call it explicitly every time as `/bin/echo`
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: permanently setting an environment variable
+## ❇️ Example: permanently setting an environment variable
 
 Lets modify an environment variable in side your your `~/.bash_profile` (macOS) or `~/.bashrc` (Ubuntu).
 
@@ -170,7 +170,7 @@ Prepend any command with `sudo` in order to run the command as root user. Try to
 
 ![](https://imgs.xkcd.com/comics/sandwich.png)
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+## ❇️ Example
 
 1. Make a file called `sayhello.py` in your `assignments` folder within `~/Development`.
 
@@ -201,7 +201,7 @@ Prepend any command with `sudo` in order to run the command as root user. Try to
 	```
 
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+## ➡️ Try It
 
 This program below will add 1 to the input on STDIN.
 

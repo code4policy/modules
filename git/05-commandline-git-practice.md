@@ -3,7 +3,7 @@
 Let's practice using Git from the command line.
 
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: fruit-basket
+## ❇️ Example: fruit-basket
 
 1. Create 🍒🍎🍌🍇🍑🍉🍍 basket
 
@@ -64,7 +64,7 @@ Let's practice using Git from the command line.
 	git log
 	```
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: universe
+## ❇️ Example: universe
 
 1. cd into your directory `~/Development/universe`
 2. run `pwd` and `ls` to remind yourself where you are and what is there
@@ -101,7 +101,7 @@ Let's practice using Git from the command line.
 
 	and check your repository online by refereshing the page in github
 	
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+## ➡️ Try It
 
 <!-- OLD INSTRUCTIONS
 1. Add `venus.txt` and commit it with the message "add venus".

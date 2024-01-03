@@ -6,10 +6,15 @@
 
    - Check if you are on bash by opening the Terminal and run: `echo "$SHELL"`. If the result ends with "zsh", continue to the next step.
    - Run `brew install bash` to get the latest bash.
-   - Run `sudo subl /etc/shells` file add `/usr/local/bin/bash` as the last line of the file.
+   - Run `echo /usr/local/bin/bash | sudo tee -a /etc/shells`
    - Run `chsh -s /usr/local/bin/bash` to switch the default shell back to bash. It will prompt you for the password which you can type in and press enter.
    - Run `touch ~/.bash_profile` create the bash profile.
    - Run `subl ~/.bash_profile` to open up the bash profile in Sublime Text.
+
+  NOTE: M1 macs may run into errors at this stage when they try to switch to bash - if so, you'll need to do the following things in addition to running the steps above:
+   - Go to 'System preferences' then 'Users & Groups' and right-click on the current admin profile. Click 'Advanced Options' 
+   - Under 'Login shell' change '/usr/local/bin/bash' to just say '/bin/bash'
+   - Run `subl ~/.bash_profile` to open up the bash profile in Sublime Text. At the top of the file, paste `eval "$(/opt/homebrew/bin/brew shellenv)"`
 
 2. Paste the following snippet at the **end of the file** and save.
 

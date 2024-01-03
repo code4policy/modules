@@ -16,7 +16,7 @@ print(date_str)
 
 Its often a good idea to put this conversion into a function if you plan to use it again.
 
-### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+### ➡️ Try It
 
 1. Set a variable `birthday = "1-May-12"`.
 2. Parse the date using `datetime.datetime.strptime`.
