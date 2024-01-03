@@ -64,7 +64,7 @@ git checkout -b <branchname>
 git checkout <branchname>
 ```
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+## ➡️ Try It
 
 1. Get into your teams.
 
@@ -126,7 +126,7 @@ git checkout <branchname>
 
 8. All team members should checkout the master branch and pull the latest code.
 
-#### Delete branch
+#### Deleting a branch locally
 
 ```
 git branch -d <branchname>

@@ -20,7 +20,7 @@ https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Int
 ![](https://mdn.mozillademos.org/files/8961/2014-10-dns-request2.png)
 Source: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name)
 
-#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+#### ❇️ Example
 
 There are lots of programs that can resolve a domain name for you, one of those is [`dig` (domain information groper)](https://www.tecmint.com/10-linux-dig-domain-information-groper-commands-to-query-dns/).
 
@@ -28,7 +28,7 @@ There are lots of programs that can resolve a domain name for you, one of those 
 dig google.com +short
 ```
 
-#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+#### ❇️ Example
 
 Let's set up a custom domain!
 
@@ -55,7 +55,7 @@ Here is a strange videos:
 
 * [Animated Packets](https://www.youtube.com/watch?v=L8VpthhRaEg)
 
-#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+#### ❇️ Example
 
 You can use traceroute to see how your request is routed to its destination.
 

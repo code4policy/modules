@@ -6,7 +6,7 @@ Follow the instructions in this repository's README: https://github.com/code4pol
 
 ## Pandas
 
-https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
+https://pandas.pydata.org/docs/user_guide/10min.html
 
 ## Demo of Jupyter Notebooks
 

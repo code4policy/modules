@@ -54,6 +54,7 @@ In the example above, if I was in the Downloads folder and I wanted the relative
 
 In the same example above, the absolute path to the Documents folder would be `/Users/mehtad/Documents`.
 
+
 #### :raised_hand: Pop Quiz
 
 If you are in the Downloads folder, what folder is:
@@ -149,6 +150,7 @@ If you don't have Sublime Text installed, run `brew cask install sublime-text` o
 * `wc -w <path>` only counts words. A "word" is defined as any set of characters delimited by a space.
 * `wc -c <path>` only counts characters
 
+
 ### :white_check_mark: Try It
 
 1. Take some time to cd around and explore your filesystem. See what is at the root, see if you can find some of the files you use daily.
@@ -187,7 +189,6 @@ The command line not only lets you navigate the file system but also manipulate 
 ### :white_check_mark: Try It
 
 Complete the following assignment: https://classroom.github.com/a/d4WK4RbX
-
 
 ### Finding Files and Folders
 

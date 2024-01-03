@@ -12,6 +12,12 @@ You are welcome to select data from any data source, as long as you are able to 
 
 ### Selecting a visualization
 
+#### Path 1: DataWrapper (or a tool, like ggplot, of your choice)
+
+Your charts may be developed in [DataWrapper](https://www.datawrapper.de/) or a tool that you are already familiar with like ggplot or Excel. Regardless of which tool you use, you will want to follow our class [style guide/charting rubric](https://docs.google.com/document/d/1F-q9jFx8902zhBnJ0o4GwSHQhqJLZKnq-L4SU7kn544/edit). This framework articulates some of the same principles our dataviz guest speakers spoke about. Make sure to think about concepts like presentation, visual heiarchy and chart headlines/labels/etc... 
+
+#### Path 2: D3JS
+
 As we mentioned in class, [D3JS](https://d3js.org/) (Data Drivien Documents) is not a "charting library", but rather a language in which graphics are written. For this reason there are many examples of D3 graphics out in the wild for you to pull from, and data visualization professionals are adding new ones every day. 
 
 Find a visualization that does a good job explaining to the reader the point you're hoping to make given the dataset you have selected. Remember, D3 gives you lots of options that include interactivity and creative visualization. Here are some example D3 visualizations:
@@ -191,20 +197,19 @@ Process
 	
 	If you're not meeting in person, I would also expect that your project group would have an active slack channel.
 
-* Completed retrospective google form
+* Completed retrospective google form (one per group): https://forms.gle/G7U3mbNxqzFyHapM7
 
 Product
 
 * A link to your final project rendered on GitHub pages
 * A "data" or "backend" folder containing original source data, transformation steps (or python script), and final data that your visualization consumes for each dataset
-* A completed final project **technical reflection** from each student (these will be graded individually - a google form will be sent out): https://forms.gle/Et6WcfnMgh3Ln6yi6
-* A completed **final project reflection** from each student (these will be graded individually - a google form will be sent out).: https://forms.gle/2GXotHFYERGZ1zkBA
+* A completed final project **technical reflection** from each student (these will be graded individually): https://forms.gle/PK13tcjCNvtAZFE39
 
 ## Submitting the Project
 
 When you're ready to submit the project, please create a new github issue in your repository called "Ready for Review".
 
-In your team's slack channel, post a link, to that issue and mention @dhrumil letting me know that the project is submitted and ready for my review. Once I've recieved that note from you, I may start grading the project. Please note that the projects are due by midnight of **Monday Jan 18**.
+In your team's slack channel, post a link, to that issue and mention @dhrumil letting me know that the project is submitted and ready for my review. Once I've recieved that note from you, I may start grading the project. Please note that the projects are due by midnight of **Monday Jan 16** (so Monday night).
 
 Please **let me know** if you think your team needs more time and won't be able to meet the originally set due date so that I know when to expect a submission.
 
@@ -213,9 +218,9 @@ Please **let me know** if you think your team needs more time and won't be able 
 Your project will be worth 40% of your grade, that will be divided as follows
 
 * 10% process
-	* Sprint Review (2x)
+	* Sprint Review (1x, the "review" for sprint 2 is the grading process)
 	* Scrum Boards (2x sprints, 1x user story backlog)
-	* Burndown Charts (2x)
+	* Burndown Charts (2x, 1 per sprint)
 	* Collaboration on GitHub
 * 30% product
 	* Frontend
@@ -233,11 +238,11 @@ Your project will be worth 40% of your grade, that will be divided as follows
 
 ## Availability
 
-I am on Ohyay and Slack most of Saturday and Sunday and available to meet via video chat. If you can't find me on Ohyay, just shoot me a message on Slack letting me know you're coming in case I'm wandering around the house. The TAs should also be around (on and off) over the weekend.
+I am on Ohyay and Slack most of Saturday and Sunday and available to meet via video chat. If you can't find me, just shoot me a message on Slack letting me know you're coming in case I'm wandering around. The TAs should also be around (on and off) over the weekend.
 
 ## Course Evaluations
 
-You should have received an email about the course evaluations, they are accessible through the [canvas page for this class](https://canvas.harvard.edu/) and are **due on January 21**.  Your honest feedback will be particularly important both in helping me understand how to best iterate on the course as well as helping the Kennedy School better understand the role of technical education in the curriculum. Please take some time to thoughtfully fill out the course evaluation.
+You should have received an email about the course evaluations, they are accessible through the [canvas page for this class](https://canvas.harvard.edu/) and are **due by January 19**.  Your honest feedback will be particularly important both in helping me understand how to best iterate on the course as well as helping the Kennedy School better understand the role of technical education in the curriculum. Please take some time to thoughtfully fill out the course evaluation.
 
 ## Final Note
 

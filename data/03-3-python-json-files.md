@@ -29,7 +29,7 @@ print(data)
 ```
 
 
-### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+### ➡️ Try It
 
 In a new file called `cookveggies.py`
 
@@ -48,7 +48,7 @@ In a new file called `cookveggies.py`
 	]
     ```
 
-### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+### ❇️ Example
 
 Download superheroes.json
 
@@ -67,7 +67,7 @@ then write a python program that
 
 hint for bonus: To get the unique elements in a list use the `set` method. For example, try running `list(set([1, 1, 2, 3]))` in your python console. Alternatively you can use an if statement to only add the powers to the list if they are not already in there.
 
-### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+### ➡️ Try It
 
 Lets Read `superheroes.json` (in this folder) and output a flat CSV of members. The columns should be: `name, age, secretIdentity, powers, squadName, homeTown, formed, secretBase, active`. Any column that is top level, such as `squadName` should just be repeated for every row.
 

@@ -1,6 +1,6 @@
 # Git: Merge Conflicts
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+## ❇️ Example
 
 1. 	`cd` into the `<yourname>-simple-website/` folder and open the directory in sublime as well.
 
@@ -56,7 +56,7 @@
 	3. Push the branch.
 	4. Do not merge this branch, we're going to throw away these changes
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+## ➡️ Try It
 1. `cd` into your **universe** repository 
 
 1. Make sure the repository is clean and you are in the master branch.
@@ -76,7 +76,7 @@
 
 5. Attempt to merge the pull request and try to resolve the merge conflicts.
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+## ➡️ Try It
 
 1. Get into your teams.
 

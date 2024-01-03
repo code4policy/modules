@@ -16,7 +16,7 @@ https://projects.propublica.org/graphics/images/data-institute/presentations/how
 The `class` and `id` attributes are particularly important. These are what the CSS is going to latch onto in order to identify which elements should receive the same styles, and they are what the JavaScript will latch onto in order to determine which element it should assign a behavior to.
 
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+## ❇️ Example
 
 1. Lets try this by adding a few more paragraphs of text. You can generate dummy text at https://www.lipsum.com/. 5 paragraphs should be enough.
 

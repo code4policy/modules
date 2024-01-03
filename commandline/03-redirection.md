@@ -45,7 +45,7 @@ First, lets install a new command `fortune`
   fortune | cowsay > wisecow.txt
   ```
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: Redirection
+## ❇️ Example: Redirection
 
 1. Redirect a fact about planet mars into the mars.txt.
 
@@ -73,7 +73,7 @@ cat ~/Development/universe/solar_system/planets/mars.txt
 
   In this screenshot, the first example with the `%` at the end has no newline. The latter example does.
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: piping
+## ❇️ Example: piping
 
 Count the number of characters in the string "hello world" using `wc`.
 
@@ -93,13 +93,13 @@ Count the number of characters in the first line of `mars.txt`
 cat ~/Development/universe/solar_system/planets/mars.txt | head -n 1 | wc -c
 ```
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+## ➡️ Try It
 
 Count the number of characters in `mars.txt`
 Count the number of characters in the last line of `mars.txt`
 
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: piping
+## ❇️ Example: piping
 
 Count number of **folders** in the `universe` folder.
 
@@ -108,7 +108,7 @@ cd ~/Development/universe
 find . -type d | wc -l
 ```
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+## ➡️ Try It
 
 Count number of **files** in the `universe` folder.
 
@@ -122,7 +122,7 @@ Configure slackcat by running this command and following the instructions in you
 slackcat --configure
 ```
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example
+## ❇️ Example
 
 Let's use slackchat to send a simple message to the `#scratchwork` channel.
 
@@ -130,7 +130,7 @@ Let's use slackchat to send a simple message to the `#scratchwork` channel.
 echo "hello world" | slackcat -c scratchwork
 ```
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+## ➡️ Try It
 
 Notice how the message is being sent as a snippet. Figure out how to send a normal, non-snippet, message using slackcat.
 
@@ -138,7 +138,7 @@ Notice how the message is being sent as a snippet. Figure out how to send a norm
 echo "hello" | slackcat -t -s -c scratchwork
 -->
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Try It
+## ➡️ Try It
 
 1. Count the total number of files and folders in the `~/Development/universe/` directory and send this to the person sitting next to you using slackcat. Use only one line and piping. You can use the `--noop` flag to first test it out without sending the message, then you can remove it to send the message. (hint: start with `tree`)
 
@@ -154,7 +154,7 @@ cd ~/Development/universe/solar_system
 tree | slackcat -c scratchwork
 -->
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Example: piping and redirection
+## ❇️ Example: piping and redirection
 
 House Office Expenditure Data: https://projects.propublica.org/represent/expenditures
 
