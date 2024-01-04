@@ -20,7 +20,7 @@
 5. Install [Windows Terminal](https://aka.ms/terminal) from the Microsoft Store.
 
    - Pin Windows Terminal to taskbar.
-   - Change `defaultProfile` to WSL.
+   - Go to setting and change `defaultProfile` to Ubuntu
      
 6. Install [wsl-open](https://github.com/4U6U57/wsl-open), by running the following in your terminal
 
