@@ -1,0 +1,27 @@
+name: Sync Main to Master
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+
+      - name: Push Changes to Master
+        run: |
+          git fetch origin
+          git checkout master
+          git merge --ff-only origin/main
+          git push origin master
