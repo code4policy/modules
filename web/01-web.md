@@ -3,7 +3,7 @@
 ## Client vs Server
 
 Basic Network
-![](https://mdn.mozillademos.org/files/8973/Client-server.jpg)
+![](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works/simple-client-server.png)
 Source: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 
 * **Client** - you using your web browser on your computer, phone, smartwatch,etc...
@@ -13,8 +13,8 @@ Source: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Lea
 
 The term "server" can sometimes be used ambiguously, it can refer the **software** that is serving the data or the **hardware** (the actual device) that is running that software.
 
-### Static Web Server
-![](https://mdn.mozillademos.org/files/8659/web-server.svg)
+### Web Server
+![](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server/web-server.svg)
 Source: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
 
 #### :large_orange_diamond: Example
@@ -70,13 +70,13 @@ If you're just testing a website, its a good idea to use a higher number (like `
 ## Static vs Dynamic Web Servers
 
 ### Static Web Server
-![](https://mdn.mozillademos.org/files/13841/Basic%20Static%20App%20Server.png)
+![](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction/basic_static_app_server.png)
 Source: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction)
 
 A static web server simply serves files.
 
 ### Dynamic Web Server
-![](https://mdn.mozillademos.org/files/13839/Web%20Application%20with%20HTML%20and%20Steps.png)
+![](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction/web_application_with_html_and_steps.png)
 
 Source: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction)
 
