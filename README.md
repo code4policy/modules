@@ -15,5 +15,3 @@ path | module
 `storytelling/` | [Data-Driven Storytelling](./storytelling/)
 `web/` | [Web + HTML, CSS, and JavaScript](./web/)
 
-
-- [TODO](./todo.md)
