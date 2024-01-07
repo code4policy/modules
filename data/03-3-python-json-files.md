@@ -69,7 +69,7 @@ hint for bonus: To get the unique elements in a list use the `set` method. For e
 
 ### ➡️ Try It
 
-Lets Read `superheroes.json` (in this folder) and output a flat CSV of members. The columns should be: `name, age, secretIdentity, powers, squadName, homeTown, formed, secretBase, active`. Any column that is top level, such as `squadName` should just be repeated for every row.
+Let's read `superheroes.json` (in this folder) and output a flat CSV of members. The columns should be: `name, age, secretIdentity, powers, squadName, homeTown, formed, secretBase, active`. Any column that is top level, such as `squadName` should just be repeated for every row.
 
 Here is an example set of steps:
 
