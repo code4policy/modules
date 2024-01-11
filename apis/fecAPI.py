@@ -12,7 +12,7 @@ operation = 'candidates'
 key = os.environ['FECKEY']
 
 # additional api parameters specific to the operation
-api_parameters = {'api_key': key, 'office':'H', 'sort':'name', 'state':'MA', 'election_year':[2016]}
+api_parameters = {'api_key': key, 'office':'H', 'sort':'name', 'state':'MA', 'election_year':[2022]}
 
 # ping api
 response = requests.get(base_url + operation, params = api_parameters)
