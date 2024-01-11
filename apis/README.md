@@ -8,7 +8,7 @@
 1. Take a look around at the [FEC API documentation](https://api.open.fec.gov/developers/)
 2. Before running the FEC API script, you will need your own API key, which you can find [here](https://api.data.gov/signup/)
 3. Since you don't want to make your key public, add your key to your environment variables by typing `export FECKEY='<your_key_here>'` into the terminal
-4. Run the following command in your terminal to see candidates who ran for office in Massachusetts in 2016:
+4. Run the following command in your terminal to see candidates who ran for office in Massachusetts in 2023:
 ```
 python3 fecAPI.py
 ```
