@@ -4,7 +4,7 @@
 * "Building for Users: Designing URLs" Chapter 2 (p 9-13) ;
 * "Building for Search Engines: Following Rest" Chapter 3 (all);
 * "Building a Platform: Providing APIs"Chapter 5 (p 31-36)
-* [Aaron Swartz’s A Programmable Web](https://archive.org/details/AaronSwartzAProgrammableWeb/page/n3/mode/2up): Rest of the book is not required, but Chapter 7 is about Open Source if you're interested.
+* Rest of the book is not required, but Chapter 7 is about Open Source if you're interested.
 
 Additioanl Resources
 * APIs that suck [video] - https://www.infoq.com/presentations/API-design-mistakes
