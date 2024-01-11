@@ -6,7 +6,7 @@
 * "Building a Platform: Providing APIs"Chapter 5 (p 31-36)
 * Rest of the book is not required, but Chapter 7 is about Open Source if you're interested.
 
-Additioanl Resources
+Additional Resources (Optional)
 * APIs that suck [video] - https://www.infoq.com/presentations/API-design-mistakes
 * [REST API Design - Resource Modeling](https://www.thoughtworks.com/insights/blog/rest-api-design-resource-modeling) (Thoughtworks)
 * [https://micropurchase.18f.gov/](https://micropurchase.18f.gov/)
