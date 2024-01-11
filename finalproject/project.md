@@ -4,32 +4,27 @@ Please find below a description of expectations for your final project. There ar
 
 ## Product
 
-For your final project, you will work in a scrum-inspired agile software team with your classmates to tell a data-driven story about a particular area of policy interest. Your team will select one or many datasets, and create a web application with visualizations that tell a coherent story about your data.
+For your final project, you will work in a scrum-inspired agile software team with your classmates to build a data-driven website about a particular area of policy interest. Your team will select users for your project and build them a data-powered web application with visualizations that serve the needs of that user.
 
 ### Selecting Data
 
-You are welcome to select data from any data source, as long as you are able to understand the format that the data is in and transform it into a format that works for the visualization that you would like to build.
+You are welcome to select data from any credible data source. Make sure to cite it appropriately in the project.
 
 ### Selecting a visualization
 
-#### Path 1: DataWrapper (or a tool, like ggplot, of your choice)
+Selecting the right visualization for your data and the comparisons you're trying to make is a good dataviz skills. Check out the [Financial Times Chart Taxonomy](https://github.com/Financial-Times/chart-doctor/blob/main/visual-vocabulary/FT4schools_RGS.pdf) as you think about what kind of vizualization to select. 
 
-Your charts may be developed in [DataWrapper](https://www.datawrapper.de/) or a tool that you are already familiar with like ggplot or Excel. Regardless of which tool you use, you will want to follow our class [style guide/charting rubric](https://docs.google.com/document/d/1F-q9jFx8902zhBnJ0o4GwSHQhqJLZKnq-L4SU7kn544/edit). This framework articulates some of the same principles our dataviz guest speakers spoke about. Make sure to think about concepts like presentation, visual heiarchy and chart headlines/labels/etc... 
+One requirement for the project is to learn a way to visualize data that we haven't taught in class. Making a D3 chart meets this requirement. If you use another tool, you will have to find another way to prove that you've learned something new on your own and put it in your tech reflection form. You may want to run that by the professor to make sure it meets the requirement. If you'd like to try charting in R, ggplot is a great library for making data visualizations. If you find another way to learn a new thing on your own, [DataWrapper](https://www.datawrapper.de/) also makes great charts. 
 
-#### Path 2: D3JS
+Regardless of which tool you use, you will want to follow our class [style guide/charting rubric](https://docs.google.com/document/d/1F-q9jFx8902zhBnJ0o4GwSHQhqJLZKnq-L4SU7kn544/edit). This framework articulates some of the same principles our dataviz guest speakers spoke about. Make sure to think about concepts like presentation, visual heiarchy and chart headlines/labels/etc... 
 
-As we mentioned in class, [D3JS](https://d3js.org/) (Data Drivien Documents) is not a "charting library", but rather a language in which graphics are written. For this reason there are many examples of D3 graphics out in the wild for you to pull from, and data visualization professionals are adding new ones every day. 
+Here are some other examples of visualizations in D3 
 
-Find a visualization that does a good job explaining to the reader the point you're hoping to make given the dataset you have selected. Remember, D3 gives you lots of options that include interactivity and creative visualization. Here are some example D3 visualizations:
-
-- http://bl.ocks.org/mbostock (Mike Bostock created D3JS, these are his examples)
-- http://bl.ocks.org/ (same website, examples by different people)
 - https://d3js.org/
 - http://christopheviau.com/d3list/gallery.html
-- https://github.com/d3/d3/wiki/Gallery
-
-In addition to modifying the data, I am asking that you make **at least one small modification** to the demo code provided to you. It can be something as simple as modifying a color, or something more ambitious if you chose.
-
+- https://observablehq.com/@d3/gallery
+  
+You're welcome to make a new D3 viz with ChatGPT (although do make sure to cite it appropriately) or to pick one from an example. You must make **at least one small modification** to the demo code you've picked. It can be something as simple as modifying a color, or something more ambitious if you chose. 
 
 ### Your Dataset
 
