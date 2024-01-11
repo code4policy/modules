@@ -13,12 +13,3 @@
 python3 fecAPI.py
 ```
 5. The script will also save the raw json results in a file called `fec_api_results.json`. To make these results more readable, follow the instructions in the **Setup** section above
-
-## Huffington Post Polls API
-1. Take a look around at the [Huffington Post Polls documentation](https://app.swaggerhub.com/apis/huffpostdata/pollster-api/2.0.0#/)
-2. Run the following command in your terminal to see links to the acutal polls:
-```
-python3 huffpostAPI.py
-```
-3. The script will also save the raw json results in a file called `huffpost_api_results.json`. To make these results more readable, follow the instructions in the **Setup** section above
-
