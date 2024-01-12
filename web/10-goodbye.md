@@ -2,6 +2,8 @@
 
 Thanks for taking the leap into code!
 
+A quick recap of our [learning objectives](https://slides.com/dhrumilmehta/hks-intro/review#/4)
+
 For those who plan to continue coding:
 
 - Overcome barriers to learning coding
