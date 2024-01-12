@@ -37,5 +37,8 @@ Free to Make: How the Maker Movement is Changing Our Schools, Our Jobs, and Our 
 
 ## Course Evaluations
 
-Course evaluations are accessible through the canvas and are open through **January 19**. Your honest feedback will be particularly important both in helping me understand how to best iterate on the course as well as helping the Kennedy School better understand the role of technical education in the curriculum. Please take some time to thoughtfully fill out the course evaluation.
+Please fill out the following [course retrospective form](https://docs.google.com/forms/d/1KV4VNvuw-mBNhwItpgbP3W5YVLZIuhMVhqftIFf7Uyo/edit), followed by the **course evaluation 
+in HKS canvas (canvas.hks.edu)**. Course evaluations are accessible through the canvas and are open through **January 18**. Your honest feedback will be particularly important both in helping me understand how to best iterate on the course as well as helping the Kennedy School better understand the role of technical education in the curriculum. 
+
+Please take some time to thoughtfully fill out the course evaluation in the HKS canvas page for this course at canvas.hks.edu.
 
