@@ -192,7 +192,7 @@ Process
 	
 	If you're not meeting in person, I would also expect that your project group would have an active slack channel.
 
-* Completed retrospective google form (one per group): https://forms.gle/G7U3mbNxqzFyHapM7
+* Completed retrospective google form (one per group): https://docs.google.com/forms/d/e/1FAIpQLScqZPQtdVDa59zqL5IbCnhCKilzCNdqK9mKDif9Z2xZH_by8w/viewform?usp=sf_link
 
 Product
 
