@@ -67,7 +67,7 @@ Check out all of your environment variables: `printenv`
 
 ## ❇️ Example: permanently setting an environment variable
 
-Lets modify an environment variable in side your your `~/.bash_profile` (macOS) or `~/.bashrc` (Ubuntu).
+Lets modify an environment variable inside your `~/.bash_profile` (macOS) or `~/.bashrc` (Ubuntu).
 
 1. First `touch ~/.bash_profile` (macOS) or `touch ~/.bashrc` (Ubuntu) in the terminal. This will create an empty file in your home folder if one doesn't already exist. If the file does exist, the touch command won't modify it's contents.
 
