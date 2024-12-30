@@ -133,7 +133,7 @@ Error Codes other than 1 and 0 are more rare, but here are some examples: [http:
 
 Additional resource on exit codes:
 
-[http://bencane.com/2014/09/02/understanding-exit-codes-and-how-to-use-them-in-bash-scripts/](http://bencane.com/2014/09/02/understanding-exit-codes-and-how-to-use-them-in-bash-scripts/)
+[https://shapeshed.com/unix-exit-codes/](https://shapeshed.com/unix-exit-codes/)
 
 
 ## Permissions and `chmod`
