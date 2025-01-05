@@ -7,11 +7,14 @@
 
 ## Required Reading
 
-**Due Tomorrow**
+**Due 1/7, Tuesday**
 
 - [Scrum: The Art of Doing Twice the Work in Half the Time](https://www.amazon.com/Scrum-Doing-Twice-Work-Half/dp/038534645X) [Chapter 1] (provided on Slack)
-- [Elements of Scrum](https://www.amazon.com/Elements-Scrum-Chris-Sims-ebook/dp/B004O0U74Q/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1546492282&sr=1-2&keywords=elements+of+scrum) [Part I and Part II] 
-	- (Go ahead and read the whole thing if you find yourself interested, its not too long)
+- [Elements of Scrum](https://www.amazon.com/Elements-Scrum-Chris-Sims-ebook/dp/B004O0U74Q/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1546492282&sr=1-2&keywords=elements+of+scrum) [Part I]
+- Read the [agile manifesto](https://agilemanifesto.org/) and [agile principles](https://agilemanifesto.org/principles.html). Spend 30 minutes independently researching the Agile Manifesto principle that you have been assigned. Come to class ready to explain and discuss what that principle means in practice and in a software development concept. 
+
+ **Due 1/8, Wednesday**
+ - [Elements of Scrum](https://www.amazon.com/Elements-Scrum-Chris-Sims-ebook/dp/B004O0U74Q/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1546492282&sr=1-2&keywords=elements+of+scrum) [Part II] 
 
 ## Additional Resources
 
