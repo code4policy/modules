@@ -25,7 +25,7 @@ Source: [http://agilemanifesto.org/](http://agilemanifesto.org/)
 
 ### Few additional resources
 * [The cartoon](http://web.archive.org/web/20190108105432/https://www.tamingdata.com/wp-content/uploads/2010/07/tree-swing-project-management-large.png): Agile helps to prevent this. Continuous delivery and feedback.
-* Agile vs Waterfall: http://www.agilenutshell.com/agile_vs_waterfall
+* Agile vs Waterfall: (https://web.archive.org/web/20230129053633/http://www.agilenutshell.com/agile_vs_waterfall)
 
 ### An Agile J-Term
 Split up into 4 teams:
