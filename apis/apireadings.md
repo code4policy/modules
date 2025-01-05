@@ -1,12 +1,13 @@
 ## Reading
-* **(required)** [Aaron Swartz’s A Programmable Web](https://archive.org/details/AaronSwartzAProgrammableWeb/page/n3/mode/2up): Chapter 1 -"Introduction: A Programmable Web"
-* **(required)** [Aaron Swartz’s A Programmable Web](https://archive.org/details/AaronSwartzAProgrammableWeb/page/n3/mode/2up): Chapter 2 -"Building for Users: Designing URLs"
-* **(recommended)** [Aaron Swartz’s A Programmable Web](https://archive.org/details/AaronSwartzAProgrammableWeb/page/n3/mode/2up): Chapter 3 -"Building for Search Engines: Following Rest"
-* **(required)** [Aaron Swartz’s A Programmable Web](https://archive.org/details/AaronSwartzAProgrammableWeb/page/n3/mode/2up): Chapter 5 -"Building a Platform: Providing APIs"
-* [Aaron Swartz’s A Programmable Web](https://archive.org/details/AaronSwartzAProgrammableWeb/page/n3/mode/2up): Rest of the book is not required, but Chapter 7 is about Open Source if you're interested.
-* **(required)** APIs that suck [video] - [https://www.infoq.com/presentations/API-design-mistakes]
 
-Additioanl Resources
+* [Aaron Swartz’s A Programmable Web](https://archive.org/details/AaronSwartzAProgrammableWeb/page/n3/mode/2up)
+* "Building for Users: Designing URLs" Chapter 2 (p 9-13) ;
+* "Building for Search Engines: Following Rest" Chapter 3 (all);
+* "Building a Platform: Providing APIs"Chapter 5 (p 31-36)
+* Rest of the book is not required, but Chapter 7 is about Open Source if you're interested.
+
+Additional Resources (Optional)
+* APIs that suck [video] - https://www.infoq.com/presentations/API-design-mistakes
 * [REST API Design - Resource Modeling](https://www.thoughtworks.com/insights/blog/rest-api-design-resource-modeling) (Thoughtworks)
 * [https://micropurchase.18f.gov/](https://micropurchase.18f.gov/)
 * Programmable Web - [https://www.programmableweb.com/about](https://www.programmableweb.com/about)

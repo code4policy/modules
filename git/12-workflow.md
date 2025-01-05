@@ -7,13 +7,13 @@ When working with branches, here is the general workflow to adhere to.
 1. Before starting work:
 
     ```bash
-    # always start your branching from the master branch
-    git checkout master
+    # always start your branching from the main branch
+    git checkout main
     
     # pull the latest
     git pull
     
-    # create a new branch, branch-ed off of the master branch
+    # create a new branch, branch-ed off of the main branch
     git checkout -b my-awesome-feature
     ```
 
@@ -33,13 +33,13 @@ When working with branches, here is the general workflow to adhere to.
     git push
     ```
 
-3. Also make sure to periodically pull from master: 
+3. Also make sure to periodically pull from main: 
 
     ```bash
-    git pull origin master
+    git pull origin main
     ```
 
-    **Pulling from master periodically is very important!** This will keep your code relatively in-sync and prevent deferring massive merge conflicts down the line.
+    **Pulling from main periodically is very important!** This will keep your code relatively in-sync and prevent deferring massive merge conflicts down the line.
 
 4. When you're done with your work
 
@@ -50,7 +50,7 @@ When working with branches, here is the general workflow to adhere to.
     git status
     ```
     
-    then open up GitHub and **issue a pull request back to master**.
+    then open up GitHub and **issue a pull request back to main**.
 
 ## Workflow Types
 
@@ -58,7 +58,7 @@ When working with branches, here is the general workflow to adhere to.
 
 ![](https://i.imgur.com/T6pJPY8.jpg)
 
-The feature branch workflow is where every small or large feature gets its own branch. These branches are shortlived and are quickly merged back into master. Each feature branch corresponds to a pull request and the branch is deleted after the PR is merged.
+The feature branch workflow is where every small or large feature gets its own branch. These branches are shortlived and are quickly merged back into main. Each feature branch corresponds to a pull request and the branch is deleted after the PR is merged.
 
 ### Team Member Branches
 
