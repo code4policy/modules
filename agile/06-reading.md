@@ -11,7 +11,7 @@
 
 - [Scrum: The Art of Doing Twice the Work in Half the Time](https://www.agileleanhouse.com/lib/lib/News/More_Praise_for_Scrum_The_Art_of_Doing_T.pdf) [Chapter 1 linked here]
 - [Elements of Scrum](https://www.amazon.com/Elements-Scrum-Chris-Sims-ebook/dp/B004O0U74Q/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1546492282&sr=1-2&keywords=elements+of+scrum) [Part I]
-- Read the [agile manifesto](https://agilemanifesto.org/) and [agile principles](https://agilemanifesto.org/principles.html). Spend 30 minutes independently researching the Agile Manifesto principle that you have been assigned. Come to class ready to explain and discuss what that principle means in practice and in a software development concept. 
+- Read the [agile manifesto](https://agilemanifesto.org/) and [agile principles](https://agilemanifesto.org/principles.html). **[Section B only]**Spend 30 minutes independently researching the Agile Manifesto principle that you have been assigned. Come to class ready to explain and discuss what that principle means in practice and in a software development concept. 
 
  **Due 1/8, Wednesday**
  - [Elements of Scrum](https://www.amazon.com/Elements-Scrum-Chris-Sims-ebook/dp/B004O0U74Q/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1546492282&sr=1-2&keywords=elements+of+scrum) [Part II] 
