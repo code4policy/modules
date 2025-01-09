@@ -199,7 +199,7 @@ don't go down rabbit holes trying to figure something out if there is someone wh
 
 ## :white_check_mark: Try It
 
-Let's see if you can learn how to use a new command! Experiment working with `cowsay` in the command line by completing the following assignment: https://classroom.github.com/a/4yAnW2NV
+Let's see if you can learn how to use a new command! Experiment working with `cowsay` in the command line by completing the following assignment: https://classroom.github.com/a/zbOIMr8b
 
 
 ## Dangers
