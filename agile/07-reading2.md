@@ -37,5 +37,4 @@ Do you have burning questions about Scrum? Like "What are the most common pitfal
 
 ## Submit your questions for David Eaves
 
-https://docs.google.com/forms/d/e/1FAIpQLScEYEGjXldj4ZLXsnYXKTBQnaxQUUQj4Mcgq0s9JSL9c8BTWA/viewform?usp=sf_link
-
+https://docs.google.com/forms/d/e/1FAIpQLSd7gWFkSaRbMu_atOgMgvR4Wj9E2N0yorqhqr9B1yrobu_eIg/viewform?usp=header
