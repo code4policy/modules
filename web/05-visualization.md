@@ -25,12 +25,11 @@ https://classroom.github.com/a/cCdSRlal
 
 If you're planning to use D3 for the MVP of your project, you can find some great templates at
 
-
-- http://bl.ocks.org/mbostock (Mike Bostock created D3JS, these are his examples)
-- http://bl.ocks.org/ (same website, examples by different people)
-- https://github.com/d3/d3/wiki/Gallery
-- http://christopheviau.com/d3list/gallery.html
 - https://d3js.org/
+- https://d3-graph-gallery.com/
+- https://observablehq.com/@d3/gallery
+- http://christopheviau.com/d3list/gallery.html
+- http://bl.ocks.org/mbostock (Mike Bostock created D3JS, these are his examples)
 
 
 Some of these pre-created D3 visualizations take in CSV format (like the simple example that we did above). Others take in a JSON format. We will be talking in class about converting between CSV and JSON formats using python. If you find that you want to use a data visualization, but are not sure how to connect the dataset to the visualization, have someone in your project group chat with me.
