@@ -18,8 +18,8 @@ What D3 is Not
 ## Making D3 graphics with AI
 https://classroom.github.com/a/cCdSRlal
 
-[comment]: <> ((## Inserting D3 into a webpage)
-[comment]: <> (https://classroom.github.com/a/_gB7y5As)
+<!-- (## Inserting D3 into a webpage)
+(https://classroom.github.com/a/_gB7y5As) -->
 
 ## Example D3 Graphics
 
