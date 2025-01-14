@@ -103,4 +103,3 @@ This would both print to the terminal and return a value. The return is the very
 
 ## ➡️ Try It
 
-Complete the following assignment: https://classroom.github.com/a/9pY8aTQJ
