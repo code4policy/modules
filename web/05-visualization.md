@@ -15,11 +15,13 @@ What D3 is Not
 * [http://ruoyusun.com/2014/05/26/what-d3js-is-not.html](http://ruoyusun.com/2014/05/26/what-d3js-is-not.html
 )
 
-## Inserting D3 into a webpage
+## Making D3 graphics with AI
+https://classroom.github.com/a/cCdSRlal
 
-https://classroom.github.com/a/_gB7y5As
+[comment]: <> ((## Inserting D3 into a webpage)
+[comment]: <> (https://classroom.github.com/a/_gB7y5As)
 
-## Project Note
+## Example D3 Graphics
 
 If you're planning to use D3 for the MVP of your project, you can find some great templates at
 
