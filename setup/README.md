@@ -59,7 +59,7 @@ error: externally-managed-environment
    Run the following command:
 
    ```bash
-   pip config list
+   pip3 config list
    ```
 
    What you should see:
