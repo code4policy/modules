@@ -134,7 +134,7 @@ Last, when reading long files page by page (like when using `man`), you can use 
 
 #### `subl`
 
-If you don't have Sublime Text installed, run `brew cask install sublime-text` on macOS and on ubuntu follow [these](http://tipsonubuntu.com/2017/05/30/install-sublime-text-3-ubuntu-16-04-official-way/) instructions.
+If you don't have Sublime Text installed, run `brew cask install sublime-text` on macOS and on ubuntu follow [these](https://www.sublimetext.com/docs/linux_repositories.html) instructions.
 
 * `subl <folder>` **open**s the folder in sublime
 * `subl <filepath>` **open**s the file in sublime
