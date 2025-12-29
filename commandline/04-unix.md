@@ -129,7 +129,7 @@ Get exit code of the command you just ran with the following
 echo $?
 ```
 
-Error Codes other than 1 and 0 are more rare, but here are some examples: [http://www.tldp.org/LDP/abs/html/exitcodes.html](http://www.tldp.org/LDP/abs/html/exitcodes.html])
+Error Codes other than 1 and 0 are more rare, but [here](https://stackoverflow.com/questions/1101957/are-there-any-standard-exit-status-codes-in-linux) are some examples.
 
 Additional resource on exit codes:
 
