@@ -9,7 +9,7 @@
 * Git Screwup Guide
 	* http://ohshitgit.com/
 * Git/Github Cheat Sheets
-	* https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
+	* https://training.github.com/downloads/github-git-cheat-sheet.pdf
 	* http://ndpsoftware.com/git-cheatsheet.html
 * Licensing Open Source Code
 	* ​http://choosealicense.com/
@@ -31,8 +31,7 @@
 ## Tools from my previous trainings/classes
 * http://slides.com/dhrumilmehta/how-to-tell-a-story-with-data-tools-of-the-trade-2#/4/21
 * https://github.com/dmil/hks-coursework/blob/master/gitreference.md
-* Dhrumil in video form
-	- https://www.youtube.com/watch?v=O4Zc8DJ9MdQ
+
 
 ## Credits
 some information sourced from: [https://github.com/AlJohri/DAT-DC-12/blob/master/notebooks/intro-git.ipynb](https://github.com/AlJohri/DAT-DC-12/blob/master/notebooks/intro-git.ipynb)
