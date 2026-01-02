@@ -18,7 +18,6 @@ You can find example D3 visualizations at the following places, but I'd also enc
 
 - https://d3js.org/
 - https://observablehq.com/@d3/gallery
-- http://christopheviau.com/d3list/gallery.html
 - https://github.com/d3/d3/wiki/Gallery
 <!-- - http://bl.ocks.org/mbostock (Mike Bostock created D3JS, these are his examples)
 - http://bl.ocks.org/ (same website, examples by different people)
