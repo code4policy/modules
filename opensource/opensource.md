@@ -1,6 +1,6 @@
 # Homework
 
-Swartz Chapter 7 http://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005
+Swartz Chapter 7 [http://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005](https://web.archive.org/web/20220121020916/https://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005)
 
 Once you've read Swartz Chapter 7 and browsed the links of your chosing from below, please participate in discussion in the #opensource channel on slack.
 
@@ -20,18 +20,17 @@ Once you've read Swartz Chapter 7 and browsed the links of your chosing from bel
     * https://www.gnu.org/philosophy/open-source-misses-the-point.en.html
     * https://www.ubuntu.com/about/about-ubuntu/our-philosophy
 * DOD
-    * http://dodcio.defense.gov/Open-Source-Software-FAQ/#Defining_Open_Source_Software_.28OSS.29
+    * [http://dodcio.defense.gov/Open-Source-Software-FAQ/#Defining_Open_Source_Software_.28OSS.29](https://web.archive.org/web/20210423172834/https://dodcio.defense.gov/Open-Source-Software-FAQ/#Defining_Open_Source_Software_.28OSS.29)
     * https://hackerone.com/resources/hack-the-pentagon
 * Whitehouse
     * https://www.obamawhitehouse.gov/blog/2016/03/09/leveraging-american-ingenuity-through-reusable-and-open-source-software
-    * https://sourcecode.cio.gov/
     * https://www.obamawhitehouse.gov/sites/default/files/omb/memoranda/2016/m-16-12_1.pdf
 * HHS
     * https://www.hhs.gov/open/2016-plan/open-source-software.html
 * 18F
-    * https://18f.gsa.gov/2015/01/16/open-source-for-good-government/
+    * [https://18f.gsa.gov/2015/01/16/open-source-for-good-government/](https://web.archive.org/web/20220212023145/https://18f.gsa.gov/2015/01/16/open-source-for-good-government/)
     * https://github.com/18F/open-source-policy/blob/master/policy.md
-    * https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/
+    * [https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/](https://web.archive.org/web/20210319114933/https://18f.gsa.gov/2015/10/13/open-source-micropurchasing/)
 * House
     * http://opengovfoundation.org/open-source-software-now-permitted-in-the-u-s-house-of-representatives/
     * https://www.wired.com/2016/08/open-source-won-now/
@@ -48,10 +47,6 @@ Once you've read Swartz Chapter 7 and browsed the links of your chosing from bel
     * [White House Open Source Policy](https://sourcecode.cio.gov/)
     * [Open Source Software in House Press Release](http://congressionaldata.org/open-source-software-now-permitted-in-the-u-s-house-of-representatives-2/)
     * https://blog.jcoglan.com/2013/11/15/why-github-is-not-your-cv/
-* Technology-Spending in Congress
-    * http://opengovfoundation.org/counting-up-congressional-technology-spending-for-2014-the-u-s-senate/
-    * http://opengovfoundation.org/counting-up-congressional-technology-spending-for-2014-the-u-s-house/
-    * https://opengovfoundation.org/why-congressional-technology-spending-matters-and-how-to-improve-the-situation/
 
 
 * non-us
