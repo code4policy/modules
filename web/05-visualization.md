@@ -4,7 +4,7 @@
 D3 JS
 
 * [https://d3js.org/](https://d3js.org/)
-* [https://github.com/d3/d3/wiki/Gallery](https://github.com/d3/d3/wiki/Gallery)
+* https://observablehq.com/@d3/gallery
 
 Grammar of Graphics
 
