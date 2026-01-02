@@ -9,7 +9,7 @@ web sites whenever you could, making their endless information and bountiful abi
 a seamless part of yours? And so, I suspect, such uses will become increasingly common until, one day, your computer is as tethered to the Web as you yourself are
 now.
 >
->\- [Swartz: Introduction](http://www.morganclaypool.com/doi/pdf/10.2200/S00481ED1V01Y201302WBE005)
+>\- [Swartz: Introduction](https://web.archive.org/web/20220121020916/https://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005)
 
 
 ## How Web Apps are Structured
@@ -31,7 +31,7 @@ extension of it. All the principles we’ve talked about—smart URLs, GET and
 POST, etc.—apply equally well to web sites or APIs. The only difference is that
 instead of returning HTML, you’ll want to return JSON instead.
 >
-> \- [Swartz (Chapter 5)](http://www.morganclaypool.com/doi/pdf/10.2200/S00481ED1V01Y201302WBE005)
+> \- [Swartz (Chapter 5)](https://web.archive.org/web/20220121020916/https://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005)
 
 
 
@@ -46,7 +46,7 @@ instead of returning HTML, you’ll want to return JSON instead.
 
 Additional Resource
 
-[https://doepud.co.uk/blog/anatomy-of-a-url](https://doepud.co.uk/blog/anatomy-of-a-url)
+[https://doepud.co.uk/blog/anatomy-of-a-url](https://web.archive.org/web/20210208215619/https://doepud.co.uk/blog/anatomy-of-a-url)
 
 #### What a URL reveals about a web app
 
@@ -68,7 +68,7 @@ application and has to be done first. Encoded in their design are a whole series
 implicit assumptions about what your site is about, how it is structured, and how it
 should be used; all important and largely-unavoidable questions.
 >
-> \- [Swartz (Chapter 2:: Building for Users: Designing URLs)](http://www.morganclaypool.com/doi/pdf/10.2200/S00481ED1V01Y201302WBE005)
+> \- [Swartz (Chapter 2:: Building for Users: Designing URLs)](https://web.archive.org/web/20220121020916/https://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005)
 
 
 ## A Case Study
@@ -291,7 +291,7 @@ scourges on the planet, offenses against hardworking programmers that have
 pushed out sensible formats (like JSON) in favor of overly-complicated hairballs
 with no basis in reality (I’m not done yet!—more on this in chapter 5).
 
-[Aaron Swartz’s A Programmable Web](https://goo.gl/L21hJQ): Chapter 1 - Introduction: A Programmable Web
+[Aaron Swartz’s A Programmable Web](https://web.archive.org/web/20220121020916/https://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005): Chapter 1 - Introduction: A Programmable Web
 
 >	JSON (pronounced like “Jason”), for the uninitiated, is a simple format for
 exchanging basic pieces of data between software. Originally based on JavaScript
@@ -303,4 +303,4 @@ you have been misled by a sinister and harmful public relations campaign. XML is
 probably just about the worst format for sharing data. Here’s why:
 
 
-[Aaron Swartz’s A Programmable Web](https://goo.gl/L21hJQ): Chapter 5 - BUILDING A PLATFORM: PROVIDING APIS 
+[Aaron Swartz’s A Programmable Web](https://web.archive.org/web/20220121020916/https://www.morganclaypool.com/doi/pdfplus/10.2200/S00481ED1V01Y201302WBE005): Chapter 5 - BUILDING A PLATFORM: PROVIDING APIS 
