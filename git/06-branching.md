@@ -35,12 +35,12 @@ Sources:
 
 While there are other ways to merge branches, we will be using pull requests. When using the [shared repository model](https://help.github.com/articles/about-collaborative-development-models/) (one repository, multiple collaborators), 
 
-- **base**: almost always the master branch. this is where you are merging on to
+- **base**: almost always the `main` branch. this is where you are merging on to
 - **compare**: this is your feature branch. this is where you are merging from
 
-![](https://s3.amazonaws.com/media-p.slid.es/uploads/489063/images/3229907/Comparing_master___endorsement___dmil_dhrumil-simple-website.png)
+<img width="2372" height="1635" alt="image" src="https://github.com/user-attachments/assets/34074b43-1604-4b01-8ca2-5a115d965d25" />
 
-In this screenshot, I am creating a Pull Request from the `endorsement` branch (compare) to the `master` branch (base). Note that this pull request has 1 commit.
+In this screenshot, I am creating a Pull Request from the `instructor-config-file` branch (compare) to the `main` branch (base). Note that this pull request has 1 commit.
 
 ## Commands
 
