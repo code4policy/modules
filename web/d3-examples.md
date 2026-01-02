@@ -18,12 +18,6 @@ data visualizations online on your local devices, either through pure d3 example
     When using these visualizations, make sure that your own data matches the same format as the csv file in the link. You can replace the link with your
     own local csv file to visualize different datasets.
 
-2. [D3.js Gallery by Christophe Viau](https://christopheviau.com/d3list/gallery.html)
-
-    Most of the examples on this website are all in pure d3, with the Javascript, d3, CSS code all contained within the `index.html` file. 
-    Once you are able to get the visualization to render, we recommend that you split your code into separate Javascript, HTML, and CSS files for 
-    best practice.
-
 3. [Observable Gallery](https://observablehq.com/@d3/gallery)
     
     Although the Observable Gallery contains many great visualization examples, it is not recommended to try and translate Observable code to Javascript: 
