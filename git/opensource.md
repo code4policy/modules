@@ -12,11 +12,11 @@
 
 This
 
-https://github.com/`dmil`/mozilla-website
+https://github.com/dmil/mozilla-website
 
 will fork to 
 
-https://github.com/`your-username`/mozilla-website
+https://github.com/{your-username}/mozilla-website
 
 ![](images/screenshot_28.jpg)
 
