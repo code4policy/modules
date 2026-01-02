@@ -114,7 +114,7 @@ Count number of **files** in the `universe` folder.
 
 ## Slackcat
 
-Lets install a new command-line tool. On macOS use `brew install slackcat`. For linux, see the bottom of this page https://github.com/bcicen/slackcat for instructions.
+Lets install a new command-line tool. On macOS use `brew install slackcat`. For linux, see the bottom of [this]([url](https://github.com/bcicen/slackcat) page  for instructions.
 
 Configure slackcat by running this command and following the instructions in your web browser:
 
