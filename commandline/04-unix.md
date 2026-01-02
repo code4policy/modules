@@ -94,15 +94,15 @@ Lets modify an environment variable in side your your `~/.bash_profile` (macOS) 
 ## Stdin & Stdout (& Stderr)
 Originally I/O happened via a physically connected system console (input via keyboard, output via monitor), but standard streams abstract this. When a command is executed via an interactive shell, the streams are typically connected to the text terminal on which the shell is running, but can be changed with redirection, e.g. via a pipeline. - [https://en.wikipedia.org/wiki/Standard_streams](https://en.wikipedia.org/wiki/Standard_streams)
 
-![](http://www.informit.com/content/images/chap5_9780133927313/elementLinks/05fig02.jpg)
+![](https://web.archive.org/web/20180104162038/http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5)
 
-source: [http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5](http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5)
+source: [http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5](https://web.archive.org/web/20180104162038/http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5)
 
 ![](http://www.informit.com/content/images/chap5_9780133927313/elementLinks/05fig03.jpg)
 
 Figure 5-3 By default, standard input comes from the keyboard, and standard output goes to the screen
 
-source: [http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5](http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5)
+source: [http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5](https://web.archive.org/web/20180104162038/http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5)
 
 ### Redirection
 ![](http://www.informit.com/content/images/chap5_9780133927313/elementLinks/05fig04.jpg)
@@ -111,7 +111,7 @@ Figure 5-4 Redirecting standard output
 
 `command [arguments] > filename`
 
-source: [http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5](http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5)
+source: [http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5](https://web.archive.org/web/20180104162038/http://www.informit.com/articles/article.aspx?p=2273593&seqNum=5)
 
 ### Piping
 
@@ -139,6 +139,7 @@ Additional resource on exit codes:
 ## Permissions and `chmod`
 
 #### Observing a file's permissions
+The `-l` flag of the `ls` command lists information about files in the current directory in a long format. Among the details in the long format are file permissions. 
 
 ```
 ls -l
@@ -146,10 +147,11 @@ ls -l
 
 ![](https://www.evernote.com/shard/s150/sh/e3167d0f-bb17-48dc-915f-c8fb3bc06e6d/769f5c1706fe6b35/res/2bd19ca1-fada-4833-8932-3835dfaee51c/skitch.png?resizeSmall&width=832)
 
-![](http://linuxcommand.org/images/permissions_diagram.gif)
+![](https://linuxcommand.org/images/file_permissions.png)
 
-source: [http://linuxcommand.org/lts0070.php](http://linuxcommand.org/lts0070.php)
+source: [https://linuxcommand.org/lc3_lts0090.php](https://linuxcommand.org/lc3_lts0090.php)
 
+**Check your knowledge**
 1. Look at permissions inside `~/Development/universe/solar_system/planets`
 2. Look at permissions inside `/Applications` - notice how those are executable while the planets files are not.
 
