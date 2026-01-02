@@ -21,7 +21,6 @@ Regardless of which tool you use, you will want to follow our class [style guide
 Here are some other examples of visualizations in D3 
 
 - https://d3js.org/
-- http://christopheviau.com/d3list/gallery.html
 - https://observablehq.com/@d3/gallery
   
 You're welcome to make a new D3 viz with ChatGPT (although do make sure to cite it appropriately) or to pick one from an example. You must make **at least one small modification** to the demo code you've picked. It can be something as simple as modifying a color, or something more ambitious if you chose. 
