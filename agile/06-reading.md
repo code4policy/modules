@@ -15,7 +15,7 @@
 
  **Due 1/7, Wednesday**
  - [Elements of Scrum](https://www.amazon.com/Elements-Scrum-Chris-Sims-ebook/dp/B004O0U74Q/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1546492282&sr=1-2&keywords=elements+of+scrum) [Part II]
- - Scrum: The Art of Doing Twice the Work in Half the Time](https://www.agileleanhouse.com/lib/lib/News/More_Praise_for_Scrum_The_Art_of_Doing_T.pdf) [Chapter 2 linked here]
+ - [Scrum: The Art of Doing Twice the Work in Half the Time](https://www.agileleanhouse.com/lib/lib/News/More_Praise_for_Scrum_The_Art_of_Doing_T.pdf) [Chapter 2 linked here]
 
 ## Additional Resources
 
