@@ -96,6 +96,18 @@ B2: Twitter Usage of World Leaders | https://whotweetswhat.works/
 B3: Carbon Emmissions | https://code4policy.github.io/Final_Project_Carbon_emission/
 B4: North Korea Missiles | https://eklung05.github.io/Missile-Visualization/
 
+**2024 examples**
+
+Group | URL
+------|-----
+A1: Supporting Small Businesses | https://code4policy.com/2024-a1-SME-Financing/index.html
+A2: Gun Sentiment Hub | https://code4policy.com/2024-a2-gun-violence/
+A3: Deforestation tracker | https://code4policy.com/2024-a3-Congo-project/index.html
+A4: Biking in America | https://code4policy.com/2024-a4-Transport-and-Walking/
+B1: Local elections database | https://code4policy.com/2024-b1-Local-Election-Database/index.html
+B2: Geopolitics "Who's winning" game | https://code4policy.com/2024-b2-who-is-winning/ 
+B3: Ukraine War in the media | https://code4policy.com/2024-b3-Ukraine-media/
+B4: Populism speech detector | https://code4policy.com/2024-b4-inequality/
 
 **2025 examples**
 
