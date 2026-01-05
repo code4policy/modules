@@ -20,7 +20,7 @@ Since the class is our product, and we're going to run it using agile, lets do s
 
 ### User Stories ought to be
 
-* **I**ndependant - stories can be worked on in any order
+* **I**ndependent - stories can be worked on in any order
 * **N**egotiable - A story is not a contract.  A story IS an invitation to a conversation.
 * **V**aluable - If a story does not have discernable value it should not be done.
 * **E**stimable - What happens if a story can’t be estimated?  You can split the story and perhaps gain more clarity. Or do more research to estimate it.
