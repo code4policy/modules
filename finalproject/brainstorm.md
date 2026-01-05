@@ -96,6 +96,17 @@ B2: Twitter Usage of World Leaders | https://whotweetswhat.works/
 B3: Carbon Emmissions | https://code4policy.github.io/Final_Project_Carbon_emission/
 B4: North Korea Missiles | https://eklung05.github.io/Missile-Visualization/
 
+
+**2025 examples**
+
+Group | URL
+------|-----
+A1: Food trucks Boston | https://code4policy.com/food-trucks/
+A2: Anti-displacement Boston | https://code4policy.com/anti-displacement/public/index.html
+A3: Zero Waste Boston | https://code4policy.com/COB-Waste-Management/
+B1: Childhood Education Centers | https://code4policy.com/early-childhood/
+B2: Course picker | https://code4policy.com/groupm-production/
+
 ## Assignment
 
 Do some exploration and fill out this form:
