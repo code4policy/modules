@@ -39,7 +39,7 @@ By default, macOS uses the `zsh` shell. Follow these steps to configure it for t
 
 Ubuntu/WSL friends, we'll use bash as our shell. 
 
-1. Run `subl ~/.bashrc` to open up your bash profile in Sublime Text. This is basically a settings file for your shell (really it's a script that runs when you launch the shell, but ¯\\_(ツ)_/¯)
+1. Run `subl ~/.bashrc` to open up your bash profile in Sublime Text. This is basically a settings file for your shell (really it's a script that runs when you launch the shell, but ¯\\\_(ツ)\_/¯ )
 2. Paste the following snippet at the **end of the file** you opened in Sublime Text. **Make sure to save it!**
 
    ```bash
