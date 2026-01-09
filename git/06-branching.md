@@ -69,7 +69,7 @@ git checkout <branchname>
 1. Get into your teams.
 
 2. The product owner should:
-	1. create a repository under their account named `demo-website` (or use your project website!)
+	1. create a repository under the `code4policy` account named `demo-website` (or use your project website!)
 	2. add the remaining team members (and the prof and the TA) as collaborators to the repo. this is done under the repo settings
 	3. enable github pages on this repo with the `master` branch as the source
 
