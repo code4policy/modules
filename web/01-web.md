@@ -14,7 +14,8 @@ Source: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Lea
 The term "server" can sometimes be used ambiguously, it can refer the **software** that is serving the data or the **hardware** (the actual device) that is running that software.
 
 ### Web Server
-![](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server/web-server.svg)
+<!-- ![](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server/web-server.svg) -->
+<img src="./images/server.svg">
 Source: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
 
 #### :large_orange_diamond: Example
