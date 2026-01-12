@@ -72,15 +72,16 @@ If you're just testing a website, its a good idea to use a higher number (like `
 
 ### Static Web Server
 ![](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction/basic_static_app_server.png)
+![](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Introduction/basic_static_app_server.png)
 
 Source: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction)
 
 A static web server simply serves files.
 
 ### Dynamic Web Server
-![](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction/web_application_with_html_and_steps.png)
+![]()
 
-Source: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction)
+Source: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Introduction/web_application_with_html_and_steps.png)
 
 A dynamic web server might do a lot of things. Check to see if you're logged in, get personalized information, communicate with a database, communicate with other web applications etc.
 
