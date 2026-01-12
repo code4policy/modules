@@ -17,7 +17,7 @@ https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Int
 
 ## DNS Lookup
 
-![](https://mdn.mozillademos.org/files/8961/2014-10-dns-request2.png)
+![](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name/2014-10-dns-request2.png)
 Source: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name)
 
 #### ❇️ Example
@@ -64,7 +64,7 @@ traceroute google.com
 ```
 
 ## The Internet has Layers
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Osi-model-jb.svg/415px-Osi-model-jb.svg.png)
+<img src="./images/osi_model.png">
 
 Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Osi-model-jb.svg)
 
