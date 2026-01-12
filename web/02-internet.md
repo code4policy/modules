@@ -18,6 +18,7 @@ https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Int
 ## DNS Lookup
 
 ![](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name/2014-10-dns-request2.png)
+
 Source: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name)
 
 #### ❇️ Example
