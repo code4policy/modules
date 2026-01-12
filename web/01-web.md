@@ -72,6 +72,7 @@ If you're just testing a website, its a good idea to use a higher number (like `
 
 ### Static Web Server
 ![](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction/basic_static_app_server.png)
+
 Source: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction)
 
 A static web server simply serves files.
