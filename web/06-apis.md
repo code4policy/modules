@@ -85,9 +85,11 @@ What are the "Resources" on Crunchbase? (Lets try to map out their database, wha
 ### Client vs Server
 
 ![](https://i.stack.imgur.com/Q8T7Z.png)
+
 source: http://stackoverflow.com/questions/11679625/client-vs-server-terminology
 
 ![](http://learntocodewith.me/wp-content/uploads/2014/08/client-server.png)
+
 source: http://learntocodewith.me/wp-content/uploads/2014/08/client-server.png
 
 Quick aside about servers, they don't have to look like the strange looking box above. Thre is nothing fundamentally different about a client and a server (both are computers at the end of the day), its just about the roles they play. For example
@@ -101,6 +103,7 @@ will immediately make my own computer into a server.
 ### HTTP Requests
 
 ![](http://www.tcpipguide.com/free/diagrams/httprequest.png)
+
 source: [http://www.tcpipguide.com/free/t_HTTPRequestMessageFormat.htm](http://www.tcpipguide.com/free/t_HTTPRequestMessageFormat.htm)
 
 [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
