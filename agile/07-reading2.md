@@ -32,5 +32,5 @@ Do you have burning questions about Scrum? Like "What are the most common pitfal
 - What is Code: https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
 - Few additional thoughts
 	- https://www.nextgov.com/digital-government/2017/06/dont-believe-the-hype-procurement-reform-is-a-red-herring/240778/
-- Also check out micropurchases, something that iterative development and open source collaboration has enabled: https://micropurchase.18f.gov/
+- Also check out micropurchases, something that iterative development and open source collaboration has enabled: https://web.archive.org/web/20161123065846/https://micropurchase.18f.gov/
 	- Spend some time thumbing through the some of the micropurchases
