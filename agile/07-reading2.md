@@ -3,7 +3,8 @@
 ## Assignment
 
 1. Spend some time reading whatever intersets you from the menu of choices below - feel free to go off script and read about anything else tangentially related that you find valuable. **This is your opportunity to think about real-world applications of agile in government and get your most burning questions answered.** If your research takes you to something interesting, send it to your classmates on Slack. Participate in a discussion in slack about any of the topics you've read about (there is a channel called #agile-2025 where we can discuss). Remember, participation in discussions on slack is required and will be graded.
-2. Write down questions you might have about agile and tech projects in government as you go along. One of our guest speakers will be [David Eaves](https://www.hks.harvard.edu/faculty/david-eaves), who will discuss running agile teams in government.
+2. Write down questions you might have about agile and tech projects in government as you go along. One of our guest speakers will be David Eaves, who will discuss running agile teams in government.
+
 
 ## Menu Of Readings
 
@@ -17,7 +18,7 @@ Do you have burning questions about Scrum? Like "What are the most common pitfal
 - OIG Report on Healthcare.gov (you can skim it after the Executive Summary)
 	- https://oig.hhs.gov/oei/reports/oei-06-14-00350.pdf
 - The aftermath
-	- https://blog.newrelic.com/wp-content/uploads/80893.pdf
+	- https://web.archive.org/web/20160321170655/https://blog.newrelic.com/wp-content/uploads/80893.pdf
 	- https://www.theatlantic.com/technology/archive/2015/07/the-secret-startup-saved-healthcare-gov-the-worst-website-in-america/397784/
 	- http://www.nytimes.com/2013/10/25/opinion/getting-to-the-bottom-of-healthcaregovs-flop.html
 - Creation of USDS (our guest speaker David Zvenyach will discuss this further)
@@ -30,11 +31,6 @@ Do you have burning questions about Scrum? Like "What are the most common pitfal
 - Chaos Report: https://www.projectsmart.co.uk/white-papers/chaos-report.pdf
 - What is Code: https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
 - Few additional thoughts
-	- https://fcw.com/blogs/lectern/2017/06/dont-reform-procurement-eaves.aspx
+	- https://www.nextgov.com/digital-government/2017/06/dont-believe-the-hype-procurement-reform-is-a-red-herring/240778/
 - Also check out micropurchases, something that iterative development and open source collaboration has enabled: https://micropurchase.18f.gov/
 	- Spend some time thumbing through the some of the micropurchases
-
-
-## Submit your questions for David Eaves
-
-https://docs.google.com/forms/d/e/1FAIpQLSd7gWFkSaRbMu_atOgMgvR4Wj9E2N0yorqhqr9B1yrobu_eIg/viewform?usp=header
