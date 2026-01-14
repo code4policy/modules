@@ -41,7 +41,7 @@ A function has inputs and an output. The inputs are known as the "arguments", an
 below is an example of a function in python
 
 ```python
-def multiply(a,b):
+def multiply(a: int, b: int) -> int:
     return a * b
 ```
 
