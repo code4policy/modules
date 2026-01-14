@@ -64,7 +64,7 @@ In the above exercise you have simply defined a function, but you haven't asked 
 
 ```python
 # This part of the code defines a function
-def multiply(a,b):
+def multiply(a: int, b: int) -> int:
     return a * b
 
 # This part of the code then calls that function and assigns the variable x to its return value
@@ -94,7 +94,7 @@ console.log(x)
 The function can also contain other logic and do other things. For example, you could write the function above like this:
 
 ```python
-def multiply(a,b):
+def multiply(a: int, b: int) -> int:
     print("I'm multiplying two numbers")
     return a * b
 ```
