@@ -28,7 +28,6 @@ If you're planning to use D3 for the MVP of your project, you can find some grea
 - https://d3js.org/
 - https://d3-graph-gallery.com/
 - https://observablehq.com/@d3/gallery
-- http://christopheviau.com/d3list/gallery.html
 - http://bl.ocks.org/mbostock (Mike Bostock created D3JS, these are his examples)
 
 
