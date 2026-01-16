@@ -10,17 +10,29 @@ http://www.imdb.com/chart/top
 #!/usr/bin/env python3
 
 import requests
-import lxml.html
 
+url = "https://www.imdb.com/chart/top/"
+
+# get the page
 headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'}
-response = requests.get("http://www.imdb.com/chart/top", headers=headers)
-doc = lxml.html.fromstring(response.content)
+response = requests.get(url, headers=headers)
 
-for row in doc.cssselect('.cli-children'):
-    id = row.cssselect('.cli-children .ipc-signpost__text')[0].text
-    title = row.cssselect('.cli-children h3')[0].text
-    rating = row.cssselect('.cli-children .ipc-rating-star--rating')[0].text
-    print(id, title, rating)
+# extract HTML as structured "soup"
+from bs4 import BeautifulSoup
+soup = BeautifulSoup(response.content, 'html.parser')
+
+# get each movie (css selector is .cli-children)
+movies = soup.select('.cli-children')
+
+for movie in movies:
+    # get css selctor .ipc-title from inside the movie
+    title = movie.select_one('.ipc-title').get_text()
+    rating = movie.select_one('.ipc-rating-star--rating').get_text()
+  
+    # get metadata .cli-title-metadata-item
+    metadata = movie.select('.cli-title-metadata-item')
+    year = metadata[0].get_text()
+    print(title, rating, year)
 ```
 
 ### ➡️ Try It
