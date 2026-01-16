@@ -10,7 +10,7 @@
 
 4. **If not**, install `git` using `brew install git`. Then verify, its installed by running `git --version`.
 
-5. Install sublime text: `brew install sublime-text`.
+5. Install sublime text: `brew install --cask sublime-text`.
 
 6. Install iterm2: `brew install iterm2`.
 

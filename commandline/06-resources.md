@@ -2,19 +2,18 @@
 
 ## More Resources
 
-Man/Help pages for commands
+### General help
+- `man`/help pages for commands (e.g. `man grep`)
+* [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial): walks through command line basics and examples much like this module, but in a slightly longer tutorial 
 
-* http://conqueringthecommandline.com/book/basics
-* http://cli.learncodethehardway.org/book/
+### Command Line Power Tools
 
-Command Line Power Tools
-
-- Ag (The Silver Searcher) - Manipulate text in the command line
-https://github.com/ggreer/the_silver_searcher
-http://conqueringthecommandline.com/book/ack_ag
+- `fd` and `ag` (The Silver Searcher) are two tools that search through files and directories. For example, if you know a file sinewgere in a directory mentions the word cake but can't remember which one, you might run `fd cake` in the directory to find all local references to the term.
+	-  https://github.com/sharkdp/fd	 
+	- https://github.com/ggreer/the_silver_searcher
 - Sed and Awk
 	- http://www.grymoire.com/Unix/Sed.html
-	- http://www.hcs.harvard.edu/~dholland/computers/awk.html
+	- https://opensource.com/article/20/9/awk-ebook
 - ​CsvKit - parse CSV data in the command line, transfer to sql database, JSON, and so much more.
 	- ​https://csvkit.readthedocs.org/en/0.9.1/install.html​
 	- https://source.opennews.org/en-US/articles/eleven-awesome-things-you-can-do-csvkit/

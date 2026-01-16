@@ -18,7 +18,6 @@ You can find example D3 visualizations at the following places, but I'd also enc
 
 - https://d3js.org/
 - https://observablehq.com/@d3/gallery
-- http://christopheviau.com/d3list/gallery.html
 - https://github.com/d3/d3/wiki/Gallery
 <!-- - http://bl.ocks.org/mbostock (Mike Bostock created D3JS, these are his examples)
 - http://bl.ocks.org/ (same website, examples by different people)
@@ -96,6 +95,29 @@ B1: Internet Access Gender Gap | https://code4policy.github.io/code4policy-b1_in
 B2: Twitter Usage of World Leaders | https://whotweetswhat.works/
 B3: Carbon Emmissions | https://code4policy.github.io/Final_Project_Carbon_emission/
 B4: North Korea Missiles | https://eklung05.github.io/Missile-Visualization/
+
+**2024 examples**
+
+Group | URL
+------|-----
+A1: Supporting Small Businesses | https://code4policy.com/2024-a1-SME-Financing/index.html
+A2: Gun Sentiment Hub | https://code4policy.com/2024-a2-gun-violence/
+A3: Deforestation tracker | https://code4policy.com/2024-a3-Congo-project/index.html
+A4: Biking in America | https://code4policy.com/2024-a4-Transport-and-Walking/
+B1: Local elections database | https://code4policy.com/2024-b1-Local-Election-Database/index.html
+B2: Geopolitics "Who's winning" game | https://code4policy.com/2024-b2-who-is-winning/ 
+B3: Ukraine War in the media | https://code4policy.com/2024-b3-Ukraine-media/
+B4: Populism speech detector | https://code4policy.com/2024-b4-inequality/
+
+**2025 examples**
+
+Group | URL
+------|-----
+A1: Food trucks Boston | https://code4policy.com/food-trucks/
+A2: Anti-displacement Boston | https://code4policy.com/anti-displacement/public/index.html
+A3: Zero Waste Boston | https://code4policy.com/COB-Waste-Management/
+B1: Childhood Education Centers | https://code4policy.com/early-childhood/
+B2: Course picker | https://code4policy.com/groupm-production/
 
 ## Assignment
 

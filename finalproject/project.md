@@ -10,18 +10,17 @@ For your final project, you will work in a scrum-inspired agile software team wi
 
 You are welcome to select data from any credible data source. Make sure to cite it appropriately in the project.
 
-### Selecting a visualization
+### Selecting a visualization [optional!]
 
 Selecting the right visualization for your data and the comparisons you're trying to make is a good dataviz skills. Check out the [Financial Times Chart Taxonomy](https://github.com/Financial-Times/chart-doctor/blob/main/visual-vocabulary/FT4schools_RGS.pdf) as you think about what kind of vizualization to select. 
 
-One requirement for the project is to learn a way to visualize data that we haven't taught in class. Making a D3 chart meets this requirement. If you use another tool, you will have to find another way to prove that you've learned something new on your own and put it in your tech reflection form. You may want to run that by the professor to make sure it meets the requirement. If you'd like to try charting in R, ggplot is a great library for making data visualizations. If you find another way to learn a new thing on your own, [DataWrapper](https://www.datawrapper.de/) also makes great charts. 
+If you choose to make a visualization, you can make a d3 chart. If you'd like to try charting in R, ggplot is a great library for making data visualizations. If you find another way to learn a new thing on your own, [DataWrapper](https://www.datawrapper.de/) also makes great charts. 
 
 Regardless of which tool you use, you will want to follow our class [style guide/charting rubric](https://docs.google.com/document/d/1F-q9jFx8902zhBnJ0o4GwSHQhqJLZKnq-L4SU7kn544/edit). This framework articulates some of the same principles our dataviz guest speakers spoke about. Make sure to think about concepts like presentation, visual heiarchy and chart headlines/labels/etc... 
 
 Here are some other examples of visualizations in D3 
 
 - https://d3js.org/
-- http://christopheviau.com/d3list/gallery.html
 - https://observablehq.com/@d3/gallery
   
 You're welcome to make a new D3 viz with ChatGPT (although do make sure to cite it appropriately) or to pick one from an example. You must make **at least one small modification** to the demo code you've picked. It can be something as simple as modifying a color, or something more ambitious if you chose. 
@@ -73,7 +72,7 @@ In addition to telling a coherent story across the site, one way to give your si
 
 Some teams may chose to bring this consistency by focusing more on the CSS, others may focus more on having a coherent narrative structure. Some teams may decide to do both. Regardless of how you chose to demonstrate consistency, the website should show that you've been working as a team to build a unified product.
 
-### Visualizations
+### Visualizations {optional{
 
 One additional note about visualizing data in charts. Often a descriptive title and subtitle of the chart (or as we journalists say a "Hed" and "Dek") can go a long way to effectively communicating either the purpose or the content of the data that you are visualizing. The "Hed" can be more describe the narrative you're hoping the reader will focus on while the "Dek" might be a more detailed explanation of the nature of the data itself. If you are looking for inspiration for heds and deks, just browse some articles at http://fivethirtyeight.com or your reputable news site of choice and focus on their charts.
 

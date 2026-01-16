@@ -12,4 +12,4 @@ pip3 install csvkit
 
 ## Homework
 
-Complete the following assignment: https://classroom.github.com/a/CI_-NfZL
+Complete the following assignment: https://classroom.github.com/a/A6o7joSx

@@ -2,7 +2,7 @@
 
 > "Inspect and Adapt"
 
-GOOGLE FORM: [https://forms.gle/viQRvhh2QiASAcZN9](https://forms.gle/TMt3j8krk6tdDWaV7)
+GOOGLE FORM: [https://docs.google.com/forms/d/e/1FAIpQLScqZPQtdVDa59zqL5IbCnhCKilzCNdqK9mKDif9Z2xZH_by8w/viewform)
 
 ### 1. Set the stage
 

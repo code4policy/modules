@@ -1,48 +1,46 @@
 # Shell
 
+> A shell? What?
+
+Good question. A shell is a program that lets you interact with your computer by typing commands instead of clicking buttons. Developers use shells because they are fast, precise, and make it easy to automate repetitive tasks. They (can) also look quite cool.
 ## macOS
+By default, macOS uses the `zsh` shell. Follow these steps to configure it for this class:
+1. In your terminal, run `subl ~/.zshrc` to open up your zsh profile in Sublime Text. 
+2. Paste the following snippet somewhere in the file. Save the file.
 
-1. Ensure you are using `bash` instead of `zsh`. Newer macOS versions come with `zsh` as the default. We will switch it back to bash.
-
-   - Check if you are on bash by opening the Terminal and run: `echo "$SHELL"`. If the result ends with "zsh", continue to the next step.
-   - Run `brew install bash` to get the latest bash.
-   - Run `echo /usr/local/bin/bash | sudo tee -a /etc/shells`
-   - Run `chsh -s /usr/local/bin/bash` to switch the default shell back to bash. It will prompt you for the password which you can type in and press enter.
-   - Run `touch ~/.bash_profile` create the bash profile.
-   - Run `subl ~/.bash_profile` to open up the bash profile in Sublime Text.
-
-  NOTE: M1 and M2 macs may run into errors at this stage when they try to switch to bash - if so, you'll need to do the following things in addition to running the steps above:
-   - Go to 'System preferences' then 'Users & Groups' and right-click on the current admin profile. Click 'Advanced Options' 
-   - Under 'Login shell' change '/usr/local/bin/bash' to just say '/bin/bash'
-   - Run `subl ~/.bash_profile` to open up the bash profile in Sublime Text. At the top of the file, paste `eval "$(/opt/homebrew/bin/brew shellenv)"`
-
-2. Paste the following snippet at the **end of the file** and save.
-
-   ```bash
-   # add colors
+   ```zsh
    alias ls='ls -G'
-   export CLICOLOR=1
-   export LSCOLORS=GxFxCxDxBxegedabagaced   
 
-   # set EDITOR as sublime text
+   # colors
+   export CLICOLOR=1
+   export LSCOLORS=GxFxCxDxBxegedabagaced
+
+   # editor: sublime
    export EDITOR="subl --wait"
 
-   # Define a function that returns your current git branch
-   parse_git_branch() {
-    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+   ## set command line prompt to display git info
+
+   # let zsh see git info 
+   autoload -Uz vcs_info
+   zstyle ':vcs_info:git:*' formats ' (%b)'
+   zstyle ':vcs_info:*' enable git
+   
+   precmd() {
+     vcs_info
    }
 
-   # Display present working directory and git path in bash prompt with colors
-   export PS1="\u \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
+   # set propmt
+   setopt PROMPT_SUBST
+   PROMPT='%n %F{green}%~%F{yellow}${vcs_info_msg_0_}%f $ '
    ```
-
-3. Close and reopen the terminal to see the changes.
+3. Return to your terminal and type `source ~/.zshrc`. You'll notice that your shell prompt changes! How? Why? Try asking an LLM to break down the snippet above. All the changes you see in your shell result from it!
 
 ## Ubuntu/WSL
-   
-1. Run `subl ~/.bashrc` to open the bash profile in Sublime Text.
 
-2. Paste the following snippet at the **end of the file** and save.
+Ubuntu/WSL friends, we'll use bash as our shell. 
+
+1. Run `subl ~/.bashrc` to open up your bash profile in Sublime Text. This is basically a settings file for your shell (really it's a script that runs when you launch the shell, but ¯\\\_(ツ)\_/¯ )
+2. Paste the following snippet at the **end of the file** you opened in Sublime Text. **Make sure to save it!**
 
    ```bash
    # set EDITOR as sublime text
@@ -57,7 +55,7 @@
    export PS1="\u \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
    ```
 
-3. Close and reopen the terminal to see the changes.
+3. Return to your terminal and type `source ~/.bashrc`. You'll notice that your shell prompt changes! How? Why? Try asking an LLM to break down the snippet above. All the changes you see in your shell result from it!
 
 
 -----

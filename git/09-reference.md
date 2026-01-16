@@ -57,14 +57,14 @@
 	```
 	cd ~/path/to/project
 	```
-2. Check the **status** of your **local repository** to make sure you didn't forget to commit any work. Run `git branch` to see which **branch** you're on. You should ideally be on the `master` branch.
+2. Check the **status** of your **local repository** to make sure you didn't forget to commit any work. Run `git branch` to see which **branch** you're on. You should ideally be on the `main` branch.
 
 	```
 	git status
 	git branch
 	```
 
-3. Then **pull** the latest changes from the **master** branch of the **remote repository** on GitHub.
+3. Then **pull** the latest changes from the **main** branch of the **remote repository** on GitHub.
 
 	```
 	git pull
@@ -119,16 +119,16 @@
 	git status
 	```
 
-6. Once everything has been pushed to GitHub, issue a **pull request** from your branch back to the master branch.
+6. Once everything has been pushed to GitHub, issue a **pull request** from your branch back to the `main` branch.
 
 	![](https://www.evernote.com/shard/s150/sh/271da921-4f35-4fca-ab35-7ced2b9e1faa/8364bd49b4ad8f8e/res/765ea1c4-9759-4f0f-bc5f-ba44987a4e6c/skitch.png?resizeSmall&width=832)
 
-7. You can have a discussion on this **pull request** using GitHub's social features, and then **merge** it into the master branch when everyone agrees its a good idea to do so.
+7. You can have a discussion on this **pull request** using GitHub's social features, and then **merge** it into the `main` branch when everyone agrees its a good idea to do so.
 
-8. Finally, once the pull request has been merged into the master branch in the **remote repository** on GitHub, you'll want to get the latest version of the master branch on your local machine. Checkout the master branch locally and then pull.
+8. Finally, once the pull request has been merged into the `main` branch in the **remote repository** on GitHub, you'll want to get the latest version of the `main` branch on your local machine. Checkout the `main` branch locally and then pull.
 
 	```
-	git checkout master
+	git checkout main
 	git pull
 	```
 

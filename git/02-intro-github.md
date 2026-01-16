@@ -13,7 +13,7 @@ Other Uses
 * A place to [store data](https://github.com/fivethirtyeight/data)
 * A place for [discussion](https://github.com/fivethirtyeight/data/issues?q=is%3Aissue+is%3Aclosed+sort%3Acomments-desc) about data and code
 * A place for [open source](https://github.com/fivethirtyeight/data/pulls?q=is%3Apr+is%3Aclosed+sort%3Acomments-desc) [collaboration](https://github.com/tj/git-extras/pull/356) on projects
-* A place for [collaboration](https://github.com/fivethirtyeight/world-cup/graphs/contributors) [within](https://github.com/fivethirtyeight/letsgo/pull/46) an organization
+* A place for [collaboration](https://github.com/neovim/neovim/graphs/contributors) [within](https://github.com/microsoft/terminal/pull/19648) an organization
 * A place to find people working on the same things you are
 * A place to find sources / people with expertise in a particular dataset
 * A place to find other digital tools ([scrapers](https://github.com/search?q=basketball+reference&type=Repositories&utf8=%E2%9C%93), [file converters](https://github.com/search?utf8=%E2%9C%93&q=spss+por+to+csv&type=), etc)
@@ -62,11 +62,11 @@ https://github.com/dmil/my-simple-website/commits/master
 ![](images/screenshot_26.jpg)
 
 * **Raw** - actual contents of the file without any formatting applied.
-	* example: https://github.com/fivethirtyeight/chartbuilder-2/blob/master/src/styles/core.scss 
+	* example: https://github.com/code4policy/modules/blob/master/git/02-intro-github.md
 * **History** - every change ever made to that file within this branch.
-	* example: https://github.com/fivethirtyeight/chartbuilder-2/commits/master/src/styles/core.scss
+	* example: https://github.com/code4policy/modules/commits/master/git/02-intro-github.md
 * **Blame** - provenance of each line currently in the file you'ree looking at in the branch you're looking at
-	* example: https://github.com/fivethirtyeight/chartbuilder-2/blame/master/src/styles/core.scss
+	* example: https://github.com/code4policy/modules/blame/master/git/02-intro-github.md
 
 ### Branches
 

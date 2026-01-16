@@ -9,7 +9,7 @@
 	* Insomnia REST client
 		* https://insomnia.rest/
 	* Cookier Viewer
-		* Chrome: [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=en)
+		* Chrome: [Cookie-Editor](https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)
 		* Firefox: [Cookie-Editor](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/)	
 
 2. Get an FEC API Key

@@ -41,7 +41,7 @@ A function has inputs and an output. The inputs are known as the "arguments", an
 below is an example of a function in python
 
 ```python
-def multiply(a,b):
+def multiply(a, b):
     return a * b
 ```
 
@@ -64,7 +64,7 @@ In the above exercise you have simply defined a function, but you haven't asked 
 
 ```python
 # This part of the code defines a function
-def multiply(a,b):
+def multiply(a, b):
     return a * b
 
 # This part of the code then calls that function and assigns the variable x to its return value
@@ -94,7 +94,7 @@ console.log(x)
 The function can also contain other logic and do other things. For example, you could write the function above like this:
 
 ```python
-def multiply(a,b):
+def multiply(a, b):
     print("I'm multiplying two numbers")
     return a * b
 ```
@@ -103,4 +103,3 @@ This would both print to the terminal and return a value. The return is the very
 
 ## ➡️ Try It
 
-Complete the following assignment: https://classroom.github.com/a/9pY8aTQJ
