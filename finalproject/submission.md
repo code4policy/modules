@@ -30,6 +30,8 @@ When you're ready to submit the project, please create a new github issue in you
 
 Please communicate with the teaching team if you think your team needs more time and won't be able to meet the originally set due date so that we know when to expect a submission.
 
+**Section A only**: Please post a short handoff memo in your team's external channel containing all research + scripts + appropriate links from your project. 
+
 ## Grading
 
 Your project will be worth 40% of your grade, that will be divided as follows
