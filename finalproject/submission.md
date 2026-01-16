@@ -26,11 +26,9 @@ Product
 
 ## Submitting the Project
 
-When you're ready to submit the project, please create a new github issue in your repository called "Ready for Review".
+When you're ready to submit the project, please create a new github issue in your repository called "Ready for Review". In your team's slack channel, post a link to that issue and mention all members of the teachhing team to let them know your project is ready for final review. Please note that the projects are due by 11:59pm **Monday Jan 18**. 
 
-In your team's slack channel, post a link, to that issue and mention @dhrumil @aarushi letting me know that the project is submitted and ready for my review. Once I've recieved that note from you, I may start grading the project. Please note that the projects are due by midnight of **Monday Jan 20** (so Monday night).
-
-Please **let me know** if you think your team needs more time and won't be able to meet the originally set due date so that I know when to expect a submission.
+Please communicate with the teaching team if you think your team needs more time and won't be able to meet the originally set due date so that we know when to expect a submission.
 
 ## Grading
 
@@ -57,18 +55,18 @@ Your project will be worth 40% of your grade, that will be divided as follows
 
 ## Availability
 
-I am on on Slack most of Saturday and Sunday and available to meet via video chat. If you can't find me, just shoot me a message on Slack letting me know you're coming in case I'm wandering around. The TAs should also be around (on and off) over the weekend.
+The teaching team will hold office hours all day Saturday and Sunday. Feel free to ping Asa anytime Monday. If people want in-person office hours that day, he's happy to hold them. 
 
 ## Course Evaluations
 
-You should have received an email about the course evaluations, they are accessible through the [canvas page for this class](https://canvas.harvard.edu/) and are **due by January 20**.  Your honest feedback will be particularly important both in helping me understand how to best iterate on the course as well as helping the Kennedy School better understand the role of technical education in the curriculum. Please take some time to thoughtfully fill out the course evaluation.
+You should have received an email about the course evaluations. They are accessible through the [canvas page for this class](https://canvas.harvard.edu/) and are **due by January 20**.  Your honest feedback will be particularly important both in helping us understand how to best iterate on the course as well as helping the Kennedy School better understand the role of technical education in the curriculum. Please take some time to thoughtfully fill out the course evaluation.
 
 ## Final Note
 
-Please feel free to reach out via slack, email (asahejpal@hks.harvard.edu & dhrumil_mehta@hks.harvard.edu) if you have any further questions, comments or concerns. I look forward to hearing from you in the future about how you've used the knowledge you picked up during this course.
+Please feel free to reach out via slack or email (asahejpal@hks.harvard.edu & dhrumil_mehta@hks.harvard.edu) if you have any further questions, comments or concerns. We look forward to hearing from you in the future about how you've used the knowledge you picked up during this course.
 
-I hope you all found the projects instructive and enjoyable. Diving into new technologies can be both disorienting and rewarding. Learning new programming skills is often a cyclical process of getting stuck and unstuck. It is not uncommon to get lost in rabbit-holes of debugging or reading about technologies in an attempt to unpack how exactly they work.
+We hope you all found the projects instructive and enjoyable. Diving into new technologies can be both disorienting and rewarding. Learning new programming skills is often a cyclical process of getting stuck and unstuck. It is not uncommon to get lost in rabbit-holes of debugging or reading about technologies in an attempt to unpack how exactly they work.
 
 Learning how to learn programming by searching the web for relevant resources, reading technical discussions and forums, and testing out example code snippets, as well as leaning on other programmers and knowing who to call when you're stuck are themselves important skills: skills which many of you got a chance to explore in attempts to customize your visualizations (some of you even decided to customize the JavaScript to change the behavior of the visualizations, which was not at all required for the project so kudos to those who tried!).
 
-I hope that the class can serve as a stepping stone if you chose to further study technology or programming. If you don't ever end up coding again, I hope that the exercise of doing hands-on coding work has given you a better understanding of and appreciation for important issues at the intersection of technology and policy. Best of luck and enjoy! 
+We hope that the class can serve as a stepping stone if you chose to further study technology or programming. If you don't ever end up coding again, we hope that the exercise of doing hands-on coding work has given you a better understanding of and appreciation for important issues at the intersection of technology and policy. Best of luck and enjoy! 
