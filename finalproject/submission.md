@@ -26,7 +26,7 @@ Product
 
 ## Submitting the Project
 
-When you're ready to submit the project, please create a new github issue in your repository called "Ready for Review". In your team's slack channel, post a link to that issue and mention all members of the teachhing team to let them know your project is ready for final review. Please note that the projects are due by 11:59pm **Monday Jan 18**. 
+When you're ready to submit the project, please create a new github issue in your repository called "Ready for Review". In your team's slack channel, post a link to that issue and mention all members of the teachhing team to let them know your project is ready for final review. Please note that the projects are due by 11:59pm **Monday Jan 19**. 
 
 Please communicate with the teaching team if you think your team needs more time and won't be able to meet the originally set due date so that we know when to expect a submission.
 
